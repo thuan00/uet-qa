@@ -1,0 +1,1259 @@
+[
+  {
+    "id": "13d507dd-53d7-4756-ac0e-7b6ab5098bfb",
+    "question": "Quy chế đào tạo của ĐHQGHN áp dụng với những ai",
+    "answers": [
+      "các đơn vị và cá nhân tham gia vào quá trình đào tạo bậc đại học tại Đại học Quốc gia Hà Nội"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_2"
+    ]
+  },
+  {
+    "id": "b5a1d335-3b47-4a9c-a538-4e41f04b8c4f",
+    "question": "tín chỉ là gì",
+    "answers": [
+      "đại lượng xác định khối lượng kiến thức, kỹ năng mà sinh viên tích luỹ được từ học phần trong 15 giờ tín chỉ"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_10",
+      "faq_23"
+    ]
+  },
+  {
+    "id": "2a2d9980-ecad-468d-b6f6-b1f255c8a322",
+    "question": "Một giờ tín chỉ thực hành bằng gì",
+    "answers": [
+      "2 – 3 tiết thực hành, thí nghiệm hoặc thảo luận; 3 – 6 tiết thực tập tại cơ sở; 3 – 4 tiết làm tiểu luận, bài tập lớn hoặc đồ án, khoá luận tốt nghiệp"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_11"
+    ]
+  },
+  {
+    "id": "b8f09839-9d35-4f24-9156-32a2c0e2006e",
+    "question": "Giờ tín chỉ thực hành tương ứng với",
+    "answers": [
+      "2 – 3 tiết thực hành, thí nghiệm hoặc thảo luận; 3 – 6 tiết thực tập tại cơ sở; 3 – 4 tiết làm tiểu luận, bài tập lớn hoặc đồ án, khoá luận tốt nghiệp"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_11"
+    ]
+  },
+  {
+    "id": "d8fddb5d-c1a0-41f2-b956-76b3a502a108",
+    "question": "giờ tín chỉ là gì",
+    "answers": [
+      "đại lượng đo thời lượng học tập của sinh viên"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_11"
+    ]
+  },
+  {
+    "id": "732968da-2bb6-4ee0-a979-c5fe3b41eabb",
+    "question": "Một giờ tín chỉ lý thuyết bằng bao nhiêu tiết lý thuyết",
+    "answers": [
+      "01 tiết lý thuyết"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_11"
+    ]
+  },
+  {
+    "id": "881c1f1c-1696-415b-b04d-9f420d990eb9",
+    "question": "Đề cương học phần do ai biên soạn",
+    "answers": [
+      "giảng viên"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_15"
+    ]
+  },
+  {
+    "id": "0c0ab607-5e05-42cc-a898-18279a04b065",
+    "question": "Đề cương môn học có những gì",
+    "answers": [
+      "Đề cương học phần gồm các nội dung chủ yếu sau:",
+      "gồm các nội dung chủ yếu sau:"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_15"
+    ]
+  },
+  {
+    "id": "0a85edf9-aff3-49cc-9945-99bf22a9cd08",
+    "question": "khi nào có quyết định về chỉ tiêu tuyển sinh",
+    "answers": [
+      "trước ngày 30 tháng 6 hàng năm"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_28"
+    ]
+  },
+  {
+    "id": "9e57b502-590a-4290-a121-f07136e61893",
+    "question": "khi nào có chỉ tiêu tuyển sinh",
+    "answers": [
+      "trước ngày 30 tháng 5"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_28"
+    ]
+  },
+  {
+    "id": "06503828-e2e0-4d30-ae8b-f8f1456d659b",
+    "question": "chương trình chuẩn cho dược sĩ có bao nhiêu tín chỉ",
+    "answers": [
+      "155 đến 175 tín chỉ"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_41"
+    ]
+  },
+  {
+    "id": "b59ae16d-fe2c-40be-b724-9a9a7a162cf7",
+    "question": "chương trình đào tạo chuẩn cử nhân có bao nhiêu tín",
+    "answers": [
+      "120 đến 140 tín chỉ"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_41"
+    ]
+  },
+  {
+    "id": "06cff97e-44d5-44d5-91f5-08819dbf3cf9",
+    "question": "chương trình đào tạo chuẩn ít hơn chất lượng cao bao nhiêu tín chỉ",
+    "answers": [
+      "ít nhất là 15 tín chỉ",
+      "15 tín chỉ"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_41"
+    ]
+  },
+  {
+    "id": "fd0892f5-2e06-44e9-801d-980d516e9739",
+    "question": "chương trình đào tạo chất lượng cao nhiều hơn chương trình chuẩn bao nhiêu tín chỉ",
+    "answers": [
+      "ít nhất là 15 tín chỉ",
+      "15 tín chỉ"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_41"
+    ]
+  },
+  {
+    "id": "0477eb05-5866-4a15-95f6-714502b4cc2e",
+    "question": "chương trình đào tạo chuẩn quốc tế là như nào",
+    "answers": [
+      "nhiều hơn chương trình đào tạo chuẩn tương ứng ít nhất là 15 tín chỉ"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_42"
+    ]
+  },
+  {
+    "id": "07092c24-2e34-485a-a31d-751fda77dc54",
+    "question": "chương trình đào tạo chuẩn quốc tế được thiết kế như thế nào",
+    "answers": [
+      "nhiều hơn chương trình đào tạo chuẩn tương ứng ít nhất là 15 tín chỉ"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_42"
+    ]
+  },
+  {
+    "id": "1681a732-0b90-4dd6-b2e0-442f4a4c2626",
+    "question": "có quy định chương trình đào tạo liên kết quốc tế do đối tác nước ngoài cấp bằng không",
+    "answers": [
+      "không"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_46"
+    ]
+  },
+  {
+    "id": "c5a2a289-a7af-44f6-9ac5-a23e3999b8fb",
+    "question": "một năm học có những kỳ học nào",
+    "answers": [
+      "hai học kỳ chính và một học kỳ phụ"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_51"
+    ]
+  },
+  {
+    "id": "fd34b1fb-66f5-4fea-bcb0-e5efe70cbd9c",
+    "question": "kỳ học chính có gì",
+    "answers": [
+      "15 tuần học và từ 3 đến 4 tuần thi"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_51"
+    ]
+  },
+  {
+    "id": "1c3666e2-f057-44fa-b859-a0dcb34d6e71",
+    "question": "kỳ học phụ có mấy tuần",
+    "answers": [
+      "ít nhất 5 tuần học và 1 tuần thi",
+      "5 tuần học và 1 tuần thi"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_51"
+    ]
+  },
+  {
+    "id": "0c9aa2ac-a9e6-47ce-bcf2-4cdad5594fc1",
+    "question": "kỳ phụ diễn ra lúc nào",
+    "answers": [
+      "giữa hai học kỳ chính",
+      "thời gian giữa hai học kỳ chính"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_51"
+    ]
+  },
+  {
+    "id": "8def1567-d326-460e-b13b-5acd7e64ccb8",
+    "question": "khi nào kỳ học phụ bắt đầu",
+    "answers": [
+      "giữa hai học kỳ chính",
+      "thời gian giữa hai học kỳ chính",
+      "trong thời gian giữa hai học kỳ chính"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_51"
+    ]
+  },
+  {
+    "id": "e011ce43-58cd-4230-8574-ba4e4b7cf886",
+    "question": "kỳ chính gồm mấy tuần học",
+    "answers": [
+      "15 tuần học",
+      "15 tuần",
+      "15"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_51"
+    ]
+  },
+  {
+    "id": "3dd48e28-3664-44d4-85e1-65158bc2d608",
+    "question": "thời gian đào tạo kỹ sư là mấy kỳ học",
+    "answers": [
+      "từ 9 đến 10 học kỳ chính",
+      "từ 9 đến 10 học kỳ",
+      "9 đến 10 học kỳ"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_53"
+    ]
+  },
+  {
+    "id": "3dd48e28-3664-44d4-85e1-65158bc2d609",
+    "question": "thời gian học của khoá vừa làm vừa học là như nào",
+    "answers": [
+      "dài hơn so với khoá học đào tạo chính quy tương ứng từ 1 đến 2 học kỳ chính"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_53"
+    ]
+  },
+  {
+    "id": "efe6c803-6b03-4a60-9f10-2bb501b7d76e",
+    "question": "thời gian tối đa của khoá học là bao nhiều",
+    "answers": [
+      "thời gian thiết kế của khoá học cộng với 4 học kỳ chính đối với các khoá học từ 4 đến dưới 5 năm; 6 học kỳ chính đối với các khoá học từ 5 đến 6 năm",
+      "thời gian thiết kế của khoá học cộng với 4 học kỳ chính đối với các khoá học từ 4 đến dưới 5 năm"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_53"
+    ]
+  },
+  {
+    "id": "53d13fd0-51a0-48b5-8a68-fb50d0392133",
+    "question": "tối đa có thể học tại trường bao nhiêu thời gian",
+    "answers": [
+      "thời gian thiết kế của khoá học cộng với 4 học kỳ chính đối với các khoá học từ 4 đến dưới 5 năm; 6 học kỳ chính đối với các khoá học từ 5 đến 6 năm",
+      "thời gian thiết kế của khoá học cộng với 4 học kỳ chính đối với các khoá học từ 4 đến dưới 5 năm"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_53"
+    ]
+  },
+  {
+    "id": "f12d499d-0f0f-491d-b6a7-e0a2e5c91f4d",
+    "question": "có thể học khoá học tối đa bao lâu",
+    "answers": [
+      "thời gian thiết kế của khoá học cộng với 4 học kỳ chính đối với các khoá học từ 4 đến dưới 5 năm; 6 học kỳ chính đối với các khoá học từ 5 đến 6 năm",
+      "thời gian thiết kế của khoá học cộng với 4 học kỳ chính đối với các khoá học từ 4 đến dưới 5 năm"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_53"
+    ]
+  },
+  {
+    "id": "42c0f214-b67f-40fc-affd-7ea587edb43e",
+    "question": "thời gian của khoá học đồng thời hai chương trình đạo tạo là như thế nào",
+    "answers": [
+      "không vượt quá thời gian đào tạo tối đa của chương trình đào tạo thứ nhất"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_53"
+    ]
+  },
+  {
+    "id": "630d126b-ef00-42a8-8381-b01e0023053f",
+    "question": "chương trình ngành kép có thời gian học trong vòng bao lâu",
+    "answers": [
+      "không vượt quá thời gian đào tạo tối đa của chương trình đào tạo thứ nhất"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_53"
+    ]
+  },
+  {
+    "id": "54041573-1818-4434-8a95-0aad14173734",
+    "question": "ở năm thứ hai của chương trình tài năng, sinh viên cần tích luỹ bao nhiêu tín chỉ",
+    "answers": [
+      "45 – 90 tín chỉ",
+      "45 – 90"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_54"
+    ]
+  },
+  {
+    "id": "2adf2745-4e75-4712-acc5-2e416f297a48",
+    "question": "sinh viên tích luỹ bao nhiêu tín chỉ ở năm nhất của chương trình chuẩn",
+    "answers": [
+      "<35 tín chỉ"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_54"
+    ]
+  },
+  {
+    "id": "a56baaa7-5ab7-4db7-b1aa-38e1d50d1874",
+    "question": "năm ba thường ứng với số tính chỉ tích lũy bao nhiêu",
+    "answers": [
+      "71 – 105 tín chỉ",
+      "71 – 105"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_54"
+    ]
+  },
+  {
+    "id": "d76941e7-565b-46bf-82d8-49b8b7c48857",
+    "question": "sinh viên năm sáu cần được mấy tín chỉ",
+    "answers": [
+      "176 – 225 tín chỉ",
+      "176 – 225"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_54"
+    ]
+  },
+  {
+    "id": "d1744db5-38a2-4826-8447-74d1e9b80254",
+    "question": "sinh viên chất lượng cao phải đăng ký ít nhất mấy tín chỉ mỗi kỳ",
+    "answers": [
+      "16 tín chỉ"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_65"
+    ]
+  },
+  {
+    "id": "d1744db5-38a2-4826-8447-74d1e9b80255",
+    "question": "chương trình tài năng yêu cầu sinh viên đăng ký bao nhiêu tín chỉ một học kỳ",
+    "answers": [
+      "18 tín chỉ"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_65"
+    ]
+  },
+  {
+    "id": "d1744db5-38a2-4826-8447-74d1e9b80256",
+    "question": "trong mỗi học kỳ, tối thiểu sinh viên hệ chuẩn cần đăng ký mấy tín chỉ",
+    "answers": [
+      "14 tín chỉ"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_65"
+    ]
+  },
+  {
+    "id": "d1744db5-38a2-4826-8447-74d1e9b80266",
+    "question": "phải đăng ký mấy tín chỉ mỗi học kỳ",
+    "answers": [
+      "14 tín chỉ"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_65"
+    ]
+  },
+  {
+    "id": "d1744db5-38a2-4826-8447-74d1e9b80257",
+    "question": "làm sao để có thể đăng ký ít hơn số tín chỉ tối thiểu",
+    "answers": [
+      "được sự đồng ý của Thủ trưởng đơn vị đào tạo"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_65"
+    ]
+  },
+  {
+    "id": "d1744db5-38a2-4826-8447-74d1e9b80258",
+    "question": "đăng ký ít hơn số tín tối thiểu như thế nào",
+    "answers": [
+      "được sự đồng ý của Thủ trưởng đơn vị đào tạo"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_65"
+    ]
+  },
+  {
+    "id": "cfc9e893-5eb5-41db-b140-a5da03710c1e",
+    "question": "những học phần tự chọn tự do có tính vào điểm trung bình không",
+    "answers": [
+      "không"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_67"
+    ]
+  },
+  {
+    "id": "34796733-eae6-47a6-98c1-944edaf53dea",
+    "question": "sinh viên có thể tham khảo ai trong việc đăng ký học",
+    "answers": [
+      "cố vấn học tập"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_68"
+    ]
+  },
+  {
+    "id": "23825352-9c39-4759-a92e-19625f8c39cb",
+    "question": "trước khi đăng ký học, sinh viên nên hỏi ý kiến của ai",
+    "answers": [
+      "cố vấn học tập"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_68"
+    ]
+  },
+  {
+    "id": "ec64cea2-fd34-4990-8b0f-64c0b33e73ea",
+    "question": "sinh viên được sửa đổi đăng ký học trong vòng mấy tuần khi bắt đầu học kỳ",
+    "answers": [
+      "2 tuần đầu của học kỳ chính hoặc trong 1 tuần đầu của học kỳ phụ",
+      "Trong 2 tuần đầu của học kỳ chính hoặc trong 1 tuần đầu của học kỳ phụ"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_68"
+    ]
+  },
+  {
+    "id": "d75baf42-1431-48f4-831d-1e42b47f62da",
+    "question": "có thể đổi đăng ký học trong thời gian nào",
+    "answers": [
+      "2 tuần đầu của học kỳ chính hoặc trong 1 tuần đầu của học kỳ phụ",
+      "Trong 2 tuần đầu của học kỳ chính hoặc trong 1 tuần đầu của học kỳ phụ"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_68"
+    ]
+  },
+  {
+    "id": "66a79b7d-c2ea-4b62-894c-9d0b17181379",
+    "question": "sinh viên được thay đổi học phần đã đăng ký vào thời gian nào",
+    "answers": [
+      "2 tuần đầu của học kỳ chính hoặc trong 1 tuần đầu của học kỳ phụ",
+      "Trong 2 tuần đầu của học kỳ chính hoặc trong 1 tuần đầu của học kỳ phụ"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_68"
+    ]
+  },
+  {
+    "id": "643bf35b-c470-4053-8da2-e2e28d1771eb",
+    "question": "Thời gian nào trong học kỳ chính, sinh viên được thay đổi học phần",
+    "answers": [
+      "2 tuần đầu",
+      "2 tuần"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_68"
+    ]
+  },
+  {
+    "id": "456e5529-0825-4f8a-a5cc-3e7cb720ded9",
+    "question": "khi nào sinh viên phải đăng ký học lại học phần",
+    "answers": [
+      "nếu bị điểm F"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_69"
+    ]
+  },
+  {
+    "id": "74c0defa-5ced-403a-8aa7-fb05b3e9b7f0",
+    "question": "khi nào phải đăng ký học lại",
+    "answers": [
+      "nếu bị điểm F"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_69"
+    ]
+  },
+  {
+    "id": "5a3a8ee7-4861-4ea7-8dd9-4d3cdaac46f5",
+    "question": "sinh viên không đủ điều kiện làm khóa luận hoặc đồ án thì phải làm gì",
+    "answers": [
+      "đăng ký học các học phần thay thế"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_73"
+    ]
+  },
+  {
+    "id": "ac04c604-af11-435d-b533-2aab221fa2d4",
+    "question": "nếu không được làm đồ án hoặc khoá luận thì phải làm gì",
+    "answers": [
+      "đăng ký học các học phần thay thế"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_73"
+    ]
+  },
+  {
+    "id": "5bef4418-8a17-40b0-a907-a96b5544e960",
+    "question": "làm gì khi không đủ điều kiện làm khoá luận hay đồ án",
+    "answers": [
+      "đăng ký học các học phần thay thế"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_73"
+    ]
+  },
+  {
+    "id": "25e2a76e-5e1e-4443-9bfe-4a9eb39b0961",
+    "question": "Điều kiện để tốt nghiệp chương trình thứ hai là gì",
+    "answers": [
+      "nếu đã được công nhận tốt nghiệp chương trình đào tạo thứ nhất và không vượt quá thời gian đào tạo tối đa của chương trình đào tạo thứ nhất"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_89"
+    ]
+  },
+  {
+    "id": "4a132f87-fda8-439e-9e6d-3ea8612bc2d8",
+    "question": "có thể chuyển từ chương trình liên kết quốc tế sang chương trình khác không",
+    "answers": [
+      "Không chuyển sinh viên đang học chương trình đào tạo liên kết quốc tế sang học các chương trình đào tạo khác",
+      "Không"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_93"
+    ]
+  },
+  {
+    "id": "0e1566b9-c548-465c-9dfe-5f8bfe4021de",
+    "question": "điểm thưởng từ việc nghiên cứu khoa học có được cộng để xét học lực hay không",
+    "answers": [
+      "không dùng để xếp loại học lực",
+      "không"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_105"
+    ]
+  },
+  {
+    "id": "4af17211-9e7d-48a6-b266-9090692c541a",
+    "question": "điểm cộng từ nghiên cứu khoa học có được xét để xác định tốt nghiệp không",
+    "answers": [
+      "không dùng để xếp loại học lực hoặc xác định hạng tốt nghiệp",
+      "không"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_105"
+    ]
+  },
+  {
+    "id": "019ce0b3-fbf9-482a-9b7f-ff676280bdca",
+    "question": "việc thi hộ sẽ bị kỷ luật như thế nào",
+    "answers": [
+      "đình chỉ học tập 1 năm nếu vi phạm lần thứ nhất và buộc thôi học nếu vi phạm lần thứ hai",
+      "bị kỷ luật ở mức đình chỉ học tập 1 năm nếu vi phạm lần thứ nhất và buộc thôi học nếu vi phạm lần thứ hai"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_121"
+    ]
+  },
+  {
+    "id": "4f6fcafa-7ed7-484d-be3f-524ad8a34a0d",
+    "question": "mức kỷ luật cho lỗi thi hộ là gì",
+    "answers": [
+      "đình chỉ học tập 1 năm nếu vi phạm lần thứ nhất và buộc thôi học nếu vi phạm lần thứ hai",
+      "bị kỷ luật ở mức đình chỉ học tập 1 năm nếu vi phạm lần thứ nhất và buộc thôi học nếu vi phạm lần thứ hai"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_121"
+    ]
+  },
+  {
+    "id": "4f6fcafa-7ed7-484d-be3f-524ad8a34a0e",
+    "question": "nếu bị đình chỉ thi, sinh viên được mấy điểm",
+    "answers": [
+      "bị điểm không (0)",
+      "điểm không (0)",
+      "không (0)",
+      "0"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_121"
+    ]
+  },
+  {
+    "id": "4f6fcafa-7ed7-484d-be3f-524ad8a34a0f",
+    "question": "điểm bài thi còn bao nhiêu khi bị đình chỉ thi",
+    "answers": [
+      "bị điểm không (0)",
+      "điểm không (0)",
+      "không (0)",
+      "0"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_121"
+    ]
+  },
+  {
+    "id": "4f6fcafa-7ed7-484d-be3f-524ad8a34a10",
+    "question": "nếu bị phát hiện làm lộ đề thi ra ngoài thì bị phạt như nào",
+    "answers": [
+      "Sinh viên bị kỷ luật đình chỉ thi sẽ bị điểm không (0)",
+      "bị điểm không (0)",
+      "điểm không (0)"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_121"
+    ]
+  },
+  {
+    "id": "7c27c8ef-7bf4-4c07-a13c-1eaf4049b742",
+    "question": "nếu muốn tiếp tục học sau khi nghỉ tạm thời thì cần làm gì",
+    "answers": [
+      "có đơn đề nghị Thủ trưởng đơn vị đào tạo",
+      "có đơn đề nghị Thủ trưởng"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_124"
+    ]
+  },
+  {
+    "id": "a03d4ea7-77f8-4b42-a4f8-c4d8f82e47f7",
+    "question": "điểm thi cuối kỳ quan trọng như thế nào",
+    "answers": [
+      "bắt buộc và có trọng số không dưới 60% điểm của học phần",
+      "bắt buộc"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_127"
+    ]
+  },
+  {
+    "id": "55004935-cae0-4976-bf92-e4bd48b3682f",
+    "question": "trọng số điểm cuối kỳ là mấy %",
+    "answers": [
+      "không dưới 60%",
+      "60%"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_127"
+    ]
+  },
+  {
+    "id": "fad612de-167c-4159-8b22-f7d9f2042755",
+    "question": "điểm kết thúc môn có trọng số bao nhiêu",
+    "answers": [
+      "không dưới 60%",
+      "60%"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_127"
+    ]
+  },
+  {
+    "id": "066c3cfc-0e56-413f-99c9-3939f3e8bdbd",
+    "question": "điểm cuối kỳ chiếm ít nhất bao nhiêu % điểm tổng kết",
+    "answers": [
+      "không dưới 60%",
+      "60%"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_127"
+    ]
+  },
+  {
+    "id": "9efcdd56-ecce-4fad-8975-32d43e7adca7",
+    "question": "học phần có những đầu điểm đánh giá nào",
+    "answers": [
+      "điểm đánh giá bộ phận (trung bình của các điểm kiểm tra đánh giá thường xuyên, giữa kỳ) và điểm thi kết thúc học phần"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_127"
+    ]
+  },
+  {
+    "id": "7b7f1e34-1768-4d8e-b03d-a4984de5ad84",
+    "question": "các đầu điểm của một học phần là gì",
+    "answers": [
+      "điểm đánh giá bộ phận (trung bình của các điểm kiểm tra đánh giá thường xuyên, giữa kỳ) và điểm thi kết thúc học phần"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_127"
+    ]
+  },
+  {
+    "id": "d2b0ed44-bbfc-4050-bb5f-243c84123a56",
+    "question": "điều kiện để được thi cuối kỳ là gì",
+    "answers": [
+      "có điểm đánh giá bộ phận lớn hơn 0, trả học phí đầy đủ và đáp ứng các điều kiện kết thúc học phần",
+      "có điểm đánh giá bộ phận lớn hơn 0, trả học phí đầy đủ và đáp ứng các điều kiện kết thúc học phần do Thủ trưởng đơn vị phụ trách học phần quy định"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_131"
+    ]
+  },
+  {
+    "id": "3b5e9a5b-2474-476f-9b9f-61829edad42c",
+    "question": "để được thi kết thúc môn học, cần phải đáp ứng điều kiện gì",
+    "answers": [
+      "có điểm đánh giá bộ phận lớn hơn 0, trả học phí đầy đủ và đáp ứng các điều kiện kết thúc học phần",
+      "có điểm đánh giá bộ phận lớn hơn 0, trả học phí đầy đủ và đáp ứng các điều kiện kết thúc học phần do Thủ trưởng đơn vị phụ trách học phần quy định"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_131"
+    ]
+  },
+  {
+    "id": "f3c45df3-266c-4ec7-a626-b7b64209b76f",
+    "question": "khi nào thì có thông báo về lịch thi học kỳ chính",
+    "answers": [
+      "trước ít nhất 1 tháng"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_132"
+    ]
+  },
+  {
+    "id": "a4f05a2f-5d91-474f-8ced-12d21a26c3c3",
+    "question": "được thi mấy lần trong cùng một kỳ học",
+    "answers": [
+      "chỉ được dự thi một lần",
+      "một lần"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_132"
+    ]
+  },
+  {
+    "id": "5f9c7e1c-7466-4651-bd1f-a7b0c5b3ff37",
+    "question": "trong một kỳ có thể dự thi tối đa bao nhiêu lần",
+    "answers": [
+      "chỉ được dự thi một lần",
+      "một lần"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_132"
+    ]
+  },
+  {
+    "id": "1c8e79eb-c54c-4faf-a12c-f9f5c0b9d6ee",
+    "question": "B tương ứng với mấy điểm",
+    "answers": [
+      "3,0"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_151"
+    ]
+  },
+  {
+    "id": "8ce22ff9-01d6-4c61-a830-dc740eb824a7",
+    "question": "D+ là bao nhiêu điểm hệ 4",
+    "answers": [
+      "1,5"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_151"
+    ]
+  },
+  {
+    "id": "a48df962-8a96-4ffc-97e8-3838ddf06d7b",
+    "question": "điểm chữ nào là cao nhất",
+    "answers": [
+      "A+"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_151"
+    ]
+  },
+  {
+    "id": "fb8b4cfd-ca73-4982-9773-92ed6cc279c0",
+    "question": "điểm chữ thấp nhất là điểm gì",
+    "answers": [
+      "F"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_151"
+    ]
+  },
+  {
+    "id": "19953a43-20ca-49a5-8697-a4d70dedac2a",
+    "question": "B+ tương đương mấy điểm",
+    "answers": [
+      "3,5"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_151"
+    ]
+  },
+  {
+    "id": "63068ab5-ed09-49ec-bbba-30983586dc96",
+    "question": "điểm A quy đổi thành mấy điểm",
+    "answers": [
+      "3,7"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_151"
+    ]
+  },
+  {
+    "id": "5a9567fa-18fd-4cde-aa4f-86f48844f7d3",
+    "question": "điểm trung bình được làm tròn đến mấy chữ số",
+    "answers": [
+      "2 chữ số"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_152"
+    ]
+  },
+  {
+    "id": "e275067c-19d5-4ddc-bb61-071928d29825",
+    "question": "nếu vượt quá thời gian tối đa của khoá học thì sao",
+    "answers": [
+      "bị buộc thôi học",
+      "buộc thôi học"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_157"
+    ]
+  },
+  {
+    "id": "e275067c-19d5-4ddc-bb61-071928d29826",
+    "question": "xử lý thế nào nếu đã học nhiều hơn thời gian cho phép",
+    "answers": [
+      "bị buộc thôi học",
+      "buộc thôi học"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_157"
+    ]
+  },
+  {
+    "id": "e275067c-19d5-4ddc-bb61-071928d29827",
+    "question": "mấy điểm thì đạt học lực xuất sắc",
+    "answers": [
+      "3,60 đến 4,00"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_159"
+    ]
+  },
+  {
+    "id": "5aeebe88-78cc-40f1-aa0a-9f492905f529",
+    "question": "học lực giỏi tương ứng với mấy điểm",
+    "answers": [
+      "3,20 đến 3,59"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_159"
+    ]
+  },
+  {
+    "id": "66f7af54-c6b3-4e02-b33b-c2227de21384",
+    "question": "bằng tốt nghiệp có được cấp lại không",
+    "answers": [
+      "không cấp lại",
+      "không"
+    ],
+    "ground_truth_context_ids": [
+      "qcdt_167"
+    ]
+  },
+  {
+    "id": "39cadae7-4d50-4664-8fdf-ed9e85c8f55b",
+    "question": "em có thể bổ sung giấy tờ vào hồ sơ nhập học trong thời hạn bao lâu",
+    "answers": [
+      "15 ngày kể từ ngày nhập học"
+    ],
+    "ground_truth_context_ids": [
+      "qcctsv_46"
+    ]
+  },
+  {
+    "id": "1ddee092-598a-4595-bb69-025e9190c522",
+    "question": "khi nhập học nếu hồ sơ chưa đủ thì phải làm sao",
+    "answers": [
+      "sinh viên được phép nộp bổ sung nhưng không vượt quá 15 ngày kể từ ngày nhập học"
+    ],
+    "ground_truth_context_ids": [
+      "qcctsv_46"
+    ]
+  },
+  {
+    "id": "bc0ae885-a489-4811-8d64-cdb27e9f82a4",
+    "question": "đánh giá rèn luyện về việc tuân thủ theo quy định của trường chiếm bao nhiêu điểm",
+    "answers": [
+      "25"
+    ],
+    "ground_truth_context_ids": [
+      "qcctsv_84"
+    ]
+  },
+  {
+    "id": "0b5e6c06-9a10-4b27-8284-4a90d7244c7e",
+    "question": "có các tiêu chí nào trong việc đánh giá rèn luyện về chấp hành quy định của trường",
+    "answers": [
+      "a) Ý thức chấp hành các văn bản chỉ đạo của Đảng, Nhà nước, Bộ Giáo dục và Đào tạo và ĐHQGHN;\nb) Ý thức chấp hành các nội quy, quy chế, quy định của đơn vị đào tạo và các đơn vị liên quan"
+    ],
+    "ground_truth_context_ids": [
+      "qcctsv_84"
+    ]
+  },
+  {
+    "id": "6e83d316-2d9a-405f-be38-40a43d2991ad",
+    "question": "nếu bị khiển trách thì kết quả rèn luyện bị ảnh hưởng như nào",
+    "answers": [
+      "không vượt quá loại khá"
+    ],
+    "ground_truth_context_ids": [
+      "qcctsv_90"
+    ]
+  },
+  {
+    "id": "91cb1442-0726-429d-bc47-49b3f108e82c",
+    "question": "kỳ này em bị cảnh cáo thì điểm rèn luyện bị hạ xuống thế nào",
+    "answers": [
+      "không được vượt quá loại trung bình"
+    ],
+    "ground_truth_context_ids": [
+      "qcctsv_90"
+    ]
+  },
+  {
+    "id": "aee5ca51-cac7-4c77-b448-10440fdab83f",
+    "question": "nếu kết quả rèn luyện trong hai kỳ liên tục bị yếu thì sao",
+    "answers": [
+      "phải tạm ngừng học ít nhất một học kỳ ở học kỳ tiếp theo"
+    ],
+    "ground_truth_context_ids": [
+      "qcctsv_103"
+    ]
+  },
+  {
+    "id": "1d26851c-629e-481f-83d7-bf63a8d9d3a7",
+    "question": "nếu liên tiếp hai kỳ mà chỉ được rèn luyện loại kém thì bị kỷ luật gì",
+    "answers": [
+      "phải tạm ngừng học ít nhất một học kỳ ở học kỳ tiếp theo"
+    ],
+    "ground_truth_context_ids": [
+      "qcctsv_103"
+    ]
+  },
+  {
+    "id": "664ad553-784c-4a4c-a1fd-85c7a7ba3530",
+    "question": "điều kiện để lớp đạt tập thể xuất sắc là gì",
+    "answers": [
+      "đạt các tiêu chuẩn của danh hiệu.\n“Tập thể Tiên tiến” và có từ 10% sinh viên trở lên đạt danh hiệu “Sinh viên Giỏi” và có sinh viên đạt danh hiệu “Sinh viên Xuất sắc”"
+    ],
+    "ground_truth_context_ids": [
+      "qcctsv_110"
+    ]
+  },
+  {
+    "id": "e274266c-7501-473e-a13d-31139c0704c5",
+    "question": "khoá học android của Samsung có được tính không?",
+    "answers": [
+      "không"
+    ],
+    "ground_truth_context_ids": [
+      "faq_2"
+    ]
+  },
+  {
+    "id": "f454eda1-1c23-4f4b-8df3-c4c16d9f9219",
+    "question": "nếu chưa hoàn thành môn tiên quyết thì có được đăng ký tiếp môn sau không",
+    "answers": [
+      "có"
+    ],
+    "ground_truth_context_ids": [
+      "faq_4"
+    ]
+  },
+  {
+    "id": "c5042368-0c8e-41bf-83b6-28c0895697d5",
+    "question": "có nhất thiết phải hoàn thành học phần tiên quyết trước để học tiếp",
+    "answers": [
+      "Vậy cho nên thực tế thì sinh viên vẫn có thể đăng ký học môn phụ thuộc"
+    ],
+    "ground_truth_context_ids": [
+      "faq_4"
+    ]
+  },
+  {
+    "id": "b4dee062-dd27-4537-9713-21369a2c8d07",
+    "question": "thuộc lớp công nghệ thông tin hệ chuẩn thì có được đăng ký học môn của lớp chất lượng cao không",
+    "answers": [
+      "được"
+    ],
+    "ground_truth_context_ids": [
+      "faq_9"
+    ]
+  },
+  {
+    "id": "06c3ed2e-dfa9-4659-86d9-1ea16875414b",
+    "question": "cách đăng ký mở thêm lớp",
+    "answers": [
+      "Bạn tập hợp các sinh viên các có nhu cầu học cùng môn học đó, và lập danh sách\n– Làm đơn Xin mở lớp và gửi kèm theo danh sách lên Phòng Đào Tạo"
+    ],
+    "ground_truth_context_ids": [
+      "faq_16"
+    ]
+  },
+  {
+    "id": "2b910f9c-8a9b-4c2b-8c46-aab384ee3cd8",
+    "question": "các bước để xin mở thêm lớp học là gì",
+    "answers": [
+      "Bạn tập hợp các sinh viên các có nhu cầu học cùng môn học đó, và lập danh sách\n– Làm đơn Xin mở lớp và gửi kèm theo danh sách lên Phòng Đào Tạo"
+    ],
+    "ground_truth_context_ids": [
+      "faq_16"
+    ]
+  },
+  {
+    "id": "d57dcdfa-d615-4b2e-9557-91e37ec2eb35",
+    "question": "học phí chương trình chất lượng cao có bao gồm phí học quân sự không",
+    "answers": [
+      "đã bao gồm cả học phí khoá quân sự"
+    ],
+    "ground_truth_context_ids": [
+      "faq_47"
+    ]
+  },
+  {
+    "id": "47f17b3a-5d84-4b17-b53e-69712edbd49c",
+    "question": "học chương trình chất lượng cao có phải đóng thêm học phí nào không",
+    "answers": [
+      "không"
+    ],
+    "ground_truth_context_ids": [
+      "faq_47"
+    ]
+  },
+  {
+    "id": "26e7e6fa-4e27-4649-bfee-8d9be5b5fbac",
+    "question": "tỷ lệ nữ ở UET thế nào ?",
+    "answers": [
+      "8:1"
+    ],
+    "ground_truth_context_ids": [
+      "faq_50"
+    ]
+  },
+  {
+    "id": "9cb41a5d-216a-466a-8863-260ab1fad2cd",
+    "question": "hình thức xét tuyển lớp công nghệ thông tin chất lượng cao là như thế nào",
+    "answers": [
+      "Hình thức thi mỗi năm khác nhau, sẽ được nhà trường thông báo sau (Lập trình, Tiếng Anh, hoặc Toán logic...)"
+    ],
+    "ground_truth_context_ids": [
+      "faq_53"
+    ]
+  },
+  {
+    "id": "abea893a-797a-4162-a45b-7fdd7ad79083",
+    "question": "chỉ tiêu lớp CLC CNTT năm 2018 là bao nhiêu",
+    "answers": [
+      "30 sinh viên"
+    ],
+    "ground_truth_context_ids": [
+      "faq_53"
+    ]
+  },
+  {
+    "id": "448b7dcd-9390-4eab-844b-930e803efd15",
+    "question": "Làm thế nào để vào học chương trình đào tạo chất lượng cao ngành công nghệ thông tin?",
+    "answers": [
+      "Sau khi trúng tuyển nhóm ngành CN1 và không chọn ngành CNTT định hướng TTNB bạn có quyền đăng ký tham gia xét tuyển lớp học này"
+    ],
+    "ground_truth_context_ids": [
+      "faq_53"
+    ]
+  },
+  {
+    "id": "7aa66fc7-c787-465e-96dc-42aba713e3ac",
+    "question": "điều kiện để có thể đăng ký vào lớp CNTT CLC",
+    "answers": [
+      "Sau khi trúng tuyển nhóm ngành CN1 và không chọn ngành CNTT định hướng TTNB"
+    ],
+    "ground_truth_context_ids": [
+      "faq_53"
+    ]
+  },
+  {
+    "id": "1e01e157-1692-4564-bb83-29a221242704",
+    "question": "tại sao vẫn cần tạo tài khoản BIDV mới dù đã có rồi",
+    "answers": [
+      "Tài khoản BIDV của trường sẽ được tích hợp với thẻ sinh viên cho những việc như tự động thu học phí, học bổng"
+    ],
+    "ground_truth_context_ids": [
+      "faq_56"
+    ]
+  },
+  {
+    "id": "65a7d9af-dede-4305-bbf7-b6c6798fda71",
+    "question": "đã có tài khoản ngân hàng rồi thì có phải lập cái mới khi nhập học không",
+    "answers": [
+      "các bạn sẽ cần lập tài khoản mới"
+    ],
+    "ground_truth_context_ids": [
+      "faq_56"
+    ]
+  },
+  {
+    "id": "69a6b460-398f-408d-a787-f64249dc8d3d",
+    "question": "bảo hiểm y tế có bắt buộc không",
+    "answers": [
+      "bắt buộc với các bạn chưa có BHYT"
+    ],
+    "ground_truth_context_ids": [
+      "faq_60"
+    ]
+  },
+  {
+    "id": "92f37759-cc60-42ab-899d-cf0aa919e8f9",
+    "question": "bảo hiểm thân thể có bắt buộc không",
+    "answers": [
+      "Bảo hiểm thân thể là tự nguyện nên bạn có thể không đóng nhé"
+    ],
+    "ground_truth_context_ids": [
+      "faq_60"
+    ]
+  },
+  {
+    "id": "1910b101-95e9-4606-a1fe-fb9845cd3cfd",
+    "question": "có phải đóng bảo hiểm thân thể ?",
+    "answers": [
+      "Bảo hiểm thân thể là tự nguyện nên bạn có thể không đóng nhé"
+    ],
+    "ground_truth_context_ids": [
+      "faq_60"
+    ]
+  },
+  {
+    "id": "0625f6dd-70d1-41df-bc8a-b4ac977348d1",
+    "question": "nếu thực tập tại các công ty ngoài danh sách của nhà trường thì có được công nhận không",
+    "answers": [
+      "nếu DN đáp ứng được thì Khoa sẽ chấp nhận"
+    ],
+    "ground_truth_context_ids": [
+      "faq_67"
+    ]
+  },
+  {
+    "id": "10382673-ac16-4d0a-966d-a5c396311bcf",
+    "question": "tỷ lệ sinh viên ra trường có việc làm được bao nhiêu",
+    "answers": [
+      "95%"
+    ],
+    "ground_truth_context_ids": [
+      "faq_69"
+    ]
+  },
+  {
+    "id": "fd192c68-f918-4f20-8abe-7f3d267d1d84",
+    "question": "học lớp công nghệ thông tin thị trường Nhật Bản thì có gì khác",
+    "answers": [
+      "các em sẽ được học một số các môn học theo đặc thù các doanh nghiệp Nhật Bản, các kỹ năng mềm quan trọng để làm việc trong môi trường doanh nghiệp CNTT nói chung và Nhật Bản nói riêng"
+    ],
+    "ground_truth_context_ids": [
+      "faq_74"
+    ]
+  },
+  {
+    "id": "e813c73a-4220-461d-96e4-c959e0f01bc7",
+    "question": "học CNTT hướng Nhật Bản khác thế nào",
+    "answers": [
+      "các em sẽ được học một số các môn học theo đặc thù các doanh nghiệp Nhật Bản, các kỹ năng mềm quan trọng để làm việc trong môi trường doanh nghiệp CNTT nói chung và Nhật Bản nói riêng"
+    ],
+    "ground_truth_context_ids": [
+      "faq_74"
+    ]
+  },
+  {
+    "id": "7109bc87-b986-4d46-96e2-6fe9f81f7f17",
+    "question": "Em không biết gì về Tin học nhưng lại thích ngành CNTT thì em có theo học được không?",
+    "answers": [
+      "được"
+    ],
+    "ground_truth_context_ids": [
+      "faq_81"
+    ]
+  },
+  {
+    "id": "6b3b0001-4e41-4b42-bd38-8a260869572f",
+    "question": "Em đang học khối A1 nhưng tiếng anh của em cũng không được tốt lắm, vậy có học được công nghệ thông tin không ạ?",
+    "answers": [
+      "được"
+    ],
+    "ground_truth_context_ids": [
+      "faq_81"
+    ]
+  },
+  {
+    "id": "52e9b024-60e2-422d-949e-3d45c4d281ad",
+    "question": "lớp 10 em đạt giải Nhì kỳ thi học sinh giỏi quốc gia, nhưng lớp 12 em chỉ được khuyến khích, vậy có đủ điều kiện tuyển thẳng không ?",
+    "answers": [
+      "được"
+    ],
+    "ground_truth_context_ids": [
+      "faq_92"
+    ]
+  },
+  {
+    "id": "26fd5de9-d68e-4e02-ab83-3383932834ce",
+    "question": "trường có ngành điện tử viễn thông không",
+    "answers": [
+      "có"
+    ],
+    "ground_truth_context_ids": [
+      "faq_97"
+    ]
+  },
+  {
+    "id": "5801958a-8fd8-4205-a2b0-651752c95c07",
+    "question": "em có thể đăng ký bao nhiêu nguyện vọng ?",
+    "answers": [
+      "không giới hạn"
+    ],
+    "ground_truth_context_ids": [
+      "faq_98"
+    ]
+  }
+]

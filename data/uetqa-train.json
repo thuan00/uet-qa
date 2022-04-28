@@ -1,0 +1,2225 @@
+{
+  "version": "train",
+  "data": [
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_5",
+          "context": "Điều 2. Phân cấp tổ chức và quản lý đào tạo.\n2. Phân công giảng dạy các học phần:\na) Các học phần ngoại ngữ do Trường Đại học Ngoại ngữ giảng dạy;\nb) Các học phần lý luận chính trị do Trường Đại học Khoa học Xã hội và Nhân văn giảng dạy;\nc) Các học phần giáo dục quốc phòng – an ninh do Trung tâm Giáo dục quốc phòng – an ninh giảng dạy;\nd) Các học phần giáo dục thể chất do Trung tâm Giáo dục thể chất và thể thao giảng dạy;\nđ) Các học phần tin học cơ sở do Trường Đại học Công nghệ và Trường Đại học Khoa học Tự nhiên giảng dạy;\ne) Các học phần kỹ năng bổ trợ do đơn vị đào tạo quy định nội dung và tổ chức giảng dạy;\nf) Các học phần còn lại do đơn vị quản lý học phần giảng dạy.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 111,
+                  "text": "Trường Đại học Ngoại ngữ"
+                }
+              ],
+              "id": "5e043eda-9c3b-4430-8737-707b65c953a9",
+              "question": "Các học phần ngoại ngữ do trường nào giảng dạy"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 459,
+                  "text": "Trường Đại học Công nghệ và Trường Đại học Khoa học Tự nhiên"
+                }
+              ],
+              "id": "e3c8f9cb-6db0-44b9-80d9-d009134e923e",
+              "question": "Các học phần tin học cơ sở do trường nào giảng dạy"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 565,
+                  "text": "đơn vị đào tạo"
+                }
+              ],
+              "id": "1aec14a6-7aa3-492d-902e-aea39cafc811",
+              "question": "Các học phần kỹ năng bổ trợ do ai tổ chức giảng dạy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_9",
+          "context": "Điều 4. Hình thức dạy học, tín chỉ, giờ tín chỉ .\n1. Hình thức dạy học:\na) Lý thuyết: sinh viên học tập trên lớp qua bài giảng trực tiếp của giảng viên tại lớp học hoặc qua các lớp học trực tuyến.\nb) Thực hành: sinh viên học tập qua thực hành, thực tập, làm thí nghiệm, làm bài tập, thảo luận, đọc và nghiên cứu tài liệu dưới sự hướng dẫn của giảng viên.\nc) Tự học: sinh viên tự học tập và nghiên cứu theo kế hoạch và nội dung do giảng viên giao và được kiểm tra đánh giá.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 86,
+                  "text": "sinh viên học tập trên lớp qua bài giảng trực tiếp của giảng viên tại lớp học hoặc qua các lớp học trực tuyến"
+                }
+              ],
+              "id": "ba620fa0-423e-47e4-8056-e5e0dfa4cde0",
+              "question": "Hình thức dạy học Lý thuyết được thực hiện như thế nào"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 86,
+                  "text": "sinh viên học tập trên lớp qua bài giảng trực tiếp của giảng viên tại lớp học hoặc qua các lớp học trực tuyến"
+                }
+              ],
+              "id": "f1eb00ce-1177-43c9-bbb9-fddc8255292e",
+              "question": "học lý thuyết như thế nào"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 211,
+                  "text": "sinh viên học tập qua thực hành, thực tập, làm thí nghiệm, làm bài tập, thảo luận, đọc và nghiên cứu tài liệu dưới sự hướng dẫn của giảng viên"
+                }
+              ],
+              "id": "e25a3624-e454-4fb5-b32c-1ad6a0b2dfb5",
+              "question": "việc học thực hành diễn ra như nào"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_13",
+          "context": "Điều 5. Học phần .\n1. Học phần là một phần kiến thức của chương trình đào tạo; mỗi học phần có khối lượng kiến thức từ 2 đến 5 tín chỉ, được tổ chức giảng dạy trọn vẹn trong một học kỳ; mỗi học phần có mã số riêng do Đại học Quốc gia Hà Nội quy định.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 34,
+                  "text": "một phần kiến thức của chương trình đào tạo"
+                }
+              ],
+              "id": "23fdc039-d49c-40a2-8541-4fbda4b7ca9b",
+              "question": "Học phần là gì"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_14",
+          "context": "Điều 5. Học phần .\n2. Các loại học phần:\na) Học phần bắt buộc: sinh viên bắt buộc phải tích luỹ.\nb) Học phần tự chọn có điều kiện: sinh viên được tự chọn theo hướng dẫn của đơn vị đào tạo.\nc) Học phần tự chọn tự do: sinh viên tự chọn theo nhu cầu cá nhân.\nd) Học phần tiên quyết của một học phần: sinh viên phải tích luỹ trước khi học học phần đó. \nđ) Khoá luận, đồ án tốt nghiệp có khối lượng kiến thức từ 5 đến 10 tín chỉ được quy định cụ thể trong chương trình đào tạo; \ne) Thực tập, thực tế (nếu có) là một học phần bắt buộc.\nf) Học phần điều kiện là các học phần ngoại ngữ, giáo dục thể chất, giáo dục quốc phòng – an ninh và kỹ năng bổ trợ. Kết quả đánh giá các học phần điều kiện không tính vào điểm trung bình chung học kỳ, điểm trung bình chung các học phần và điểm trung bình chung tích luỹ, nhưng là điều kiện để xét tốt nghiệp.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 477,
+                  "text": "Thực tập, thực tế (nếu có) là một học phần bắt buộc"
+                }
+              ],
+              "id": "a0869dd2-e334-4f4e-8195-9b2e9b82006b",
+              "question": "Thực tập có bắt buộc không"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 555,
+                  "text": "các học phần ngoại ngữ, giáo dục thể chất, giáo dục quốc phòng – an ninh và kỹ năng bổ trợ"
+                }
+              ],
+              "id": "cb87f37e-3335-427b-a03a-bbe85bffb75c",
+              "question": "Học phần điều kiện là gì"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 687,
+                  "text": "không"
+                }
+              ],
+              "id": "31d1e3da-3840-4c4a-ba33-d5ad142cba5d",
+              "question": "Học phần điều kiện có tính không"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 687,
+                  "text": "không"
+                }
+              ],
+              "id": "d354e9a1-bbb3-4304-85fe-af6d41f175c8",
+              "question": "Học phần điều kiện có tính vào điểm trung bình không"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_21",
+          "context": "Điều 7. Hình thức đào tạo .\n1. Đào tạo chính quy được tổ chức đào tạo tập trung liên tục trong toàn khoá học và áp dụng cho các chương trình đào tạo quy định tại mục a, b, c, d, đ, e, f, khoản 2, Điều 6 của Quy chế này.\n2. Đào tạo vừa làm vừa học được tổ chức đào tạo không tập trung trong toàn khoá học và áp dụng cho chương trình đào tạo quy định tại mục a, khoản 2, Điều 6 của Quy chế này (không có học phần giáo dục thể chất).",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 223,
+                  "text": "Đào tạo vừa làm vừa học được tổ chức đào tạo không tập trung trong toàn khoá học và áp dụng cho chương trình đào tạo quy định tại mục a, khoản 2, Điều 6 của Quy chế này"
+                }
+              ],
+              "id": "c4037b9f-a1e2-46bf-814a-1465f0afab16",
+              "question": "vừa làm vừa học là như thế nào"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_23",
+          "context": "Điều 8. Kinh phí đào tạo.\n1. Nguồn kinh phí đào tạo:\nKinh phí để tổ chức đào tạo một ngành học bao gồm kinh phí từ ngân sách Nhà nước, học phí và các nguồn kinh phí hợp pháp khác. \na) Kinh phí từ ngân sách nhà nước\nĐại học Quốc gia Hà Nội phân bổ kinh phí theo định mức và chỉ tiêu đào tạo hàng năm cho các ngành học được cấp ngân sách Nhà nước. \nb) Học phí:\n– Sinh viên theo học bất kỳ ngành học nào đều phải trả học phí (trừ sinh viên thuộc đối tượng được miễn giảm theo quy định hiện hành của Nhà nước).\n– Sinh viên trả học phí theo số tín chỉ đăng ký học trong mỗi học kỳ tại đơn vị đào tạo quản lý ngành học mà sinh viên theo học.\n– Học phí được tính theo công thức:  M = a.∑(i=1,k) hj.ni   (j = 1 ÷ 4)\ntrong đó:\nM: Số học phí phải nộp a: Định mức học phí cho một tín chỉ theo hình thức đào tạo và chương trình đào tạo;\nhj: Hệ số học phí của học phần thứ i mà sinh viên học lần đầu (h1), học lại (h2), học cải thiện điểm (h3), học tự chọn tự do (h4);\nni: Số tín chỉ của học phần thứ i;\nk: Tổng số học phần.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 103,
+                  "text": "kinh phí từ ngân sách Nhà nước, học phí và các nguồn kinh phí hợp pháp khác"
+                }
+              ],
+              "id": "d2ebd813-b581-4bf7-bf33-fddca6275294",
+              "question": "kinh phí đào tạo gồm những gì"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 317,
+                  "text": "được cấp ngân sách Nhà nước"
+                }
+              ],
+              "id": "9379f596-5b82-48c6-bd3f-365c6b5bc3c2",
+              "question": "kính phí đào tạo có được nhà nước cấp ngân sách không"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 673,
+                  "text": "M = a.∑(i=1,k) hj.ni"
+                }
+              ],
+              "id": "4077326c-7d45-4cb4-ae69-24107cd903f9",
+              "question": "học phí được tính theo công thức nào"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 673,
+                  "text": "M = a.∑(i=1,k) hj.ni"
+                }
+              ],
+              "id": "36cb6fb0-bf46-4135-b253-ac417aad1a8c",
+              "question": "công thức tính học phí"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 673,
+                  "text": "M = a.∑(i=1,k) hj.ni"
+                }
+              ],
+              "id": "6e68c1cf-d84b-408a-9839-832719e803a4",
+              "question": "công thức tính học phí là gì"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_24",
+          "context": "Điều 8. Kinh phí đào tạo.\n– Thủ trưởng đơn vị đào tạo xây dựng định mức học phí cho một tín chỉ và hệ số học phí của từng học phần cho các ngành học, phù hợp với các quy định chung của Nhà nước và của Đại học Quốc gia Hà Nội, báo cáo Giám đốc Đại học Quốc gia Hà Nội.\n– Thủ trưởng đơn vị đào tạo quy định cụ thể và công bố cho sinh viên biết cách thức thu, nộp và xét miễn giảm học phí.\n– Các đơn vị đào tạo thực hiện chế độ miễn, giảm học phí cho sinh viên theo quy định của Nhà nước và của Đại học Quốc gia Hà Nội.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 389,
+                  "text": "Các đơn vị đào tạo thực hiện chế độ miễn, giảm học phí cho sinh viên theo quy định của Nhà nước và của Đại học Quốc gia Hà Nội"
+                }
+              ],
+              "id": "1aa72d03-488a-495e-b6c1-b8718722a76a",
+              "question": "chế độ miễn giảm học phí"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 389,
+                  "text": "Các đơn vị đào tạo thực hiện chế độ miễn, giảm học phí cho sinh viên theo quy định của Nhà nước và của Đại học Quốc gia Hà Nội"
+                }
+              ],
+              "id": "cdd55845-5e03-443a-bc1d-1721bf21d7cd",
+              "question": "chế độ miễn giảm học phí như thế nào"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_37",
+          "context": "Điều 12. Chuẩn đầu ra của chương trình đào tạo.\n3. Chuẩn đầu ra về trình độ ngoại ngữ quy định như sau:\na) Bậc 3 (theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam) đối với các chương trình đào tạo chuẩn, ngành chính – ngành phụ, ngành kép); \nb) Bậc 4 (theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam) đối với chương trình đào tạo chất lượng cao, tài năng, chương trình đào tạo liên kết quốc tế do Đại học Quốc gia Hà Nội cấp bằng và các chương trình đào tạo liên kết quốc tế do đối tác nước ngoài và Đại học Quốc gia Hà Nội cùng cấp bằng; \nc) Bậc 5 (theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam) đối với chương trình đào tạo chuẩn quốc tế;\nd) Quy chế này không quy định chuẩn đầu ra về trình độ ngoại ngữ đối với các chương trình đào tạo liên kết quốc tế do đối tác nước ngoài cấp bằng.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 107,
+                  "text": "Bậc 3"
+                }
+              ],
+              "id": "40e4ae2e-f4cc-421b-ac59-3f15c7aebc5c",
+              "question": "yêu cầu ngoại ngữ đầu ra của chương trình chuẩn là gì"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 250,
+                  "text": "Bậc 4"
+                }
+              ],
+              "id": "40e4ae2e-f4cc-421b-ac59-3f15c7aebc56",
+              "question": "chuẩn đầu ra ngoại ngữ của chất lượng cao là gì"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 554,
+                  "text": "Bậc 5"
+                }
+              ],
+              "id": "40e4ae2e-f4cc-421b-ac59-3f15c7aebc57",
+              "question": "sinh viên học chuẩn quốc tế cần đạt trình độ ngoại ngữ bậc nào"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_43",
+          "context": "Điều 13. Thiết kế chương trình đào tạo .\nd) Chương trình đào tạo tài năng được thiết kế nhiều hơn chương trình đào tạo chuẩn tương ứng ít nhất là 30 tín chỉ, trên cơ sở nâng cao, bổ sung một số học phần với yêu cầu trình độ cao hơn và nội dung rộng hơn, sâu hơn, có tham khảo chương trình đào tạo nước ngoài có uy tín.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 135,
+                  "text": "ít nhất là 30 tín chỉ"
+                }
+              ],
+              "id": "0f02a0b9-d0d8-4d63-a805-ba7ab3cba88d",
+              "question": "chương trình tài năng hơn chương trình chuẩn mấy tín chỉ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_45",
+          "context": "Điều 13. Thiết kế chương trình đào tạo .\ne) Chương trình đào tạo ngành kép:\nChương trình đào tạo ngành kép gồm hai phần: chương trình đào tạo ngành thứ nhất có khối lượng kiến thức tối thiểu là 120 tín chỉ, ngành thứ hai có khối lượng kiến thức từ 30 tín chỉ trở lên (những học phần giống nhau, tương đương giữa hai chương trình đào tạo chỉ được tính khối lượng kiến thức một lần). Việc tổ chức và quản lý đào tạo được thực hiện liên thông giữa các khoa trong cùng một đơn vị đào tạo và giữa các đơn vị đào tạo trong Đại học Quốc gia Hà Nội.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 76,
+                  "text": "Chương trình đào tạo ngành kép gồm hai phần: chương trình đào tạo ngành thứ nhất có khối lượng kiến thức tối thiểu là 120 tín chỉ, ngành thứ hai có khối lượng kiến thức từ 30 tín chỉ trở lên"
+                }
+              ],
+              "id": "32f159ea-9f65-4780-b44a-68195f6af8ee",
+              "question": "chương trình đào tạo ngành kép là như thế nào"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 245,
+                  "text": "từ 30 tín chỉ trở lên"
+                }
+              ],
+              "id": "ef381cfa-fd53-47dc-8dbc-634c99e4eb09",
+              "question": "trong chương trình ngành kép, ngành thứ hai cần bao nhiêu tín chỉ"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 121,
+                  "text": "chương trình đào tạo ngành thứ nhất có khối lượng kiến thức tối thiểu là 120 tín chỉ, ngành thứ hai có khối lượng kiến thức từ 30 tín chỉ trở lên"
+                }
+              ],
+              "id": "049e2376-45a3-4d8e-99fa-b876ed1ca0ca",
+              "question": "chương trình ngành kép yêu cầu tín chỉ như thế nào"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 245,
+                  "text": "từ 30 tín chỉ trở lên"
+                }
+              ],
+              "id": "e1c633ff-6b42-4975-b017-97e9fd5ab167",
+              "question": "học ngành kép cần tối thiểu mấy tín chỉ cho ngành thứ hai"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 245,
+                  "text": "từ 30 tín chỉ trở lên"
+                }
+              ],
+              "id": "7331ad4e-c973-462b-95af-6771c86e3560",
+              "question": "học ngành thứ hai yêu cầu tín chỉ như thế nào"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_56",
+          "context": "Điều 17. Kế hoạch đào tạo.\n1. Đại học Quốc gia Hà Nội ban hành kế hoạch năm học trước ngày 15 tháng 6 hàng năm.\n2. Trên cơ sở kế hoạch năm học do Đại học Quốc gia Hà Nội ban hành, đơn vị đào tạo xây dựng kế hoạch tổ chức đào tạo, lịch trình đào tạo chi tiết theo kế hoạch thống nhất, đảm bảo liên thông trong toàn Đại học Quốc gia Hà Nội và báo cáo Đại học Quốc gia Hà Nội trước ngày 31 tháng 7 hàng năm.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 80,
+                  "text": "trước ngày 15 tháng 6 hàng năm"
+                }
+              ],
+              "id": "e2aebbf2-82d1-4033-b64e-2118f62db2d3",
+              "question": "khi nào đại học quốc gia Hà Nội công bố kế hoạch năm học"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 373,
+                  "text": "trước ngày 31 tháng 7 hàng năm"
+                }
+              ],
+              "id": "1fe05c2b-345d-4da2-adec-d8e2e24b9e46",
+              "question": "các đơn vị đào tạo làm kế hoạch tổ chức đào tạo vào lúc nào"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 373,
+                  "text": "trước ngày 31 tháng 7 hàng năm"
+                }
+              ],
+              "id": "0048d5fb-89ae-434c-b029-1d96d7bb559f",
+              "question": "khi nào các đơn vị đào tạo đề ra kế hoạch đào tạo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_57",
+          "context": "Điều 17. Kế hoạch đào tạo.\n3. Đầu khoá học, đơn vị đào tạo thông báo cho sinh viên:\na) Cam kết chất lượng giáo dục;\nb) Chương trình đào tạo;\nc) Chuẩn đầu ra của chương trình đào tạo;\nd) Điều kiện đảm bảo chất lượng (đội ngũ giảng viên, cơ sở vật chất, các phòng thí nghiệm, thư viện và hệ thống học liệu);\nđ) Thông tin về học phí, học bổng;\ne) Quy chế đào tạo và các quy định liên quan tới học tập, rèn luyện, sinh hoạt của sinh viên.\n4. Đầu năm học, đơn vị đào tạo thông báo cho sinh viên kế hoạch học tập của năm học.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 490,
+                  "text": "kế hoạch học tập của năm học"
+                }
+              ],
+              "id": "895eef45-09ed-4692-9c01-f2e1185448c2",
+              "question": "đầu năm học thì có thông báo gì"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 490,
+                  "text": "kế hoạch học tập của năm học"
+                }
+              ],
+              "id": "bde66657-3464-4a61-9421-ce139ad1e368",
+              "question": "sinh viên nhận các thông báo nào vào đầu năm học"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 438,
+                  "text": "Đầu năm học, đơn vị đào tạo thông báo cho sinh viên kế hoạch học tập của năm học"
+                }
+              ],
+              "id": "d91a86cb-106d-4a79-a3db-0a73d670ac6e",
+              "question": "kế hoạch học tập được thông báo thế nào"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 490,
+                  "text": "kế hoạch học tập của năm học"
+                }
+              ],
+              "id": "7063b038-04d3-472b-8ee0-791f11235875",
+              "question": "thông báo đầu năm học"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_60",
+          "context": "Điều 18. Thời gian hoạt động giảng dạy và học tập.\nThời gian hoạt động giảng dạy và học tập của đơn vị đào tạo từ 07 giờ đến 21 giờ hàng ngày, thống nhất trong toàn Đại học Quốc gia Hà Nội. Một tiết học là 50 phút. Thời gian nghỉ giữa hai tiết học là 10 phút. ",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 111,
+                  "text": "từ 07 giờ đến 21 giờ hàng ngày"
+                }
+              ],
+              "id": "0bb2873a-c234-4706-ba42-10327b51dcb3",
+              "question": "trường hoạt động thời gian nào trong ngày "
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 111,
+                  "text": "từ 07 giờ"
+                }
+              ],
+              "id": "06609d39-9cea-47dd-a6b2-37c2e7a560f6",
+              "question": "thời gian học bắt đầu lúc mấy giờ trong ngày"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 111,
+                  "text": "từ 07 giờ"
+                }
+              ],
+              "id": "a7a3ef71-8f0b-4928-99fb-01e57dce52a2",
+              "question": "trường bắt đầu giảng dạy từ mấy giờ"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 125,
+                  "text": "21 giờ"
+                }
+              ],
+              "id": "613fee22-6075-4cab-adf1-505b3d47d38a",
+              "question": "mấy giờ kết thúc thời gian học trên trường"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 125,
+                  "text": "21 giờ hàng ngày"
+                }
+              ],
+              "id": "ba14f359-f29d-431a-86f0-f70d41c3a982",
+              "question": "khi nào trong ngày thì hết giờ hoạt động giảng dạy"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 206,
+                  "text": "50 phút"
+                }
+              ],
+              "id": "ed1590b5-c0f0-4550-aff5-631b2d86cd91",
+              "question": "một tiết học kéo dài bao lâu"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 206,
+                  "text": "50 phút"
+                }
+              ],
+              "id": "be77992c-f33c-4039-8a3f-bf3e0005c0fc",
+              "question": "một tiết học là bao nhiêu phút"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 206,
+                  "text": "50 phút"
+                }
+              ],
+              "id": "5af8a9bd-0347-4dee-85f2-c7d6f4ee226b",
+              "question": "thời gian một tiết học"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 251,
+                  "text": "10 phút"
+                }
+              ],
+              "id": "ac9036c0-59cf-41f0-b038-b7b369cb7d30",
+              "question": "thời gian giữa hai tiết học"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 251,
+                  "text": "10 phút"
+                }
+              ],
+              "id": "d6329835-8325-4baa-ba51-e5ab6745cde0",
+              "question": "giữa hai tiết học nghỉ bao lâu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_62",
+          "context": "Điều 19. Tổ chức lớp học.\n1. Lớp khoá học:\na) Lớp khoá học được tổ chức cho các sinh viên cùng một ngành học trong cùng một khoá học và ổn định từ đầu đến cuối mỗi khoá. Phụ trách lớp khoá học là giáo viên chủ nhiệm. Đại diện lớp khoá học là Ban cán sự lớp.\nb) Lớp khoá học được gọi tên theo ngành học và năm nhập học của sinh viên, có mã hiệu theo quy định của Đại học Quốc gia Hà Nội.\nc) Sinh viên được phép nghỉ học tạm thời, khi trở lại học tiếp, được bố trí vào lớp khoá học phù hợp với khối lượng kiến thức đã tích luỹ nhưng giữ nguyên mã sinh viên đã được cấp. Trường hợp sinh viên được bố trí vào lớp khoá học có những học phần trong chương trình đào tạo khác biệt so với chương trình đào tạo mà sinh viên đã theo học trước khi nghỉ học tạm thời, Thủ trưởng đơn vị đào tạo quyết định cho sinh viên được bảo lưu hoặc phải học bổ sung những học phần tương đương.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 242,
+                  "text": "Ban cán sự lớp"
+                }
+              ],
+              "id": "ab711724-5807-4f86-a8a3-57842a91a532",
+              "question": "đại diện lớp khóa học là ai"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 242,
+                  "text": "Ban cán sự lớp"
+                }
+              ],
+              "id": "99393de0-f189-49b3-8fc6-4e2566a22b43",
+              "question": "ai là đại diện một lớp học"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_66",
+          "context": "Điều 20. Đăng ký học phần.\n2. Đăng ký học phần\na) Việc tổ chức đăng ký học các học phần trong chương trình đào tạo do Thủ trưởng đơn vị đào tạo quy định. Sinh viên được đăng ký học và thi các học phần trong chương trình đào tạo do bất kỳ một đơn vị đào tạo nào thuộc Đại học Quốc gia Hà Nội tổ chức giảng dạy. Kết quả các học phần này được chuyển đổi và được công nhận ở tất cả các đơn vị đào tạo trong Đại học Quốc gia Hà Nội. \nb) Các đơn vị đào tạo có trách nhiệm thông báo bằng văn bản và trên trang thông tin điện tử của đơn vị kế hoạch giảng dạy, thời khoá biểu các học phần trước thời gian đăng ký học ít nhất là 2 tuần để sinh viên biết, tạo mọi điều kiện thuận lợi cho sinh viên của đơn vị khác đăng ký học phần; chuyển dữ liệu đăng ký học phần, dữ liệu điểm học phần của sinh viên tới đơn vị đào tạo quản lý sinh viên ngay sau khi kết thúc thời gian đăng ký học và kết thúc việc chấm thi.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 580,
+                  "text": "trước thời gian đăng ký học ít nhất là 2 tuần"
+                }
+              ],
+              "id": "d1744db5-38a2-4826-8447-74d1e9b8025e",
+              "question": "khi nào có thông báo về thời khoá biểu và đăng ký học"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 476,
+                  "text": "bằng văn bản và trên trang thông tin điện tử"
+                }
+              ],
+              "id": "eb17dca5-d949-4c20-8196-2c5b24b57027",
+              "question": "trường thông báo về thời khoá biểu như thế nào"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 118,
+                  "text": "Thủ trưởng đơn vị đào tạo"
+                }
+              ],
+              "id": "377c0855-4613-4620-b64a-edb4c06a5b89",
+              "question": "việc tổ chức đăng ký học các học phần trong chương trình đào tạo do ai quyết định"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_70",
+          "context": "Điều 20. Đăng ký học phần.\n5. Đăng ký học cải thiện điểm:\nĐối với các học phần đạt điểm D, D+, sinh viên được đăng ký học lại học phần đó hoặc đổi sang học phần khác (nếu là học phần tự chọn có điều kiện) để cải thiện điểm trung bình chung tích luỹ. Điểm học phần cũ bị huỷ bỏ khi việc đăng ký học lại để cải thiện điểm được chấp nhận và sẽ được thay bằng điểm học phần để cải thiện điểm.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 79,
+                  "text": "đạt điểm D, D+"
+                }
+              ],
+              "id": "e6154b81-ffb7-42be-8eb0-54db9eddc25d",
+              "question": "Điều kiện để có thể học cải thiện"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 79,
+                  "text": "đạt điểm D, D+"
+                }
+              ],
+              "id": "ad79bb2d-5ebe-49de-92ba-506f6eb506ab",
+              "question": "Như nào thì mới được học cải thiện"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 250,
+                  "text": "Điểm học phần cũ bị huỷ bỏ khi việc đăng ký học lại để cải thiện điểm được chấp nhận và sẽ được thay bằng điểm học phần để cải thiện điểm"
+                }
+              ],
+              "id": "a6b23d0c-4c77-4732-8126-71ed88a847ee",
+              "question": "học cải thiện là như thế nào"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_76",
+          "context": "Điều 21. Rút bớt học phần đã đăng ký.\n2. Việc rút bớt học phần chỉ được chấp nhận trong 2 tuần kể từ đầu học kỳ chính, 1 tuần kể từ đầu học kỳ phụ và được trả lại học phí. Ngoài thời hạn trên, học phần vẫn được giữ nguyên trong phiếu đăng ký học, nếu sinh viên không học sẽ phải nhận điểm F và không được trả lại học phí. ",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 88,
+                  "text": "2 tuần kể từ đầu học kỳ chính, 1 tuần kể từ đầu học kỳ phụ"
+                }
+              ],
+              "id": "eed32e8c-406f-4069-9d46-a94fb22621a2",
+              "question": "có thể rút bớt học phần trong thời gian nào"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 88,
+                  "text": "2 tuần kể từ đầu học kỳ chính, 1 tuần kể từ đầu học kỳ phụ"
+                }
+              ],
+              "id": "516c66d7-04de-4933-848f-fe384194c4a3",
+              "question": "khi nào có thể xoá bỏ học phần"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 150,
+                  "text": "được trả lại học phí"
+                }
+              ],
+              "id": "15c1b7fb-d05a-4b36-92e0-c150dd358b2f",
+              "question": "rút bỏ học phần trong 2 tuần đầu kỳ chính có được trả lại học phí không"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_88",
+          "context": "Điều 24. Học cùng lúc hai chương trình đào tạo.\n4. Trong quá trình học cùng lúc hai chương trình đào tạo, sinh viên chỉ cần tích luỹ một lần các học phần chung, tương đương và phải tích luỹ đủ các học phần còn lại của hai chương trình đào tạo. Sinh viên tích luỹ đủ số tín chỉ theo yêu cầu của cả hai chương trình đào tạo, khi tốt nghiệp được cấp hai bằng.\n5. Đơn vị tổ chức chương trình đào tạo thứ nhất và thứ hai cập nhật kết quả học tập của sinh viên sau từng học kỳ. Sinh viên phải dừng học chương trình đào tạo thứ hai ở học kỳ tiếp theo nếu kết thúc học kỳ có học lực xếp loại yếu ở một trong hai chương trình đào tạo.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 544,
+                  "text": "nếu kết thúc học kỳ có học lực xếp loại yếu ở một trong hai chương trình đào tạo"
+                }
+              ],
+              "id": "65424fdb-7494-4716-b50a-9d428d6edb4f",
+              "question": "buộc phải thôi học chương trình đào tạo thứ hai nếu?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 544,
+                  "text": "nếu kết thúc học kỳ có học lực xếp loại yếu ở một trong hai chương trình đào tạo"
+                }
+              ],
+              "id": "6f8890fc-efcd-4a8b-b995-1142066bf6a6",
+              "question": "điều kiện dừng học chương trình đào tạo thứ hai là gì"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_92",
+          "context": "Điều 25. Chuyển đổi sinh viên giữa các chương trình đào tạo.\n2. Bổ sung sinh viên học chương trình đào tạo chuẩn chính quy vào học chương trình đào tạo tài năng, chuẩn quốc tế, chất lượng cao.\na) Căn cứ chỉ tiêu đào tạo đã công bố, Thủ trưởng đơn vị đào tạo tổ chức xét tuyển bổ sung sinh viên vào học chương trình đào tạo tài năng, chuẩn quốc tế, chất lượng cao nếu có đủ các điều kiện sau:\n- Là sinh viên năm thứ hai hoặc năm thứ ba;\n- Ngành học phù hợp với ngành học có chương trình đào tạo tài năng, chuẩn quốc tế, chất lượng cao;\n- Điểm trung bình chung các học phần tính đến thời điểm xét đạt từ 3,20 trở lên và trình độ tiếng Anh đạt chuẩn bậc 3 trở lên;\n- Điểm các học phần tương ứng với học phần trong chương trình đào tạo tài năng, chuẩn quốc tế, chất lượng cao phải đạt từ B trở lên; – Tư cách đạo đức, ý thức tổ chức kỷ luật tốt.\nb) Đối với việc chuyển đổi điểm học phần trong chương trình đào tạo chuẩn sang điểm học phần nâng cao tương ứng, Thủ trưởng đơn vị đào tạo xem xét công nhận tương đương hoặc yêu cầu học bổ sung kiến thức.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 363,
+                  "text": "nếu có đủ các điều kiện sau:\n- Là sinh viên năm thứ hai hoặc năm thứ ba;\n- Ngành học phù hợp với ngành học có chương trình đào tạo tài năng, chuẩn quốc tế, chất lượng cao;\n- Điểm trung bình chung các học phần tính đến thời điểm xét đạt từ 3,20 trở lên và trình độ tiếng Anh đạt chuẩn bậc 3 trở lên;\n- Điểm các học phần tương ứng với học phần trong chương trình đào tạo tài năng, chuẩn quốc tế, chất lượng cao phải đạt từ B trở lên; – Tư cách đạo đức, ý thức tổ chức kỷ luật tốt"
+                }
+              ],
+              "id": "5911b753-ee12-4d3a-8d7a-b2ac117974dc",
+              "question": "điều kiện để được tuyển bổ sung vào chương trình tài năng"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 363,
+                  "text": "nếu có đủ các điều kiện sau:\n- Là sinh viên năm thứ hai hoặc năm thứ ba;\n- Ngành học phù hợp với ngành học có chương trình đào tạo tài năng, chuẩn quốc tế, chất lượng cao;\n- Điểm trung bình chung các học phần tính đến thời điểm xét đạt từ 3,20 trở lên và trình độ tiếng Anh đạt chuẩn bậc 3 trở lên;\n- Điểm các học phần tương ứng với học phần trong chương trình đào tạo tài năng, chuẩn quốc tế, chất lượng cao phải đạt từ B trở lên; – Tư cách đạo đức, ý thức tổ chức kỷ luật tốt"
+                }
+              ],
+              "id": "28c4dec4-df94-4b7c-b76c-1296173c511b",
+              "question": "làm sao để được xét bổ sung vào chương trình chất lượng cao"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_106",
+          "context": "Điều 29. Điểm thưởng thành tích nghiên cứu khoa học của sinh viên.\n2. Mức điểm thưởng được quy định như sau:\na) Đạt giải thưởng cấp Đại học Quốc gia Hà Nội hoặc cấp Bộ Giáo dục và Đào tạo:\nGiải nhất: 0,20 điểm;\nGiải nhì: 0,15 điểm;\nGiải ba: 0,10 điểm;\nGiải khuyến khích: 0,07 điểm.\nb) Đạt giải thưởng cấp đơn vị đào tạo:\nGiải nhất: 0,10 điểm;\nGiải nhì: 0,07 điểm;\nGiải ba: 0,05 điểm.\nNếu công trình nghiên cứu khoa học do nhiều sinh viên cùng thực hiện thì điểm thưởng được chia đều cho số sinh viên cùng tham gia.\n3. Nếu sinh viên đạt nhiều giải thưởng nghiên cứu khoa học ở các cấp thì chỉ cộng điểm thưởng một lần ở mức giải cao nhất.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 332,
+                  "text": "0,10 điểm"
+                }
+              ],
+              "id": "d037c7f3-bec1-4e7e-ad73-83dd5c98467c",
+              "question": "giải nhất nghiên cứu khoa học cấp đơn vị được thưởng mấy điểm"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 200,
+                  "text": "0,20 điểm"
+                }
+              ],
+              "id": "fdb7b960-883b-4f28-a806-cff3a4777178",
+              "question": "đạt giải nghiên cứu khoa học có thể được cộng tối đa bao nhiêu"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 373,
+                  "text": "0,05 điểm"
+                }
+              ],
+              "id": "bca4199b-5cb1-4e84-b268-3eba8ac2c32e",
+              "question": "khi đạt giải nghiên cứu khoa học, được thưởng ít nhất mấy điểm"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 469,
+                  "text": "được chia đều cho số sinh viên cùng tham gia"
+                }
+              ],
+              "id": "d0591cd8-f94e-4acb-91ac-fceb8e9371c5",
+              "question": "nếu có nhiều sinh viên thực hiện công trình thì điểm thưởng tính như thế nào"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 469,
+                  "text": "được chia đều cho số sinh viên cùng tham gia"
+                }
+              ],
+              "id": "765a5faf-e5d6-4020-98cb-1bfd501e0b16",
+              "question": "khi đề tài nghiên cứu có nhiều sinh viên tham gia thì điểm thưởng chia thế nào"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 588,
+                  "text": "chỉ cộng điểm thưởng một lần ở mức giải cao nhất"
+                }
+              ],
+              "id": "697d6909-4a03-44c0-8343-455640a626e4",
+              "question": "khi đạt nhiều giải nghiên cứu khoa học thì điểm cộng được thế nào"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_113",
+          "context": "Điều 31. Cố vấn học tập.\n1. Cố vấn học tập là giảng viên có trình độ thạc sĩ trở lên, có ít nhất 2 năm trực tiếp giảng dạy, am hiểu chương trình đào tạo.\n2. Thủ trưởng đơn vị đào tạo quy định phương thức tổ chức hoạt động của cố vấn học tập.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 46,
+                  "text": "giảng viên có trình độ thạc sĩ trở lên, có ít nhất 2 năm trực tiếp giảng dạy, am hiểu chương trình đào tạo"
+                }
+              ],
+              "id": "a3139dfb-308f-423a-b95d-77225ef8a81b",
+              "question": "Cố vấn học tập là như nào"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_119",
+          "context": "Điều 32. Nghĩa vụ của sinh viên.\n3. Những việc sinh viên không được làm: sử dụng văn bằng, chứng chỉ giả; vi phạm kỷ luật phòng thi, xin điểm; học, thi, thực tập hộ người khác hoặc nhờ người khác học, thi, thực tập hộ; sao chép tài liệu mà không trích dẫn hoặc nhờ làm hộ tiểu luận, khoá luận, đồ án tốt nghiệp, công trình nghiên cứu khoa học; thực hiện, tham gia các hoạt động trái pháp luật.\nSinh viên không trung thực và có hành vi gian lận trong nghiên cứu khoa học, làm tiểu luận, khoá luận, đồ án tốt nghiệp, bị kỷ luật từ mức đình chỉ học tập một năm đến mức buộc thôi học. ",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 515,
+                  "text": "bị kỷ luật từ mức đình chỉ học tập một năm đến mức buộc thôi học"
+                }
+              ],
+              "id": "753107c9-a481-450f-a6e2-eeb8d211a619",
+              "question": "sinh viên gian lận thì sẽ nhận hậu quả gì"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_120",
+          "context": "Điều 32. Nghĩa vụ của sinh viên.\n4. Sinh viên có trách nhiệm thực hiện đúng các quy định về kỷ luật phòng thi, nếu vi phạm sẽ bị kỷ luật ở các mức: khiển trách, cảnh cáo và đình chỉ thi.\na) Khiển trách: áp dụng đối với sinh viên phạm lỗi 1 lần nhìn bài của người khác, trao đổi bài, thảo luận bài trong giờ thi. Sinh viên bị khiển trách khi thi học phần nào sẽ bị trừ 25% số điểm đạt được của bài thi học phần đó;\nb) Cảnh cáo: áp dụng đối với sinh viên vi phạm một trong các lỗi:\n- Đã bị khiển trách 1 lần nhưng trong giờ thi học phần đó vẫn tiếp tục vi phạm quy định;\n- Trao đổi bài làm, giấy nháp với người khác;\n- Chép bài của người khác. Những bài thi đã có kết luận là giống nhau thì xử lý như nhau, trừ trường hợp người bị xử lý có đủ bằng chứng chứng tỏ mình thực sự bị quay cóp thì thủ trưởng đơn vị đào tạo có thể xem xét giảm từ mức kỷ luật cảnh cáo xuống mức khiển trách. \nSinh viên bị cảnh cáo khi thi học phần nào sẽ bị trừ 50% số điểm đạt được của bài thi học phần đó.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 148,
+                  "text": "khiển trách, cảnh cáo và đình chỉ thi"
+                }
+              ],
+              "id": "47e243dd-3031-4eb7-8529-194dcd217559",
+              "question": "các mức kỷ luật thi cử là gì"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 148,
+                  "text": "khiển trách, cảnh cáo và đình chỉ thi"
+                }
+              ],
+              "id": "82aed49e-2894-4c31-9eb4-ae4d6a523ac5",
+              "question": "khi vi phạm luật phòng thi, sinh viên chịu hình phạt gì"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 361,
+                  "text": "bị trừ 25% số điểm đạt được của bài thi học phần đó"
+                }
+              ],
+              "id": "82aed49e-2894-4c31-9eb4-ae4d6a523ac6",
+              "question": "hậu quả của việc bị khiển trách khi thi là gì"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 190,
+                  "text": "Khiển trách"
+                }
+              ],
+              "id": "82aed49e-2894-4c31-9eb4-ae4d6a523ac7",
+              "question": "nếu nhìn bài người khác thì bị gì"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 937,
+                  "text": "50% số điểm đạt được của bài thi học phần đó"
+                }
+              ],
+              "id": "82aed49e-2894-4c31-9eb4-ae4d6a523ac8",
+              "question": "nếu bị phát hiện chép bài thì bị trừ bao nhiêu điểm"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 930,
+                  "text": "bị trừ 50% số điểm đạt được của bài thi học phần đó"
+                }
+              ],
+              "id": "82aed49e-2894-4c31-9eb4-ae4d6a523ac9",
+              "question": "nếu phạm lỗi chép bài thì bị gì"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 417,
+                  "text": "Cảnh cáo"
+                }
+              ],
+              "id": "82aed49e-2894-4c31-9eb4-ae4d6a523ac0",
+              "question": "hình thức kỷ luật của lỗi chép bài là gì"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 417,
+                  "text": "Cảnh cáo"
+                }
+              ],
+              "id": "82aed49e-2894-4c31-9eb4-ae4d6a523ac1",
+              "question": "nếu đã bị khiển trách nhưng vẫn tái phạm thì chịu phạt gì"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_128",
+          "context": "Điều 34. Đánh giá kết quả học phần.\n2. Kiểm tra đánh giá thường xuyên là hoạt động của giảng viên sử dụng các kỹ thuật đánh giá khác nhau trong các hình thức dạy học nhằm kiểm tra việc nắm vững kiến thức và rèn luyện kỹ năng đã được xác định trong mục tiêu của học phần, đồng thời qua đó có được những thông tin phản hồi giúp giảng viên, sinh viên điều chỉnh cách dạy, cách học, thay đổi phương pháp dạy và học cho phù hợp.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 171,
+                  "text": "kiểm tra việc nắm vững kiến thức và rèn luyện kỹ năng đã được xác định trong mục tiêu của học phần, đồng thời qua đó có được những thông tin phản hồi giúp giảng viên, sinh viên điều chỉnh cách dạy, cách học, thay đổi phương pháp dạy và học cho phù hợp"
+                }
+              ],
+              "id": "80647927-918c-498c-9679-2af106723d46",
+              "question": "mục đích của các bài kiểm tra thường xuyên là gì"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_129",
+          "context": "Điều 34. Đánh giá kết quả học phần.\n3. Kiểm tra đánh giá giữa kỳ là hoạt động của giảng viên vào những thời điểm đã được quy định trong đề cương học phần, nhằm đánh giá mức độ đạt mục tiêu học phần ở giai đoạn tương ứng của sinh viên.\n4. Bài thi kết thúc học phần có thể thực hiện bằng hình thức thi tự luận, trắc nghiệm, vấn đáp, làm bài tập lớn hoặc kết hợp các hình thức trên.\n5. Hình thức kiểm tra đánh giá học phần, trọng số của các điểm kiểm tra đánh giá bộ phận và điểm thi kết thúc học phần được quy định trong đề cương học phần.\n6. Nội dung kiểm tra đánh giá phải phù hợp với nội dung học phần đã quy định trong đề cương học phần. Đáp án và thang điểm chấm điểm bộ phận, chấm bài thi kết thúc học phần phải được biên soạn cùng với đề kiểm tra đánh giá, đề thi. Thủ trưởng đơn vị đào tạo quy định việc sử dụng đề kiểm tra, đề thi do giảng viên đề xuất hoặc lấy từ ngân hàng câu hỏi.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 296,
+                  "text": "thi tự luận, trắc nghiệm, vấn đáp, làm bài tập lớn hoặc kết hợp các hình thức trên"
+                }
+              ],
+              "id": "17a2c76f-881c-4b7f-9761-326cedb5a111",
+              "question": "có những hình thức thi cuối kỳ nào"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 296,
+                  "text": "thi tự luận, trắc nghiệm, vấn đáp, làm bài tập lớn hoặc kết hợp các hình thức trên"
+                }
+              ],
+              "id": "98360393-c768-410a-a08f-34aea382232a",
+              "question": "các hình thức thi kết thúc môn"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 519,
+                  "text": "đề cương học phần"
+                }
+              ],
+              "id": "2f774c3a-a910-4afe-9e5d-bbaa56285cd0",
+              "question": "có thể tìm đọc các hình thức thi, trọng số của các đầu điểm của học phần ở đâu"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 519,
+                  "text": "đề cương học phần"
+                }
+              ],
+              "id": "d20849b8-43b3-42de-97cb-e479daaca9b8",
+              "question": "ở đâu nêu ra trọng số của các điểm thi đánh giá trong môn học"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_133",
+          "context": "Điều 35. Tổ chức kiểm tra đánh giá và thi kết thúc học phần.\n4. Chậm nhất một ngày sau khi kết thúc giảng dạy học phần, giảng viên gửi danh sách sinh viên được dự thi, không được dự thi kết thúc học phần (có nêu rõ lý do) về phòng Đào tạo. Căn cứ đề nghị của giảng viên và nghĩa vụ khác của sinh viên, phòng Đào tạo lập danh sách sinh viên đủ điều kiện dự thi và phân phòng thi.\n5. Thủ trưởng đơn vị đào tạo quy định cụ thể quy trình coi thi và chấm thi.\n6. Các học phần kỹ năng bổ trợ được tổ chức thi và cấp chứng chỉ tại đơn vị phụ trách đào tạo kỹ năng bổ trợ.\n7. Việc chấm thi và công bố điểm học phần được hoàn thành chậm nhất là 15 ngày làm việc kể từ ngày tổ chức thi kết thúc học phần. Thủ trưởng đơn vị đào tạo qui định quy trình thực hiện và quản lý các điểm bộ phận, điểm thi kết thúc học phần và điểm học phần.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 623,
+                  "text": "chậm nhất là 15 ngày làm việc kể từ ngày tổ chức thi kết thúc học phần"
+                }
+              ],
+              "id": "6bc8ee38-0709-4ca3-86f9-4f1da88c7a3a",
+              "question": "khi nào thì có điểm cuối kỳ"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 623,
+                  "text": "chậm nhất là 15 ngày làm việc kể từ ngày tổ chức thi kết thúc học phần"
+                }
+              ],
+              "id": "4192d995-a03b-4e23-b7a4-9df3e1837aca",
+              "question": "bao giờ điểm môn học được công bố"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_143",
+          "context": "Điều 38. Cách tính điểm đánh giá bộ phận, điểm học phần.\n2. Điểm học phần là tổng của điểm đánh giá bộ phận và điểm thi kết thúc học phần sau khi đã tính trọng số được quy định trong đề cương học phần và được làm tròn đến một chữ số thập phân, sau đó được chuyển thành điểm chữ.\na) Loại đạt: \n9,0 – 10 tương ứng với A+;\n8,5 – 8,9 tương ứng với A;\n8,0 – 8,4 tương ứng với B+;\n7,0 – 7,9 tương ứng với B;\n6,5 – 6,9 tương ứng với C+;\n5,5 – 6,4 tương ứng với C;\n5,0 – 5,4 tương ứng với D+;\n4,0 – 4,9 tương ứng với D.\nb) Loại không đạt: Dưới 4,0 tương ứng với F.\nc) Đối với những học phần chưa đủ cơ sở để đưa vào tính điểm trung bình chung học kỳ, khi xếp mức đánh giá được sử dụng các ký hiệu sau:\n- I – Chưa đủ điểm đánh giá bộ phận;\n- X – Chưa có kết quả thi kết thúc học phần.\nd) Đối với những học phần được Thủ trưởng đơn vị đào tạo cho phép chuyển điểm hoặc được đánh giá đầu học kỳ (nếu có), khi xếp mức đánh giá sử dụng ký hiệu R viết sau điểm học phần.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 77,
+                  "text": "tổng của điểm đánh giá bộ phận và điểm thi kết thúc học phần sau khi đã tính trọng số được quy định trong đề cương học phần và được làm tròn đến một chữ số thập phân, sau đó được chuyển thành điểm chữ"
+                }
+              ],
+              "id": "a9610903-18ff-45ba-85dd-98dcfa5951a0",
+              "question": "điểm học phần là gì"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 222,
+                  "text": "một chữ số"
+                }
+              ],
+              "id": "631b671b-0dce-4bd1-bfd9-0fac4f878e18",
+              "question": "điểm môn học được làm tròn mấy chữ số sau dấu phẩy"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 316,
+                  "text": "A+"
+                }
+              ],
+              "id": "8cf9181a-2469-466b-8bd2-19ce6152ac5c",
+              "question": "9 điểm ứng với điểm chữ gì"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 399,
+                  "text": "B"
+                }
+              ],
+              "id": "a05285f0-502c-477c-afbb-1caea2c220ce",
+              "question": "7,6 điểm là điểm chữ gì"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 554,
+                  "text": "F"
+                }
+              ],
+              "id": "d49c2827-6793-40f1-b5a1-77c3e8511158",
+              "question": "3 điểm thì ứng với điểm chữ nào"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 320,
+                  "text": "8,5 – 8,9"
+                }
+              ],
+              "id": "260caeea-ec48-440a-9065-16c2bb915424",
+              "question": "điểm A là bao nhiêu trong thang điểm 10"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 402,
+                  "text": "6,5 – 6,9"
+                }
+              ],
+              "id": "c9b5c5f0-b305-4ad8-833c-5ef59317c59f",
+              "question": "điểm C+ ứng với mấy điểm hệ 10"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 485,
+                  "text": "4,0 – 4,9"
+                }
+              ],
+              "id": "8a3ece33-b4e9-4582-91d8-68df35c3faf1",
+              "question": "trong thang điểm 10, D tương ứng với bao nhiêu"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 531,
+                  "text": "Dưới 4,0"
+                }
+              ],
+              "id": "ae3bb3ea-bfe9-490b-8309-d632fdd603ca",
+              "question": "mấy điểm thì là điểm F"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 347,
+                  "text": "8,0 – 8,4"
+                }
+              ],
+              "id": "6e87293f-a3cd-4fd7-a1c4-09866dd53f64",
+              "question": "bao nhiêu điểm thì đạt được B+"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_145",
+          "context": "Điều 38. Cách tính điểm đánh giá bộ phận, điểm học phần.\n4. Việc xếp loại ở mức điểm F, ngoài những trường hợp như đã quy định tại khoản 2, Điều này, còn áp dụng cho trường hợp sinh viên vi phạm nội quy thi, có quyết định phải nhận mức điểm F.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 241,
+                  "text": "F"
+                }
+              ],
+              "id": "90644e62-ad24-4426-bf5b-c4e0ce3fd5ec",
+              "question": "sinh viên nhận điểm mấy nếu vi phạm nội quy thi "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_153",
+          "context": "Điều 40. Cách tính điểm trung bình chung .\nKết quả đánh giá học phần ngoại ngữ, giáo dục quốc phòng – an ninh, giáo dục thể chất, kỹ năng bổ trợ không tính vào điểm trung bình chung học kỳ, điểm trung bình chung các học phần và điểm trung bình chung tích luỹ.\nĐiểm trung bình chung học kỳ được dùng để xét cảnh báo học vụ, buộc thôi học, nghỉ học tạm thời, xếp loại học lực, học bổng, khen thưởng sau mỗi học kỳ. \nĐiểm trung bình chung các học phần được dùng để đăng ký học cùng lúc chương trình đào tạo thứ hai, chuyển đổi sinh viên giữa các chương trình đào tạo.\nĐiểm trung bình chung tích luỹ được dùng để cảnh báo học vụ, xét buộc thôi học, xếp hạng tốt nghiệp.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 145,
+                  "text": "không"
+                }
+              ],
+              "id": "9cedbb3e-aba2-4d09-be32-a9823174ed24",
+              "question": "kết quả môn học thể chất có tính vào điểm trung bình không"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_162",
+          "context": "Điều 43. Điều kiện tốt nghiệp.\n1. Sinh viên sau khi hoàn thành chương trình đào tạo được xét công nhận tốt nghiệp nếu có đủ các điều kiện sau:\na) Trong thời gian học tập tối đa của khoá học;\nb) Cho đến thời điểm xét tốt nghiệp, sinh viên không đang trong thời gian bị truy cứu trách nhiệm hình sự;\nc) Tích luỹ đủ số tín chỉ quy định trong chương trình đào tạo;\nd) Điểm trung bình chung tích luỹ của khoá học đạt từ 2,00 trở lên. Đối với chương trình đào tạo tài năng, chất lượng cao và chuẩn quốc tế, đạt từ 2,50 trở lên;\nđ) Đạt trình độ ngoại ngữ quy định tại khoản 3, Điều 12 của Quy chế này; \ne) Đáp ứng những yêu cầu về kết quả học tập đối với một số học phần chuyên môn đặc thù mà Đại học Quốc gia Hà Nội và đơn vị đào tạo có quy định bằng văn bản;\nf) Được đánh giá đạt các học phần giáo dục quốc phòng – an ninh, giáo dục thể chất và kỹ năng bổ trợ;\ng) Có đơn gửi Phòng Đào tạo đề nghị được xét tốt nghiệp trong trường hợp đủ điều kiện tốt nghiệp sớm hoặc muộn so với thời gian thiết kế của khoá học.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 508,
+                  "text": "2,50 trở lên"
+                }
+              ],
+              "id": "6aaa7085-f7cd-47f6-9cab-c97916017deb",
+              "question": "sinh viên chương trình chất lượng cao phải đạt điểm trung bình là bao nhiêu để có thể tốt nghiệp"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 415,
+                  "text": "2,00 trở lên"
+                }
+              ],
+              "id": "a1708a30-e1a7-4f8b-9cd0-627ff01d30c2",
+              "question": "số điểm đủ điều điện để tốt nghiệp là mấy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_166",
+          "context": "Điều 44. Công nhận tốt nghiệp và cấp bằng đại học.\n1. Định kỳ mỗi năm 4 lần (tháng 3; tháng 6 và tháng 7; tháng 9; tháng 12), Thủ trưởng đơn vị đào tạo ra quyết định thành lập Hội đồng xét tốt nghiệp cho sinh viên đã hoàn thành chương trình đào tạo của đơn vị. Hội đồng xét tốt nghiệp do Thủ trưởng hoặc cấp phó của Thủ trưởng đơn vị đào tạo làm Chủ tịch, đại diện lãnh đạo phòng Đào tạo làm uỷ viên thư ký và một số uỷ viên khác.\n2. Trên cơ sở đề nghị của Hội đồng xét tốt nghiệp, Hiệu trưởng trường đại học thành viên ra quyết định công nhận tốt nghiệp và cấp bằng đại học cho sinh viên đào tạo tại trường mình, Giám đốc Đại học Quốc gia Hà Nội ra quyết định công nhận tốt nghiệp và cấp bằng đại học cho sinh viên đào tạo tại Khoa trực thuộc theo đề nghị của Chủ nhiệm khoa.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 70,
+                  "text": "4 lần"
+                }
+              ],
+              "id": "6d90896d-0d18-45ba-a1a0-7ac77f8d3849",
+              "question": "có mấy lần xét tốt nghiệp mỗi năm"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 70,
+                  "text": "4 lần"
+                }
+              ],
+              "id": "4079cb8b-7fdd-4f55-a3e4-5472632af714",
+              "question": "một năm có mấy đợt xét tốt nghiệp"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 77,
+                  "text": "tháng 3; tháng 6 và tháng 7; tháng 9; tháng 12"
+                }
+              ],
+              "id": "6d373266-df05-440c-94d5-1683afa586a7",
+              "question": "thời điểm của các lần xét tốt nghiệp là bao giờ"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 77,
+                  "text": "tháng 3; tháng 6 và tháng 7; tháng 9; tháng 12"
+                }
+              ],
+              "id": "dbb3a4b7-aab1-4a6c-a537-92c1b74b38bb",
+              "question": "các đợt xét tốt nghiệp diễn ra lúc nào"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcdt_168",
+          "context": "Điều 44. Công nhận tốt nghiệp và cấp bằng đại học.\n5. Hạng tốt nghiệp được xác định theo điểm trung bình chung tích luỹ của toàn khoá học, cụ thể như sau:\na) Xuất sắc: Điểm trung bình chung tích luỹ từ 3,60 đến 4,00;\nb) Giỏi: Điểm trung bình chung tích luỹ từ 3,20 đến 3,59;\nc) Khá: Điểm trung bình chung tích luỹ từ 2,50 đến 3,19;\nd) Trung bình: Điểm trung bình chung tích luỹ từ 2,00 đến 2,49.\n6. Hạng tốt nghiệp cho sinh viên học văn bằng thứ hai hoặc học cùng lúc hai chương trình đào tạo được xét theo kết quả học tập các học phần được bảo lưu của chương trình đào tạo thứ nhất và kết quả học tập các học phần được tích luỹ trong thời gian học chương trình đào tạo thứ hai.\n7. Những sinh viên có kết quả học tập toàn khoá đạt hạng xuất sắc hoặc giỏi, hạng tốt nghiệp sẽ bị hạ một hạng nếu bị kỷ luật từ mức cảnh cáo trở lên trong thời gian học.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 756,
+                  "text": "hạng tốt nghiệp sẽ bị hạ một hạng nếu bị kỷ luật từ mức cảnh cáo trở lên trong thời gian học"
+                }
+              ],
+              "id": "fe193d74-a48a-4865-9df2-d2777ddd084f",
+              "question": "khi bị kỷ luật thì bị hạ hạng tốt nghiệp như nào"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 317,
+                  "text": "2,50"
+                }
+              ],
+              "id": "ff6d3d95-de85-4580-8bee-a9b192b79e90",
+              "question": "phải đạt được mấy điểm để tốt nghiệp hạng khá"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 202,
+                  "text": "3,60 đến 4,00"
+                }
+              ],
+              "id": "b189907d-d592-4457-8064-412551b9c7c5",
+              "question": "hạng xuất sắc tương ứng với bao nhiêu điểm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcctsv_7",
+          "context": "Điều 3. Công tác sinh viên.\nCông tác sinh viên là một trong những nhiệm vụ trọng tâm của ĐHQGHN, bao gồm tổng thể các hoạt động giáo dục đào tạo, tuyên truyền, quản lý, dịch vụ, tư vấn, hướng nghiệp, hỗ trợ, chăm sóc toàn diện đời sống vật chất, tinh thần của sinh viên cả trong và ngoài giảng đường nhằm đảm bảo các mục tiêu của giáo dục đại học.\nCông tác sinh viên tại ĐHQGHN phải thực hiện đúng chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước, các quy định của Bộ Giáo dục và Đào tạo, các Bộ, Ngành liên quan, phù hợp với tính đặc thù của mô hình Đại học Quốc gia và định hướng, chiến lược phát triển của ĐHQGHN.\nCông tác sinh viên phải đảm bảo dân chủ, khách quan, công bằng, công khai, minh bạch trong các vấn đề liên quan đến sinh viên.",
+          "qas": [
+            {
+              "question": "công tác sinh viên là gì",
+              "id": "d4336b33-3395-493a-b86a-61fe482ec5f1",
+              "answers": [
+                {
+                  "answer_start": 50,
+                  "text": "một trong những nhiệm vụ trọng tâm của ĐHQGHN, bao gồm tổng thể các hoạt động giáo dục đào tạo, tuyên truyền, quản lý, dịch vụ, tư vấn, hướng nghiệp, hỗ trợ, chăm sóc toàn diện đời sống vật chất, tinh thần của sinh viên cả trong và ngoài giảng đường nhằm đảm bảo các mục tiêu của giáo dục đại học"
+                }
+              ]
+            },
+            {
+              "question": "công tác sinh viên để làm gì",
+              "id": "89cae3e6-0c22-484b-87b4-03fb5079e577",
+              "answers": [
+                {
+                  "answer_start": 305,
+                  "text": "đảm bảo các mục tiêu của giáo dục đại học"
+                }
+              ]
+            },
+            {
+              "question": "mục đích của công tác sinh viên là gì",
+              "id": "10cf201c-f93a-46c0-bc7f-645283bf9f5f",
+              "answers": [
+                {
+                  "answer_start": 305,
+                  "text": "đảm bảo các mục tiêu của giáo dục đại học"
+                }
+              ]
+            },
+            {
+              "question": "công tác sinh viên có những hoạt động gì",
+              "id": "0e0bc567-6abd-4dc8-a4d0-1e2b5f15f43b",
+              "answers": [
+                {
+                  "answer_start": 128,
+                  "text": "giáo dục đào tạo, tuyên truyền, quản lý, dịch vụ, tư vấn, hướng nghiệp, hỗ trợ, chăm sóc toàn diện đời sống vật chất, tinh thần của sinh viên"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcctsv_35",
+          "context": "Điều 11. Lớp khoá học.\nc) Quyền lợi của ban cán sự lớp khoá học: Được ưu tiên cộng điểm rèn luyện và các chế độ khác theo quy định của đơn vị đào tạo.\nd) Ban cán sự lớp khoá học không được lợi dụng chức trách, nhiệm vụ, danh nghĩa để làm những việc sai trái có ảnh hưởng đến tập thể lớp và đơn vị.",
+          "qas": [
+            {
+              "question": "quyền lợi của việc làm lớp trưởng trong lớp học là gì",
+              "id": "65fad70e-c748-4cbb-ae64-731336da6857",
+              "answers": [
+                {
+                  "answer_start": 65,
+                  "text": "Được ưu tiên cộng điểm rèn luyện và các chế độ khác theo quy định của đơn vị đào tạo"
+                }
+              ]
+            },
+            {
+              "question": "làm lớp trưởng thì có lợi ích gì",
+              "id": "f5720e0a-2594-449b-9483-ad8bc406bd36",
+              "answers": [
+                {
+                  "answer_start": 65,
+                  "text": "Được ưu tiên cộng điểm rèn luyện và các chế độ khác theo quy định của đơn vị đào tạo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcctsv_50",
+          "context": "Điều 14. Công tác quản lý sinh viên..\ne) Hồ sơ sinh viên được lưu trữ, quản lý dưới dạng văn bản và dạng file điện tử theo mẫu quy định hiện hành và được cập nhật đầy đủ, thường xuyên lên cổng thông tin sinh viên của ĐHQGHN.",
+          "qas": [
+            {
+              "question": "hồ sơ của sinh viên được lưu ở đâu",
+              "id": "9a2140f2-2935-47ef-83da-004e906920c8",
+              "answers": [
+                {
+                  "answer_start": 188,
+                  "text": "cổng thông tin sinh viên của ĐHQGHN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcctsv_60",
+          "context": "Điều 15. Hỗ trợ và dịch vụ sinh viên.\n3. Tư vấn tâm lý, chăm sóc sức khoẻ:\na) Tư vấn, hỗ trợ sinh viên khi gặp phải các vấn đề về tâm lý – xã hội; phối hợp tổ chức các dịch vụ tư vấn, chăm sóc sức khoẻ để có sự hỗ trợ, can thiệp cần thiết khi sinh viên gặp phải các vấn đề ảnh hưởng đến thể chất và tinh thần;\nb) Tổ chức khám sức khoẻ đầu vào và định kỳ cho sinh viên; tư vấn, tổ chức cho sinh viên thực hiện Luật bảo hiểm y tế; sơ, cấp cứu, khám chữa bệnh ban đầu cho sinh viên.",
+          "qas": [
+            {
+              "question": "trường có hỗ trợ tư vấn tâm lý không",
+              "id": "39f32f19-2a39-488b-a299-2b75b24ff4f5",
+              "answers": [
+                {
+                  "answer_start": 78,
+                  "text": "Tư vấn, hỗ trợ sinh viên khi gặp phải các vấn đề về tâm lý"
+                }
+              ]
+            },
+            {
+              "question": "sinh viên được quan tâm về sức khoẻ tinh thần như thế nào",
+              "id": "bac56bb6-fde3-4313-982e-5d0cb5e379c8",
+              "answers": [
+                {
+                  "answer_start": 78,
+                  "text": "Tư vấn, hỗ trợ sinh viên khi gặp phải các vấn đề về tâm lý – xã hội; phối hợp tổ chức các dịch vụ tư vấn, chăm sóc sức khoẻ để có sự hỗ trợ, can thiệp cần thiết khi sinh viên gặp phải các vấn đề ảnh hưởng đến thể chất và tinh thần"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcctsv_80",
+          "context": "Điều 23. Nội dung đánh giá rèn luyện.\n1. Đánh giá kết quả rèn luyện là đánh giá ý thức, thái độ, phẩm chất chính trị, đạo đức, lối sống của từng sinh viên trên các mặt:\na) Thực hiện nghĩa vụ đào tạo và nghiên cứu khoa học: Ý thức và kết quả học tập, nghiên cứu khoa học;\nb) Ý thức chấp hành nội quy, quy chế của ĐHQGHN, các đơn vị;\nc) Ý thức tham gia các hoạt động chính trị – xã hội, văn hoá, văn nghệ, thể thao, phòng chống các tệ nạn xã hội;\nd) Ý thức công dân, quan hệ với cộng đồng;\ne) Ý thức, kết quả tham gia công tác của trường, khoa, lớp, các đoàn thể, tổ chức khác trong đơn vị.\ng) Điểm rèn luyện được đánh giá bằng thang điểm 100.",
+          "qas": [
+            {
+              "question": "đánh giá điểm rèn luyện là sao",
+              "id": "6ff0a305-0d7c-4d41-baef-f84d643fe49b",
+              "answers": [
+                {
+                  "answer_start": 71,
+                  "text": "đánh giá ý thức, thái độ, phẩm chất chính trị, đạo đức, lối sống của từng sinh viên"
+                }
+              ]
+            },
+            {
+              "question": "điểm rèn luyện tối đa là bao nhiêu",
+              "id": "67751a79-cf1a-48fd-a710-d7582a372d93",
+              "answers": [
+                {
+                  "answer_start": 637,
+                  "text": "100"
+                }
+              ]
+            },
+            {
+              "question": "điểm rèn luyện đánh giá theo thang điểm mấy",
+              "id": "9ab0ca7b-93dd-4d18-9a14-1bf3126c7c11",
+              "answers": [
+                {
+                  "answer_start": 637,
+                  "text": "100"
+                }
+              ]
+            },
+            {
+              "question": "việc đánh giá rèn luyện là đánh giá những cái gì",
+              "id": "bd12b834-ba6c-43a6-838c-71a98752c45e",
+              "answers": [
+                {
+                  "answer_start": 80,
+                  "text": "ý thức, thái độ, phẩm chất chính trị, đạo đức, lối sống"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcctsv_81",
+          "context": "Điều 23. Nội dung đánh giá rèn luyện.\n2. Việc đánh giá kết quả rèn luyện của sinh viên được tiến hành định kỳ theo học kỳ, năm học và toàn khoá học: Điểm rèn luyện của học kỳ là tổng điểm đạt được của 5 nội dung đánh giá chi tiết tại Điều 25; Điểm rèn luyện của năm học là trung bình cộng của điểm rèn luyện các học kỳ của năm học đó; Điểm rèn luyện toàn khoá học là trung bình cộng của điểm rèn luyện các học kỳ của khoá học.\n3. Thủ trưởng các đơn vị căn cứ vào đặc điểm, điều kiện cụ thể của đơn vị mình xây dựng quy trình đánh giá, quy định các tiêu chí và mức điểm chi tiết cho phù hợp với các nội dung đánh giá và không vượt quá khung điểm quy định của Quy chế này.",
+          "qas": [
+            {
+              "question": "điểm rèn luyện theo năm học tính như thế nào",
+              "id": "6c3a5dd2-941f-4085-92a1-9d8fffbfc161",
+              "answers": [
+                {
+                  "answer_start": 273,
+                  "text": "trung bình cộng của điểm rèn luyện các học kỳ của năm học đó"
+                }
+              ]
+            },
+            {
+              "question": "cách tính điểm rèn luyện cả khoá học là gì",
+              "id": "e25e89cf-40c8-4101-8c32-bdeeefc37428",
+              "answers": [
+                {
+                  "answer_start": 367,
+                  "text": "trung bình cộng của điểm rèn luyện các học kỳ của khoá học"
+                }
+              ]
+            },
+            {
+              "question": "làm sao để tính điểm rèn luyện toàn khoá học",
+              "id": "b3d46de3-35de-407a-b759-af4bbacd0634",
+              "answers": [
+                {
+                  "answer_start": 367,
+                  "text": "trung bình cộng của điểm rèn luyện các học kỳ của khoá học"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcctsv_89",
+          "context": "Điều 25. Phân loại kết quả rèn luyện.\n1. Kết quả rèn luyện được phân thành các loại: xuất sắc, tốt, khá, trung bình, yếu và kém.\na) Từ 90 đến 100 điểm: loại xuất sắc;\nb) Từ 80 đến dưới 90 điểm: loại tốt;\nc) Từ 65 đến dưới 80 điểm: loại khá;\nd) Từ 50 đến dưới 65 điểm: loại trung bình;\ne) Từ 35 đến dưới 50 điểm: loại yếu;\ng) Dưới 35 điểm: loại kém.",
+          "qas": [
+            {
+              "question": "có các loại kết quả rèn luyện nào",
+              "id": "c8585581-b4c1-4cba-ae56-70516c499a43",
+              "answers": [
+                {
+                  "answer_start": 85,
+                  "text": "xuất sắc, tốt, khá, trung bình, yếu và kém"
+                }
+              ]
+            },
+            {
+              "question": "kết quả rèn luyện chia thành những bậc gì",
+              "id": "3f1b617d-e9cc-411a-be1f-242cbc62d5ed",
+              "answers": [
+                {
+                  "answer_start": 85,
+                  "text": "xuất sắc, tốt, khá, trung bình, yếu và kém"
+                }
+              ]
+            },
+            {
+              "question": "kết quả rèn luyện tốt nhất có thể đạt được là gì",
+              "id": "434c3e3e-2126-42e8-abe4-a2131d52d3fa",
+              "answers": [
+                {
+                  "answer_start": 157,
+                  "text": "xuất sắc"
+                }
+              ]
+            },
+            {
+              "question": "kết quả đánh giá rèn luyện tệ nhất là loại gì",
+              "id": "812e7f69-52ae-4f48-b7f3-97199cb08ab5",
+              "answers": [
+                {
+                  "answer_start": 344,
+                  "text": "kém"
+                }
+              ]
+            },
+            {
+              "question": "mấy điểm trở lên thì được rèn luyện loại tốt",
+              "id": "da96f4f5-89fe-40fb-959c-2a41dec27987",
+              "answers": [
+                {
+                  "answer_start": 173,
+                  "text": "80"
+                }
+              ]
+            },
+            {
+              "question": "điểm rèn luyện tương ứng với xếp loại khá là bao nhiêu",
+              "id": "11bbec94-2efa-46eb-8115-85b801c08b56",
+              "answers": [
+                {
+                  "answer_start": 210,
+                  "text": "65 đến dưới 80"
+                }
+              ]
+            },
+            {
+              "question": "em được 60 điểm rèn luyện thì là xếp loại nào",
+              "id": "d06172e0-d34f-4ebb-84d3-646c66f633ac",
+              "answers": [
+                {
+                  "answer_start": 273,
+                  "text": "trung bình"
+                }
+              ]
+            },
+            {
+              "question": "để được xuất sắc trong đánh giá rèn luyện thì cần đạt mấy điểm",
+              "id": "dd8031db-b4f8-415a-b5d8-a8ac34ee53dc",
+              "answers": [
+                {
+                  "answer_start": 135,
+                  "text": "90"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcctsv_92",
+          "context": "Điều 25. Phân loại kết quả rèn luyện.\n6. Sinh viên khuyết tật, tàn tật, mồ côi cả cha lẫn mẹ hoặc cha hoặc mẹ, hoàn cảnh đặc biệt khó khăn có xác nhận của địa phương theo quy định đối với những hoạt động rèn luyện không có khả năng tham gia hoặc đáp ứng yêu cầu chung thì được ưu tiên, động viên, khuyến khích, cộng điểm khi đánh giá kết quả rèn luyện qua sự nỗ lực và tiến bộ của sinh viên tuỳ thuộc vào đối tượng và hoàn cảnh cụ thể.",
+          "qas": [
+            {
+              "question": "sinh viên hoàn cảnh khó khăn có được hỗ trợ khi đánh giá rèn luyện không",
+              "id": "c9dc44fe-5d9f-4c08-a466-74b9900710ee",
+              "answers": [
+                {
+                  "answer_start": 272,
+                  "text": "được"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcctsv_94",
+          "context": "Điều 25. Phân loại kết quả rèn luyện.\n8. Sinh viên học đồng thời hai chương trình đào tạo sẽ được đánh giá kết quả rèn luyện tại đơn vị quản lý chương trình thứ nhất và lấy ý kiến nhận xét của đơn vị quản lý chương trình thứ hai làm căn cứ, cơ sở để đánh giá thêm. Trường hợp chương trình thứ nhất đã hoàn thành thì đơn vị quản lý chương trình thứ hai sẽ tiếp tục đánh giá kết quả rèn luyện của sinh viên.",
+          "qas": [
+            {
+              "question": "sinh viên theo học bằng kép thì điểm rèn luyện được đánh giá như thế nào",
+              "id": "655b6a16-3b11-46fb-b075-e3289e6696d5",
+              "answers": [
+                {
+                  "answer_start": 93,
+                  "text": "được đánh giá kết quả rèn luyện tại đơn vị quản lý chương trình thứ nhất và lấy ý kiến nhận xét của đơn vị quản lý chương trình thứ hai làm căn cứ, cơ sở để đánh giá thêm"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcctsv_102",
+          "context": "Điều 27. Sử dụng kết quả rèn luyện.\nKết quả đánh giá rèn luyện từng học kỳ, năm học và toàn khoá học của sinh viên được lưu trong hồ sơ quản lý sinh viên của đơn vị, được sử dụng trong việc xét duyệt học bổng, xét khen thưởng – kỷ luật, xét thôi học, ngừng học, xét ưu tiên nội trú trong ký túc xá, tham gia các hoạt động giao lưu, trao đổi sinh viên quốc tế.\nKết quả đánh giá rèn luyện toàn khoá học của sinh viên được lưu trong hồ sơ quản lý sinh viên, làm căn cứ để xét thi tốt nghiệp, làm khoá luận tốt nghiệp.",
+          "qas": [
+            {
+              "question": "mục đích của đánh giá điểm rèn luyện là gì",
+              "id": "879cb9fd-c5d5-4e0c-a9b0-9454f15598b3",
+              "answers": [
+                {
+                  "answer_start": 190,
+                  "text": "xét duyệt học bổng, xét khen thưởng – kỷ luật, xét thôi học, ngừng học, xét ưu tiên nội trú trong ký túc xá, tham gia các hoạt động giao lưu, trao đổi sinh viên quốc tế"
+                }
+              ]
+            },
+            {
+              "question": "kết quả rèn luyện dùng để làm gì",
+              "id": "ef8820a1-c920-4517-824b-0e38156a33d3",
+              "answers": [
+                {
+                  "answer_start": 190,
+                  "text": "xét duyệt học bổng, xét khen thưởng – kỷ luật, xét thôi học, ngừng học, xét ưu tiên nội trú trong ký túc xá, tham gia các hoạt động giao lưu, trao đổi sinh viên quốc tế"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "qcctsv_109",
+          "context": "Điều 29. Nội dung và hình thức khen thưởng.\n2. Việc khen thưởng toàn diện, định kỳ đối với cá nhân và tập thể lớp khoá học được tiến hành vào cuối năm học, khoá học. Cụ thể:\na) Đối với cá nhân:\nTặng danh hiệu “Sinh viên Xuất sắc” cho những cá nhân đạt kết quả học tập loại Xuất sắc và không có điểm từ F trở xuống; có điểm rèn luyện loại Xuất sắc.\nTặng danh hiệu “Sinh viên Giỏi” cho những cá nhân đạt kết quả học tập loại Giỏi và không có điểm từ F trở xuống; có điểm rèn luyện từ loại Tốt trở lên.\nTặng danh hiệu “Gương mặt trẻ tiêu biểu cấp cơ sở”, “Gương mặt trẻ tiêu biểu cấp ĐHQGHN” và tặng Bằng khen của Giám đốc ĐHQGHN cho sinh viên xuất sắc thực hiện theo Quy định hiện hành của Đại học Quốc gia Hà Nội.\nKhông xét khen thưởng đối với sinh viên bị kỷ luật hoặc có điểm kết thúc học phần trong năm học đó dưới mức trung bình.",
+          "qas": [
+            {
+              "question": "điều kiện để đạt được danh hiệu sinh viên xuất sắc là gì",
+              "id": "02e742a9-703d-488e-8f3b-a8a55d32b430",
+              "answers": [
+                {
+                  "answer_start": 248,
+                  "text": "đạt kết quả học tập loại Xuất sắc và không có điểm từ F trở xuống; có điểm rèn luyện loại Xuất sắc"
+                }
+              ]
+            },
+            {
+              "question": "để đạt danh hiệu sinh viên giỏi thì cần làm gì",
+              "id": "af7a6d6c-a79b-452f-a6a4-9936af9aec4a",
+              "answers": [
+                {
+                  "answer_start": 398,
+                  "text": "đạt kết quả học tập loại Giỏi và không có điểm từ F trở xuống; có điểm rèn luyện từ loại Tốt trở lên"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "faq_1",
+          "context": "Câu hỏi:Thưa thầy cô, sinh viên CLC có bắt buộc phải hoàn thành môn tiếng Anh trong năm 3 không ạ?\nTrả lời:Trước khi xét tốt nghiệp em đạt chuẩn B2 là được. Chú ý đây là một thử thách không dễ nên nhiều bạn phải thi một vài lần mới đạt đấy. Nên em thi sớm được thì tốt hơn.",
+          "qas": [
+            {
+              "question": "khi nào sinh viên phải đạt chuẩn tiếng Anh để tốt nghiệp",
+              "id": "5646ae8c-0dff-4163-95cb-23f0d1f1cff6",
+              "answers": [
+                {
+                  "answer_start": 107,
+                  "text": "Trước khi xét tốt nghiệp"
+                }
+              ]
+            },
+            {
+              "question": "có bắt buộc phải đạt chuẩn tiếng Anh trước năm thứ 4 ?",
+              "id": "d7a57045-f4ed-4474-9655-3ddc6f267f36",
+              "answers": [
+                {
+                  "answer_start": 107,
+                  "text": "Trước khi xét tốt nghiệp em đạt chuẩn B2 là được"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "faq_3",
+          "context": "Câu hỏi:Cho em hỏi là học nhiều hơn 4 môn tự chọn có được không ạ, và nếu học nhiều hơn 4 môn thì khi lấy điểm chỉ lấy 4 môn điểm cao nhất trong số các môn tự chọn mình học phải không ạ? Việc đăng ký các môn tự chọn có bắt buộc phải theo định hướng không, ví dụ em học môn <Các vấn đề hiện đại của CNPM> thì các môn tự chọn của em cũng bắt buộc phải liên quan đến CNPM hay là em học môn khác, kiểu như <Khai phá dữ liệu> cũng được ạ?\nTrả lời:Về đăng ký môn học thì em có thể đăng ký nhiều hơn 4 môn nhưng đừng nhiều quá chiếm chỗ các bạn khác. Theo quy chế hiện tại thì sẽ lấy điểm của 4 môn đăng ký đầu tiên nếu điểm từ D trở lên. Vì vậy nếu học nhiều hơn 4 môn tự chọn thì nên ghi rõ là môn đó dùng để cải thiện cho môn học nào.\nViệc đăng ký môn học của khoá em không nhất thiết theo định hướng như em nói nhưng nên học nhóm môn liên quan với nhau.",
+          "qas": [
+            {
+              "question": "nếu học nhiều hơn số môn tự chọn cần thiết thì điểm tính như thế nào",
+              "id": "f0aca458-3c8d-4378-94d4-1ad703186e12",
+              "answers": [
+                {
+                  "answer_start": 573,
+                  "text": "lấy điểm của 4 môn đăng ký đầu tiên nếu điểm từ D trở lên"
+                }
+              ]
+            },
+            {
+              "question": "có phải học dư môn tự chọn thì sẽ lấy điểm các môn cao nhất hay thế nào",
+              "id": "af2034a9-f92b-43b5-b66b-71a373a98aee",
+              "answers": [
+                {
+                  "answer_start": 573,
+                  "text": "lấy điểm của 4 môn đăng ký đầu tiên nếu điểm từ D trở lên"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "faq_6",
+          "context": "Câu hỏi:Em là sinh viên lớp CLC nhưng không đăng ký được môn A của lớp CLC do lớp đã đủ số sinh viên, vậy em có thể học 1 trong các lớp môn A còn lại được không ạ?\nTrả lời:Trong khung chương trình CLC, nếu A là môn * thì sinh viên lớp CLC không học cùng hệ chuẩn được. SV có thể đăng ký vào lớp dành cho NVCL, nếu không thì làm đơn xin bổ sung vào lớp dành cho CLC và nộp ở Phòng Đào tạo.",
+          "qas": [
+            {
+              "question": "sinh viên lớp chất lượng cao có thể học môn của lớp hệ chuẩn không",
+              "id": "33f48477-8b0e-499a-97ea-b68a461d5ef6",
+              "answers": [
+                {
+                  "answer_start": 202,
+                  "text": "nếu A là môn * thì sinh viên lớp CLC không học cùng hệ chuẩn được"
+                }
+              ]
+            },
+            {
+              "question": "nếu không đăng ký được môn bắt buộc của lớp chất lượng cao thì phải làm sao",
+              "id": "204add8e-901a-4ad6-a074-9982f6e7696a",
+              "answers": [
+                {
+                  "answer_start": 269,
+                  "text": "SV có thể đăng ký vào lớp dành cho NVCL, nếu không thì làm đơn xin bổ sung vào lớp dành cho CLC và nộp ở Phòng Đào tạo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "faq_11",
+          "context": "Câu hỏi:Thưa thầy/cô, cho em hỏi là với sinh viên có cần phải đăng ký môn Thực tập chuyên ngành (TTCN) trên trang đăng ký môn học hay không ạ? Hay việc đăng ký chỉ dành cho những bạn chưa đi thực tập trong đợt hè ạ?\nTrả lời:Chào em. Các em vẫn cần đăng ký môn TTCN trên trang đăng ký môn học. Lý do là để trường quản lý việc đăng ký học và thu phí môn học cho thống nhất.\nCác mốc thời gian quan trọng của môn TTCN được ghi rất chi tiết trong thông báo đầu tiên của môn vào vào khoảng cuối tháng 5 hàng năm. Các em cần đọc kỹ thông báo và không nên nghe qua các bạn khác.",
+          "qas": [
+            {
+              "question": "có cần thiết phải đăng ký môn thực tập trên web đăng ký học không",
+              "id": "933bd371-9736-4788-8b37-dd184315462b",
+              "answers": [
+                {
+                  "answer_start": 244,
+                  "text": "cần"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "faq_13",
+          "context": "Câu hỏi:Thưa thầy cô, em có 2 câu hỏi về thực tập:\n1.Trong kì hè vừa qua em chưa đi thực tập được vì thế em có phải đăng vào môn thực tập chuyên nghành không ?\n2. trong học kì này khoa sẽ tự phân công thực tập chuyên nghành hay là em phải tự chủ động để đăng kí ?\nTrả lời:1. Môn TTCN chỉ được tổ chức vào dịp hè. Với sinh viên đi thực tập tại công ty thì môn này sẽ kết thúc vào tháng 9, với các sinh viên thực tập tại trường thì kết thúc vào tháng 10. Vì vậy, nếu trong hè em không đi thực tập được thì phải chờ đến hè năm sau.\n2. Chi tiết và cách thức tổ chức và các mốc thời gian quan trọng của môn TTCN được ghi rất chi tiết trong thông báo đầu tiên của môn vào vào khoảng cuối tháng 5 hàng năm. Các em cần đọc kỹ thông báo và không nên nghe qua các bạn khác.",
+          "qas": [
+            {
+              "question": "nếu không hoàn thành kỳ thực tập hè thì sao",
+              "id": "a4b2c8b4-cf7d-4b0a-9127-961b635cba9a",
+              "answers": [
+                {
+                  "answer_start": 504,
+                  "text": "phải chờ đến hè năm sau"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "faq_27",
+          "context": "Sự khác nhau giữa chương trình CNTT CLC và chương trình CLC TT23 ?\n📍 Những điểm khác biệt so với lớp CNTT CLC:\n👉 Học phí: Lớp CLC TT23 có học phí 35 triệu / năm, trong khi đó lớp CNTT CLC học phí sẽ vẫn như hệ thường.\n👉 Chỉ cần thi đủ điểm chuẩn là bạn có thể vào nhóm ngành CLC, sau đấy sẽ có 1 bài kiểm tra để nhà trường phân lớp các bạn hợp lý.",
+          "qas": [
+            {
+              "question": "lớp công nghệ thông tin chất lượng cao khác với lớp khoa học máy tính chất lượng cao TT23 như thế nào",
+              "id": "45891a4b-f791-4756-a1e4-02262324cff1",
+              "answers": [
+                {
+                  "answer_start": 122,
+                  "text": "Lớp CLC TT23 có học phí 35 triệu / năm, trong khi đó lớp CNTT CLC học phí sẽ vẫn như hệ thường"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "faq_30",
+          "context": "Sinh viên đại học công nghệ có thể ở ký túc xá nào ?\nSinh viên trường có thể ở tại những khu ký túc xá (KTX) của trường như:\n🔸 KTX Ngoại Ngữ nằm ngày trong khuôn viên của ĐHQGHN nên rất thuận tiện cho sinh viên công nghệ trong việc đi bộ đi học. KTX Ngoại Ngữ sẽ ưu tiên con em liệt sỹ, gia đình có công với cách mạng, sinh viên đạt thành tích cao trong các kỳ thi tuyển, con em gia đình có hoàn cảnh khó khăn,... trước sau đó sẽ xem xét tới các đơn thuộc diện không ưu tiên tới khi hết chỉ tiêu.\n🔸 KTX Mỹ Đình: cách trường khoảng 2,5km, nếu di chuyển bằng xe máy, xe đạp sẽ chỉ mất khoảng 10 đến 20’ để tới trường. Nếu di chuyển bằng bus sẽ mất khoảng 20’ (cả thời gian đợi bus - rất tiện bus). Đây là KTX mới và là khu nội trú của không chỉ sv ĐHQGHN mà còn là của các bạn sinh viên học các trường trong địa bàn thành phố có nguyện vọng đăng ký.\n🔸 KTX Mễ Trì: nằm tại 182 đường Lương Thế Vinh, quận Thanh Xuân. Cách khu vực Xuân Thuỷ khoảng 7 km. Tuy khoảng cách khá xa cho sinh viên Công Nghệ nhưng bù lại điều kiện của KTX Mễ Trì lại không hề thua kém hai KTX trên.",
+          "qas": [
+            {
+              "question": "ký túc xã Mễ Trì ở đâu",
+              "id": "bf39f2c2-cc8f-45e7-9ae0-54b225e6d48b",
+              "answers": [
+                {
+                  "answer_start": 870,
+                  "text": "182 đường Lương Thế Vinh, quận Thanh Xuân"
+                }
+              ]
+            },
+            {
+              "question": "ký túc xá mỹ đình cách trường bao xa",
+              "id": "5cec71a9-c5c2-421b-ab0b-af2a4999d699",
+              "answers": [
+                {
+                  "answer_start": 531,
+                  "text": "2,5km"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "faq_31",
+          "context": "Em muốn ở ký túc xá thì đăng ký như thế nào ạ ?\nSinh viên trường có thể ở tại những khu KTX của trường như: KTX Ngoại Ngữ, KTX Mỹ Đình, KTX Mễ Trì\n🔺 Các ký túc xá đều có điều kiện, cơ sở vật chất tương đối ổn định và giống nhau (phòng gym, siêu thị, nhà ăn, khu sinh hoạt,...). Mỗi KTX có nhiều loại phòng ở từ 2- 10 người/1 phòng, giá phòng ở từ 140.000đ -390.000đ/tháng (giá trên chưa bao gồm các phí dịch vụ và điều kiện về từng phòng của sinh viên). Các phòng đều đầy đủ tiện nghi và đồ dùng để sinh viên có thể học tập và sinh hoạt.\nĐối với sinh viên năm nhất: ban quản lý ký túc xá tổ thức tiếp nhận sinh viên nội trú theo lịch của đơn vị đào tạo. Sau khi làm xong thủ tục nhập học tại trường, sinh viên đến ký túc xá chuẩn bị đầy đủ giấy tờ cần thiết để hướng dẫn thủ tục nhập ký túc xá.",
+          "qas": [
+            {
+              "question": "giá của ký túc xá rơi vào khoảng bao nhiêu ?",
+              "id": "1319da32-41a6-4ee4-a837-216a83176021",
+              "answers": [
+                {
+                  "answer_start": 347,
+                  "text": "140.000đ -390.000đ/tháng"
+                }
+              ]
+            },
+            {
+              "question": "chất lượng ký túc xá của trường như thế nào",
+              "id": "997c4e9c-316e-4111-82dc-37f57652042d",
+              "answers": [
+                {
+                  "answer_start": 149,
+                  "text": "Các ký túc xá đều có điều kiện, cơ sở vật chất tương đối ổn định và giống nhau (phòng gym, siêu thị, nhà ăn, khu sinh hoạt,...)"
+                }
+              ]
+            },
+            {
+              "question": "làm sao để đăng ký ở trọ tại ký túc xá",
+              "id": "c8a2712c-dc0e-463b-becb-8c70a55377cb",
+              "answers": [
+                {
+                  "answer_start": 654,
+                  "text": "Sau khi làm xong thủ tục nhập học tại trường, sinh viên đến ký túc xá chuẩn bị đầy đủ giấy tờ cần thiết để hướng dẫn thủ tục nhập ký túc xá"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "faq_33",
+          "context": "cho em hỏi khi học tại UET thì nhà trường sẽ dạy tiếng anh hay sinh viên sẽ phải tự học ở ngoài ?\nnếu nhà trường dạy thì có cấp chứng chỉ nào ạ?\nHọc tập tại UET sẽ có các lớp học phần tiếng anh cơ sở do các giảng viên của trường đại học ngoại ngữ giảng dạy, chương trình đào tạo đến chuẩn tiếng anh đầu ra của trường (đến B1 hoặc hơn) và không có cấp chứng chỉ.\nCác bạn có thể học và thị các chứng chỉ tiếng anh quốc tế tại cắc trung tâm ngoài, hoặc VSTEP của đại học ngoại ngữ. Hiện tại sinh viên UET được miễn học và công nhận điểm các học phần Tiếng Anh cho khi đã tham dự các Kỳ thi đánh giá năng lực, VSTEP, TOEFL, TOEIC, IELTS và Cambridge Test đạt kết quả tương ứng theo chuẩn trình độ ngoại ngữ.",
+          "qas": [
+            {
+              "question": "học ở UET có được dạy tiếng anh không hay là phải tự đi học ở ngoài",
+              "id": "30bf8fef-3331-4a2c-8c14-a5d636d986f9",
+              "answers": [
+                {
+                  "answer_start": 145,
+                  "text": "Học tập tại UET sẽ có các lớp học phần tiếng anh cơ sở do các giảng viên của trường đại học ngoại ngữ giảng dạy"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "faq_46",
+          "context": "Ngành khoa học máy tính mà UET đào tạo là chỉ đào tạo chương trình chất lượng cao a ? không có chương trình chuẩn ạ ?\nNgành khoa học máy tính CN8 của trường chỉ đào tạo hệ chất lượng cao theo TT23.",
+          "qas": [
+            {
+              "question": "trường có đào tạo ngành khoa học máy tính hệ chuẩn không",
+              "id": "dd2939d4-fbf6-4d66-bff3-de9f67413354",
+              "answers": [
+                {
+                  "answer_start": 118,
+                  "text": "Ngành khoa học máy tính CN8 của trường chỉ đào tạo hệ chất lượng cao theo TT23"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "faq_48",
+          "context": "trước khi vào học công nghệ thông tin của UET thì em nên chuẩn bị những kỹ năng gì để khỏi bỡ ngỡ ạ ?\nTrước tiên em nên trau hồi khả năng tiếng anh, bên cạnh đó có thể tìm hiểu về các ngôn những lập trình như C,C++,python,java...\n“Điều quan trọng nhất em nên chuẩn bị là tiếng anh thật tốt. Thứ tự ưu tiên nên là đọc/nghe-nói/viết\nNếu rảnh em có thể học trước 1 ngôn ngữ lập trình cho quen tư duy. Bắt đầu với python là 1 sự lựa chọn dễ dàng, hoặc có thể học C/C++ theo chương trình ở trường”",
+          "qas": [
+            {
+              "question": "em nên làm gì để chuẩn bị cho việc học công nghệ thông tin",
+              "id": "32134315-6c8a-4cb7-8f4d-47617664eda2",
+              "answers": [
+                {
+                  "answer_start": 120,
+                  "text": "trau hồi khả năng tiếng anh"
+                }
+              ]
+            },
+            {
+              "question": "trước khi học công nghệ thông tin thì nên trang bị kiến thức gì",
+              "id": "c258ae59-40d7-4375-b5e0-4e78d82ef69b",
+              "answers": [
+                {
+                  "answer_start": 129,
+                  "text": "khả năng tiếng anh"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "faq_52",
+          "context": "gia đình em thuộc diện hộ nghèo thì có được miễn, giảm học phí không ạ ?\nĐối với đối tượng sinh việc thuộc hộ nghèo theo quy định của nhà nước sẽ được giảm 50% học phí, ở đại học công nghệ - UET.\nLink thông tin chi tiết: https://vnu.edu.vn/ttsk/?C2095/N9258Che-do-mien-giam-hoc-phi-doi-voi-hoc-sinh,-sinh-vien.htm",
+          "qas": [
+            {
+              "question": "sinh viên nghèo có được giảm học phí không",
+              "id": "350826fa-3c6e-4ced-a291-e0152e0de322",
+              "answers": [
+                {
+                  "answer_start": 146,
+                  "text": "được"
+                }
+              ]
+            },
+            {
+              "question": "trường UET có giảm học phí cho sinh viên hộ nghèo không",
+              "id": "f0c10ff7-7f05-4997-b1ce-19a7217e0c0b",
+              "answers": [
+                {
+                  "answer_start": 146,
+                  "text": "được"
+                }
+              ]
+            },
+            {
+              "question": "sinh viên nghèo có thể được giảm bao nhiêu học phí",
+              "id": "77a92663-336d-4453-9547-15281f679f9f",
+              "answers": [
+                {
+                  "answer_start": 156,
+                  "text": "50%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "faq_71",
+          "context": "Việc phân ngành sau khi trúng tuyển vào nhóm ngành được xét như thế nào?\nĐối với các nhóm có 2 ngành trở lên việc phân ngành được thực hiện sau khi thí sinh trúng tuyển vào học trong năm thứ nhất tại Trường trên cơ sở nguyện vọng của thí sinh, điểm xét tuyển và chỉ tiêu từng ngành do Trường quy định.",
+          "qas": [
+            {
+              "question": "việc xét phân nhóm ngành tiến hành như thế nào",
+              "id": "ae83b67b-126a-4024-90f2-d9313ba47c4c",
+              "answers": [
+                {
+                  "answer_start": 125,
+                  "text": "được thực hiện sau khi thí sinh trúng tuyển vào học trong năm thứ nhất tại Trường trên cơ sở nguyện vọng của thí sinh, điểm xét tuyển và chỉ tiêu từng ngành do Trường quy định"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "faq_73",
+          "context": "Ngành Công nghệ nông nghiệp đào tạo tại Trường Đại học Công nghệ Đại học Quốc gia Hà Nội có gì khác với các ngành nông nghiệp đang được đào tạo tại các đơn vị khác?\nNgành Công nghệ nông nghiệp (CNNN) đào tạo các kỹ sư công nghệ (hiểu biết vê các công nghệ thông tin, điện tử truyền thông, kỹ thuật số, tự động hoá, công nghệ sinh học và công nghệ nano) và được trang bị các kiến thức cần thiết nhất vê nông nghiệp (trồng trọt, chăn nuôi, thuỷ sản) để ứng dụng các công nghệ trên vào nông nghiệp. Còn ngành nông nghiệp ở các trường viện khác đào tạo các kỹ sư nông nghiệp thiên về các phương pháp canh tác truyền thống.\nXem tóm tắt chương trình đào tạo kỹ sư ngành Công nghệ nông nghiệp tại: http://fat.uet.vnu.edu.vn/?p=1000\nNgành Công nghệ nông nghiệp được đào tạo tại Trường ĐHCN tận dụng được nền tảng công nghệ là các thế mạnh của Trường. Trường có các phòng thí nghiệm công nghệ cao, phòng học hiện đại, phòng máy tính trang bị đầy đủ, các giảng viên giỏi về công nghệ, năng động, giàu nhiệt huyết.",
+          "qas": [
+            {
+              "question": "chương trình công nghệ nông nghiệp ở đại học công nghệ có gì khác với nơi khác",
+              "id": "0b9f30b4-2d89-4870-839a-b729d3c6965b",
+              "answers": [
+                {
+                  "answer_start": 200,
+                  "text": "đào tạo các kỹ sư công nghệ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "faq_77",
+          "context": "Thầy/ cô cho em hỏi các ngành CLC thường lấy điểm thấp hơn bình thường ạ?\nMột lý do đó là học phí các ngành chất lượng cao CLC TT23 có học phí cao hơn nên có ít bạn đăng ký hơn.\nHơn nữa, so sánh điểm của 2 chương trình mà cách tính điểm khác nhau thì cũng không thể chính xác được em ạ.\nNên em cũng cân nhắc xem mình muốn học theo chương trình nào em nhé.\nThân mến.",
+          "qas": [
+            {
+              "question": "tại sao điểm xét tuyển ngành CLC lại thấp hơn ngành thường",
+              "id": "bc0128c6-aceb-4eff-a358-a1bdb26e08d7",
+              "answers": [
+                {
+                  "answer_start": 90,
+                  "text": "học phí các ngành chất lượng cao CLC TT23 có học phí cao hơn nên có ít bạn đăng ký hơn"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "faq_91",
+          "context": "Em là học sinh cấp 3 trường chuyên Khoa học tự nhiên thì có điều kiện gì để xét tuyển thẳng vào đại học Công nghệ không ạ ? (em được 3 năm học sinh giỏi và lớp chuyên Tin)\nHọc sinh THPT chuyên thuộc ĐHQGHN được xét tuyển thẳng và xét tuyển vào bậc đại học tại ĐHQGHN phải đỗ tốt nghiệp THPT, có hạnh kiểm 3 năm học THPT đạt loại Tốt và đáp ứng một trong các tiêu chí sau:\n+ Là thành viên chính thức đội tuyển dự kỳ thi Olympic hoặc các cuộc thi sáng tạo,triển lãm khoa học kỹ thuật khu vực, quốc tế;\n+ Đạt giải chính thức trong kỳ thi chọn học sinh giỏi bậc THPT cấp ĐHQGHN;\n+ Đạt giải chính thức trong kỳ thi Olympic chuyên Khoa học tự nhiên bậc THPT được tổ chức hàng năm;\n+ Là thành viên chính thức của đội tuyển tham dự kỳ thi chọn học sinh giỏi quốc gia hoặc các cuộc thi sáng tạo khoa học kỹ thuật quốc gia;\n+ Đạt danh hiệu học sinh giỏi từng năm học trong cả 3 năm THPT và có tổng điểm 4 bài thi/môn thi tốt nghiệp THPT đạt tối thiểu 28,0 điểm trong đó không có điểm bài thi/môn thi nào dưới 5,0 điểm;\nNếu em là hs giỏi 3 năm thì phải có tổng điểm 4 bài thi từ 28 điểm trở lên và ko môn nào dưới 5 em nhé.\nChúc em thi tốt và hẹn gặp em tại trường ĐH Công nghệ.",
+          "qas": [
+            {
+              "question": "điều kiện để học sinh cấp 3 thuộc đại học quốc gia hà nội được tuyển thẳng lên đại học là gì",
+              "id": "191f2d08-bbb3-4918-82e1-dbed8c52340e",
+              "answers": [
+                {
+                  "answer_start": 272,
+                  "text": "đỗ tốt nghiệp THPT, có hạnh kiểm 3 năm học THPT đạt loại Tốt và đáp ứng một trong các tiêu chí sau"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "faq_103",
+          "context": "Ngành nào của trường học về an ninh mạng ạ?\nHiện nay, Trường Đại học Công nghệ có 02 ngành đào tạo các kiến thức liên quan an ninh mạng là Mạng máy tính và truyền thông dữ liệu và ngành Công nghệ thông tin.",
+          "qas": [
+            {
+              "question": "về an ninh mạng thì trường có những ngành nào ?",
+              "id": "08a54313-c306-4b49-a699-000cb2774dbc",
+              "answers": [
+                {
+                  "answer_start": 139,
+                  "text": "Mạng máy tính và truyền thông dữ liệu và ngành Công nghệ thông tin"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "id": "faq_113",
+          "context": "Nhà trường cho em hỏi chuyên ngành vật lí kĩ thuật đào tạo về những gì ạ?\nNgành Vật lý Kỹ thuật đào tạo về Cơ sở vật lý hiện đại, vật lý ứng dụng, Khoa học và Công nghệ nano, Vật liệu và Linh kiện tiên tiến trong các lĩnh vực Vi điện tử, Năng lượng xanh, Y-sinh và Môi trường.\nSinh viên được thực tập và NCKH tại phòng thí nghiệm trọng điểm và hệ thống các phòng thí nghiệm & thực hành với trang thiết bị hiện đại về công nghệ nano, nano quang tử, nano sinh học. Sinh viên tốt nghiệp có nhiều cơ hội làm việc tại các tập đoàn công nghệ tiến tiến như Samsung, Sumitomo Bakelite,... hoặc tiếp tục theo học sau đại học ở trong nước và nước ngoài.",
+          "qas": [
+            {
+              "question": "học ngành vật lý kỹ thuật thì được dạy gì ?",
+              "id": "511dbaa3-3f94-481f-9373-04c716204aa5",
+              "answers": [
+                {
+                  "answer_start": 107,
+                  "text": "Cơ sở vật lý hiện đại, vật lý ứng dụng, Khoa học và Công nghệ nano, Vật liệu và Linh kiện tiên tiến trong các lĩnh vực Vi điện tử, Năng lượng xanh, Y-sinh và Môi trường"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
