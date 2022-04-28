@@ -18,17 +18,17 @@ Fine-tuning the library models for question answering using a slightly adapted v
 """
 # You can also adapt this script on your own question answering task. Pointers for this are left as comments.
 
+import json
 import logging
 import os
 import sys
 from dataclasses import dataclass, field
 from typing import Optional
 
-import datasets
 from datasets import load_dataset, load_metric
-
+import datasets
+import torch
 import transformers
-from trainer_qa import QuestionAnsweringTrainer
 from transformers import (
     AutoConfig,
     AutoModelForQuestionAnswering,
@@ -41,14 +41,161 @@ from transformers import (
     default_data_collator,
     set_seed,
 )
+from transformers.modeling_outputs import QuestionAnsweringModelOutput
+from transformers.modeling_utils import PreTrainedModel
 from transformers.trainer_utils import get_last_checkpoint
 from transformers.utils import check_min_version
 from transformers.utils.versions import require_version
-from utils_qa import postprocess_qa_predictions
+from utils_qa import QuestionAnsweringTrainer, postprocess_qa_predictions_mix, load_squad_file
+
+
+@dataclass
+class MIXOutput(QuestionAnsweringModelOutput):
+    cls_logits: torch.FloatTensor = None
+
+
+class MIX(PreTrainedModel):
+    """"""
+    def __init__(self, config):
+        super().__init__(config)
+
+        qa_model = AutoModelForQuestionAnswering.from_pretrained(config._name_or_path, config=config)
+
+        encoder_attr_name = self.get_encoder_attr_name(qa_model)
+        qa_model_encoder = getattr(qa_model, encoder_attr_name)
+        qa_model_outputs = getattr(qa_model, "qa_outputs")
+
+        setattr(self, encoder_attr_name, qa_model_encoder)
+        self.encoder_attr_name = encoder_attr_name
+        self.qa_outputs = qa_model_outputs
+        self.cls_output = torch.nn.Linear(config.hidden_size, 1)
+        # self.alpha = 2.0
+
+        # Initialize weights and apply final processing
+        self.post_init()
+
+    def get_encoder_attr_name(cls, model):
+        """
+        The encoder transformer is named differently in each model "architecture".
+        This method lets us get the name of the encoder attribute, for pretrained weights init
+        """
+        model_class_name = model.__class__.__name__
+        if model_class_name.startswith("Bert"):
+            return "bert"
+        elif model_class_name.startswith("Deberta"):
+            return "deberta"
+        elif model_class_name.startswith("Roberta"):
+            return "roberta"
+        elif model_class_name.startswith("XLMRoberta"):
+            return "roberta"
+        elif model_class_name.startswith("RemBert"):
+            return "rember"
+        elif model_class_name.startswith("Albert"):
+            return "albert"
+        else:
+            raise KeyError(f"Add support for new model {model_class_name}")
+
+    def _init_weights(self, module):
+        # print(module)
+        pass
+
+    @classmethod
+    def _load_state_dict_into_model(
+        cls, model, state_dict, pretrained_model_name_or_path, ignore_mismatched_sizes=False, _fast_init=True
+    ):
+        if 'cls_output.weight' in state_dict:
+            model_state_dict = model.state_dict()
+            model_state_dict['cls_output.weight'] = state_dict['cls_output.weight']
+            model_state_dict['cls_output.bias'] = state_dict['cls_output.bias']
+            logger.warning("\nLoaded pretrained cls_output layer\n")
+        else:
+            model.cls_output.weight.data.normal_(mean=0.0, std=model.config.initializer_range)
+            model.cls_output.bias.data.zero_()
+            logger.warning("\nInitialized new cls_output layer\n")
+        del state_dict
+        return model, [],[],[],[]
+
+    def forward(
+        self,
+        input_ids: Optional[torch.LongTensor] = None,
+        attention_mask: Optional[torch.FloatTensor] = None,
+        token_type_ids: Optional[torch.LongTensor] = None,
+        position_ids: Optional[torch.LongTensor] = None,
+        head_mask: Optional[torch.FloatTensor] = None,
+        inputs_embeds: Optional[torch.FloatTensor] = None,
+        start_positions: Optional[torch.LongTensor] = None,
+        end_positions: Optional[torch.LongTensor] = None,
+        labels: Optional[torch.FloatTensor] = None,
+        output_attentions: Optional[bool] = None,
+        output_hidden_states: Optional[bool] = None,
+    ) -> Union[Tuple, MIXOutput]:
+        """
+        labels (`torch.LongTensor` of shape `(batch_size,)`, *optional*):
+        """
+        base_model = getattr(self, self.encoder_attr_name)
+
+        outputs = base_model(
+            input_ids,
+            attention_mask=attention_mask,
+            token_type_ids=token_type_ids,
+            position_ids=position_ids,
+            head_mask=head_mask,
+            inputs_embeds=inputs_embeds,
+            output_attentions=output_attentions,
+            output_hidden_states=output_hidden_states,
+            return_dict=True,
+        )
+        last_hidden_state = outputs.last_hidden_state
+
+        ans_logits = self.qa_outputs(last_hidden_state)
+        start_logits, end_logits = ans_logits.split(1, dim=-1)
+        start_logits = start_logits.squeeze(-1).contiguous()
+        end_logits = end_logits.squeeze(-1).contiguous()
+
+        cls_token_state = last_hidden_state[:,0]
+        cls_logits = self.cls_output(cls_token_state).squeeze(-1).contiguous()
+
+        # Cal loss
+        total_loss = 0.0
+        if labels is not None:
+            loss_fct = torch.nn.BCEWithLogitsLoss()
+            total_loss += loss_fct(cls_logits, labels) #*self.alpha
+
+        if start_positions is not None and end_positions is not None:
+            # If we are on multi-GPU, split add a dimension
+            if len(start_positions.size()) > 1:
+                start_positions = start_positions.squeeze(-1)
+            if len(end_positions.size()) > 1:
+                end_positions = end_positions.squeeze(-1)
+            
+            # hard_negative mask, ignore the QA task for negative samples
+            hard_negatives_mask = (labels == 0)*99999
+            start_positions += hard_negatives_mask
+            end_positions += hard_negatives_mask
+
+            # sometimes the start/end positions are outside our model inputs, we ignore these terms
+            ignored_index = start_logits.size(1) # max_seq_len
+            start_positions = start_positions.clamp(0, ignored_index)
+            end_positions = end_positions.clamp(0, ignored_index)
+
+            loss_fct = torch.nn.CrossEntropyLoss(ignore_index=ignored_index)
+            start_loss = loss_fct(start_logits, start_positions)
+            end_loss = loss_fct(end_logits, end_positions)
+            total_loss += (start_loss + end_loss) / 2
+
+        # breakpoint()
+        return MIXOutput(
+            loss=total_loss if total_loss > 0 else None,
+            start_logits=start_logits,
+            end_logits=end_logits,
+            cls_logits=cls_logits,
+            hidden_states=outputs.hidden_states,
+            attentions=outputs.attentions,
+        )
 
 
 # Will error if the minimal version of Transformers is not installed. Remove at your own risks.
-check_min_version("4.19.0.dev0")
+# check_min_version("4.19.0.dev0")
 
 require_version("datasets>=1.8.0", "To fix: pip install -r examples/pytorch/question-answering/requirements.txt")
 
@@ -99,7 +246,13 @@ class DataTrainingArguments:
     dataset_config_name: Optional[str] = field(
         default=None, metadata={"help": "The configuration name of the dataset to use (via the datasets library)."}
     )
-    train_file: Optional[str] = field(default=None, metadata={"help": "The input training data file (a text file)."})
+    train_file: Optional[str] = field(
+        default=None, metadata={"help": "The input training data file (a text file)."}
+    )
+    train_files: Optional[str] = field(
+        default=None,
+        metadata={"help": "format: <file1> *<n_repeat1>, <file2> *<n_repeat2>, ..."}
+    )
     validation_file: Optional[str] = field(
         default=None,
         metadata={"help": "An optional input evaluation data file to evaluate the perplexity on (a text file)."},
@@ -176,6 +329,14 @@ class DataTrainingArguments:
             "help": "The maximum length of an answer that can be generated. This is needed because the start "
             "and end predictions are not conditioned on one another."
         },
+    )
+    hard_negatives_file: Optional[str] = field(
+        default=None,
+        metadata={"help": ""},
+    )
+    top_k_hard_negatives: int = field(
+        default=3,
+        metadata={"help": ""},
     )
 
     def __post_init__(self):
@@ -268,24 +429,68 @@ def main():
             use_auth_token=True if model_args.use_auth_token else None,
         )
     else:
-        data_files = {}
+        # data_files = {}
+        # if data_args.train_file is not None:
+        #     data_files["train"] = data_args.train_file
+        #     extension = data_args.train_file.split(".")[-1]
+        # if data_args.validation_file is not None:
+        #     data_files["validation"] = data_args.validation_file
+        #     extension = data_args.validation_file.split(".")[-1]
+        # if data_args.test_file is not None:
+        #     data_files["test"] = data_args.test_file
+        #     extension = data_args.test_file.split(".")[-1]
+        # raw_datasets = load_dataset(
+        #     extension,
+        #     data_files=data_files,
+        #     field="data",
+        #     cache_dir=model_args.cache_dir,
+        #     use_auth_token=True if model_args.use_auth_token else None,
+        # )
+
+        raw_datasets = {}
         if data_args.train_file is not None:
-            data_files["train"] = data_args.train_file
-            extension = data_args.train_file.split(".")[-1]
+            raw_datasets["train"] = load_squad_file(data_args.train_file)
+
+        if data_args.train_files is not None:
+            files_info = data_args.train_files.split(',')
+            train_datasets = []
+            id_offset = 0
+            for file_info in files_info:
+                file_path, n_repeat = file_info.strip().split('*')
+                for i in range(int(n_repeat)):
+                    dataset = load_squad_file(file_path.strip(), id_offset)
+                    id_offset += len(dataset)
+                    train_datasets.append(dataset)
+            raw_datasets["train"] = datasets.concatenate_datasets(train_datasets)
 
         if data_args.validation_file is not None:
-            data_files["validation"] = data_args.validation_file
-            extension = data_args.validation_file.split(".")[-1]
+            raw_datasets["validation"] = load_squad_file(data_args.validation_file)
+
         if data_args.test_file is not None:
-            data_files["test"] = data_args.test_file
-            extension = data_args.test_file.split(".")[-1]
-        raw_datasets = load_dataset(
-            extension,
-            data_files=data_files,
-            field="data",
-            cache_dir=model_args.cache_dir,
-            use_auth_token=True if model_args.use_auth_token else None,
-        )
+            assert False, "Test file loader not supported"
+
+    if data_args.hard_negatives_file is not None:
+        # load hard negatives data
+        with open(data_args.hard_negatives_file,'r') as f:
+            hard_negatives_data = json.load(f)
+
+        hard_negative_questions = []
+        hard_negatives = []
+        for qa in hard_negatives_data:
+            q = qa['question']
+            # k = model_args.top_k_hard_negatives
+            k = data_args.top_k_hard_negatives*3 if 'id' in q else data_args.top_k_hard_negatives
+            for neg in qa['hard_negative_ctxs'][:k]:
+                hard_negative_questions.append(q)
+                text = f"{neg['title']}. {neg['text']}" if neg['title'] else neg['text']
+                hard_negatives.append(text)
+
+        train_dataset_hard_negatives = datasets.Dataset.from_dict({
+            'question': hard_negative_questions,
+            'hard_negatives': hard_negatives,
+        })
+
+
     # See more about loading any type of standard or custom dataset (from files, python dict, pandas DataFrame, etc) at
     # https://huggingface.co/docs/datasets/loading_datasets.html.
 
@@ -307,9 +512,16 @@ def main():
         revision=model_args.model_revision,
         use_auth_token=True if model_args.use_auth_token else None,
     )
-    model = AutoModelForQuestionAnswering.from_pretrained(
+    # model = AutoModelForQuestionAnswering.from_pretrained(
+    #     model_args.model_name_or_path,
+    #     from_tf=bool(".ckpt" in model_args.model_name_or_path),
+    #     config=config,
+    #     cache_dir=model_args.cache_dir,
+    #     revision=model_args.model_revision,
+    #     use_auth_token=True if model_args.use_auth_token else None,
+    # )
+    model = MIX.from_pretrained(
         model_args.model_name_or_path,
-        from_tf=bool(".ckpt" in model_args.model_name_or_path),
         config=config,
         cache_dir=model_args.cache_dir,
         revision=model_args.model_revision,
@@ -424,6 +636,129 @@ def main():
 
         return tokenized_examples
 
+
+    # Training preprocessing
+    def prepare_train_features_mix(examples):
+        assert pad_on_right == True, "This supports pad_on_right only"
+
+        examples[question_column_name] = [q.lstrip() for q in examples[question_column_name]]
+
+        tokenized_examples = tokenizer(
+            examples[question_column_name],
+            examples[context_column_name],
+            max_length=max_seq_length,
+            padding="max_length" if data_args.pad_to_max_length else False,
+            return_offsets_mapping=True,
+        )
+        assert len(examples[question_column_name]) == len(tokenized_examples["input_ids"])
+
+        offset_mapping = tokenized_examples.pop("offset_mapping")
+
+        # Let's label those examples!
+        tokenized_examples["start_positions"] = []
+        tokenized_examples["end_positions"] = []
+        # tokenized_examples["labels"] = []
+
+        for i, offsets in enumerate(offset_mapping):
+            # We will label impossible answers with the index of the CLS token.
+            input_ids = tokenized_examples["input_ids"][i]
+            cls_index = input_ids.index(tokenizer.cls_token_id)
+
+            # Grab the sequence corresponding to that example (to know what is the context and what is the question).
+            sequence_ids = tokenized_examples.sequence_ids(i)
+
+            # Start/End token index of the current context in the text.
+            context_token_start = 0
+            context_token_end = len(input_ids)
+            while sequence_ids[context_token_start] != 1: context_token_start += 1
+            while sequence_ids[context_token_end-1] != 1: context_token_end -= 1
+
+            question_ids = input_ids[:context_token_start]
+            suffix_ids = input_ids[context_token_end:]
+            num_context_tokens = max_seq_length - len(question_ids) - len(suffix_ids)
+
+            answers = examples[answer_column_name][i]
+            # If no answers are given, set the cls_index as answer.
+            if len(answers["answer_start"]) == 0:
+                tokenized_examples["labels"].append(0.0)
+                tokenized_examples["start_positions"].append(None)
+                tokenized_examples["end_positions"].append(None)
+                # if len(input_ids) > max_seq_length:
+                #     truncated_context_ids = input_ids[context_token_start:context_token_start+num_context_tokens]
+                #     input_ids = question_ids + truncated_context_ids + suffix_ids
+                #     assert len(input_ids) == max_seq_length
+                #     tokenized_examples["input_ids"][i] = input_ids
+                #     tokenized_examples["attention_mask"][i] = [1]*max_seq_length
+            else:
+                # tokenized_examples["labels"].append(1.0)
+
+                # expand new_context from the answer until it reaches num_context_tokens
+                # first, we find answer start/end token
+                start_char = answers["answer_start"][0]
+                end_char = start_char + len(answers["text"][0])
+
+                token_start_index = context_token_start
+                token_end_index = context_token_end-1
+                while token_start_index < len(offsets) and offsets[token_start_index][0] <= start_char:
+                    token_start_index += 1
+                while offsets[token_end_index][1] >= end_char:
+                    token_end_index -= 1
+                # if ans_token_start != token_start_index - 1 or ans_token_end != token_end_index + 1:
+                #     print(examples['id'][i], examples[question_column_name][i], ans_token_start, token_start_index - 1, ans_token_end, token_end_index+1)
+                #     # breakpoint()
+                ans_token_start = token_start_index-1
+                ans_token_end = token_end_index+1
+
+                if len(input_ids) > max_seq_length:
+                    # expand new context
+                    new_context_token_start = ans_token_start
+                    new_context_token_end = ans_token_end+1
+                    def len_new_context():
+                        return new_context_token_end - new_context_token_start
+                    while True:
+                        if new_context_token_start > context_token_start:
+                            new_context_token_start -= 1
+                            if len_new_context() == num_context_tokens:
+                                break
+                        if new_context_token_end < context_token_end:
+                            new_context_token_end += 1
+                            if len_new_context() == num_context_tokens:
+                                break
+                    # trunc
+                    input_ids = question_ids + input_ids[new_context_token_start:new_context_token_end] + suffix_ids
+                    assert len(input_ids) == max_seq_length
+                    tokenized_examples["input_ids"][i] = input_ids
+                    tokenized_examples["attention_mask"][i] = [1]*max_seq_length
+
+                    new_context_offset = new_context_token_start - context_token_start
+                    ans_token_start -= new_context_offset
+                    ans_token_end -= new_context_offset
+
+                tokenized_examples["start_positions"].append(ans_token_start)
+                tokenized_examples["end_positions"].append(ans_token_end)
+                # if not answers["text"][0] == tokenizer.decode(input_ids[ans_token_start:ans_token_end+1]): breakpoint()
+
+        return tokenized_examples
+
+
+    def prepare_hard_negatives_features(examples):
+        hard_negative_questions = examples['question']
+        hard_negatives = examples['hard_negatives']
+
+        tokenized_hard_negatives = tokenizer(
+            hard_negative_questions if pad_on_right else hard_negatives,
+            hard_negatives if pad_on_right else hard_negative_questions,
+            truncation="only_second" if pad_on_right else "only_first",
+            max_length=max_seq_length,
+            padding="max_length" if data_args.pad_to_max_length else False,
+            return_overflowing_tokens=True,
+        )
+        tokenized_hard_negatives['start_positions'] = tokenized_hard_negatives['end_positions'] = [0] * len(tokenized_hard_negatives.input_ids)
+        tokenized_hard_negatives['labels'] = [0.0] * len(hard_negatives)
+
+        return tokenized_hard_negatives
+
+
     if training_args.do_train:
         if "train" not in raw_datasets:
             raise ValueError("--do_train requires a train dataset")
@@ -432,16 +767,31 @@ def main():
             # We will select sample from whole data if argument is specified
             max_train_samples = min(len(train_dataset), data_args.max_train_samples)
             train_dataset = train_dataset.select(range(max_train_samples))
+            train_dataset_hard_negatives = train_dataset_hard_negatives.select(range(max_train_samples))
         # Create train feature from dataset
         with training_args.main_process_first(desc="train dataset map pre-processing"):
             train_dataset = train_dataset.map(
-                prepare_train_features,
+                prepare_train_features_mix,
                 batched=True,
                 num_proc=data_args.preprocessing_num_workers,
                 remove_columns=column_names,
                 load_from_cache_file=not data_args.overwrite_cache,
                 desc="Running tokenizer on train dataset",
+            ).filter(
+                lambda x: x['start_positions'] is not None
             )
+            if data_args.hard_negatives_file is not None:
+                train_dataset_hard_negatives = train_dataset_hard_negatives.map(
+                    prepare_hard_negatives_features,
+                    batched=True,
+                    num_proc=data_args.preprocessing_num_workers,
+                    remove_columns=['question','hard_negatives'],
+                    load_from_cache_file=not data_args.overwrite_cache,
+                    desc="Running tokenizer on hard negatives train dataset",
+                )
+            logger.info(f"\nNumber of QA examples vs hard negatives: {len(train_dataset)}, {len(train_dataset_hard_negatives)}")
+            train_dataset = datasets.concatenate_datasets([train_dataset, train_dataset_hard_negatives])
+        # breakpoint()
         if data_args.max_train_samples is not None:
             # Number of samples might increase during Feature Creation, We select only specified max samples
             max_train_samples = min(len(train_dataset), data_args.max_train_samples)
@@ -551,7 +901,7 @@ def main():
     # Post-processing:
     def post_processing_function(examples, features, predictions, stage="eval"):
         # Post-processing: we match the start logits and end logits to answers in the original context.
-        predictions = postprocess_qa_predictions(
+        predictions = postprocess_qa_predictions_mix(
             examples=examples,
             features=features,
             predictions=predictions,

@@ -18,6 +18,7 @@ Fine-tuning the library models for question answering using a slightly adapted v
 """
 # You can also adapt this script on your own question answering task. Pointers for this are left as comments.
 
+import json
 import logging
 import os
 import sys
@@ -28,7 +29,6 @@ import datasets
 from datasets import load_dataset, load_metric
 
 import transformers
-from trainer_qa import QuestionAnsweringTrainer
 from transformers import (
     AutoConfig,
     AutoModelForQuestionAnswering,
@@ -44,11 +44,11 @@ from transformers import (
 from transformers.trainer_utils import get_last_checkpoint
 from transformers.utils import check_min_version
 from transformers.utils.versions import require_version
-from utils_qa import postprocess_qa_predictions
+from utils_qa import QuestionAnsweringTrainer, postprocess_qa_predictions, load_squad_file
 
 
 # Will error if the minimal version of Transformers is not installed. Remove at your own risks.
-check_min_version("4.19.0.dev0")
+# check_min_version("4.19.0.dev0")
 
 require_version("datasets>=1.8.0", "To fix: pip install -r examples/pytorch/question-answering/requirements.txt")
 
@@ -99,7 +99,13 @@ class DataTrainingArguments:
     dataset_config_name: Optional[str] = field(
         default=None, metadata={"help": "The configuration name of the dataset to use (via the datasets library)."}
     )
-    train_file: Optional[str] = field(default=None, metadata={"help": "The input training data file (a text file)."})
+    train_file: Optional[str] = field(
+        default=None, metadata={"help": "The input training data file (a text file)."}
+    )
+    train_files: Optional[str] = field(
+        default=None,
+        metadata={"help": "format: <file1> *<n_repeat1>, <file2> *<n_repeat2>, ..."}
+    )
     validation_file: Optional[str] = field(
         default=None,
         metadata={"help": "An optional input evaluation data file to evaluate the perplexity on (a text file)."},
@@ -176,6 +182,14 @@ class DataTrainingArguments:
             "help": "The maximum length of an answer that can be generated. This is needed because the start "
             "and end predictions are not conditioned on one another."
         },
+    )
+    hard_negatives_file: Optional[str] = field(
+        default=None,
+        metadata={"help": ""},
+    )
+    top_k_hard_negatives: int = field(
+        default=3,
+        metadata={"help": ""},
     )
 
     def __post_init__(self):
@@ -268,24 +282,69 @@ def main():
             use_auth_token=True if model_args.use_auth_token else None,
         )
     else:
-        data_files = {}
+        # data_files = {}
+        # if data_args.train_file is not None:
+        #     data_files["train"] = data_args.train_file
+        #     extension = data_args.train_file.split(".")[-1]
+        # if data_args.validation_file is not None:
+        #     data_files["validation"] = data_args.validation_file
+        #     extension = data_args.validation_file.split(".")[-1]
+        # if data_args.test_file is not None:
+        #     data_files["test"] = data_args.test_file
+        #     extension = data_args.test_file.split(".")[-1]
+        # raw_datasets = load_dataset(
+        #     extension,
+        #     data_files=data_files,
+        #     field="data",
+        #     cache_dir=model_args.cache_dir,
+        #     use_auth_token=True if model_args.use_auth_token else None,
+        # )
+
+        raw_datasets = {}
+        drop_impossible = not data_args.version_2_with_negative
         if data_args.train_file is not None:
-            data_files["train"] = data_args.train_file
-            extension = data_args.train_file.split(".")[-1]
+            raw_datasets["train"] = load_squad_file(data_args.train_file, drop_impossible=drop_impossible)
+
+        if data_args.train_files is not None:
+            files_info = data_args.train_files.split(',')
+            train_datasets = []
+            id_offset = 0
+            for file_info in files_info:
+                file_path, n_repeat = file_info.strip().split('*')
+                for i in range(int(n_repeat)):
+                    dataset = load_squad_file(file_path.strip(), id_offset=id_offset, drop_impossible=drop_impossible)
+                    id_offset += len(dataset)
+                    train_datasets.append(dataset)
+            raw_datasets["train"] = datasets.concatenate_datasets(train_datasets)
 
         if data_args.validation_file is not None:
-            data_files["validation"] = data_args.validation_file
-            extension = data_args.validation_file.split(".")[-1]
+            raw_datasets["validation"] = load_squad_file(data_args.validation_file)
+
         if data_args.test_file is not None:
-            data_files["test"] = data_args.test_file
-            extension = data_args.test_file.split(".")[-1]
-        raw_datasets = load_dataset(
-            extension,
-            data_files=data_files,
-            field="data",
-            cache_dir=model_args.cache_dir,
-            use_auth_token=True if model_args.use_auth_token else None,
-        )
+            assert False, "Test file loader not supported"
+
+    if data_args.hard_negatives_file is not None:
+        # load hard negatives data
+        with open(data_args.hard_negatives_file,'r') as f:
+            hard_negatives_data = json.load(f)
+
+        hard_negative_questions = []
+        hard_negatives = []
+        for qa in hard_negatives_data:
+            q = qa['question']
+            # k = model_args.top_k_hard_negatives
+            k = data_args.top_k_hard_negatives*3 if 'id' in q else data_args.top_k_hard_negatives
+            for neg in qa['hard_negative_ctxs'][:k]:
+                hard_negative_questions.append(q)
+                text = f"{neg['title']}. {neg['text']}" if neg['title'] else neg['text']
+                hard_negatives.append(text)
+
+        train_dataset_hard_negatives = datasets.Dataset.from_dict({
+            'question': hard_negative_questions,
+            'hard_negatives': hard_negatives,
+        })
+
+
     # See more about loading any type of standard or custom dataset (from files, python dict, pandas DataFrame, etc) at
     # https://huggingface.co/docs/datasets/loading_datasets.html.
 
@@ -345,6 +404,10 @@ def main():
             f"model ({tokenizer.model_max_length}). Using max_seq_length={tokenizer.model_max_length}."
         )
     max_seq_length = min(data_args.max_seq_length, tokenizer.model_max_length)
+    global strides_count, strides_count2, drop_count
+    strides_count = 0
+    strides_count2 = 0
+    drop_count = 0
 
     # Training preprocessing
     def prepare_train_features(examples):
@@ -374,6 +437,10 @@ def main():
         # help us compute the start_positions and end_positions.
         offset_mapping = tokenized_examples.pop("offset_mapping")
 
+        global strides_count, strides_count2, drop_count
+        strides_count += len(tokenized_examples.input_ids) - len(examples['id'])
+        # print(strides_count)
+
         # Let's label those examples!
         tokenized_examples["start_positions"] = []
         tokenized_examples["end_positions"] = []
@@ -391,8 +458,8 @@ def main():
             answers = examples[answer_column_name][sample_index]
             # If no answers are given, set the cls_index as answer.
             if len(answers["answer_start"]) == 0:
-                tokenized_examples["start_positions"].append(cls_index)
-                tokenized_examples["end_positions"].append(cls_index)
+                tokenized_examples["start_positions"].append(None) #(cls_index)
+                tokenized_examples["end_positions"].append(None) #(cls_index)
             else:
                 # Start/end character index of the answer in the text.
                 start_char = answers["answer_start"][0]
@@ -410,9 +477,27 @@ def main():
 
                 # Detect if the answer is out of the span (in which case this feature is labeled with the CLS index).
                 if not (offsets[token_start_index][0] <= start_char and offsets[token_end_index][1] >= end_char):
-                    tokenized_examples["start_positions"].append(cls_index)
-                    tokenized_examples["end_positions"].append(cls_index)
+                    # we want the answer to be some what away from the stride to count it as a negative sample
+                    # if its 50 chars away, then yes, else drop it
+                    if offsets[token_start_index][0] > end_char+50 or offsets[token_end_index][1] < start_char-50:
+                        tokenized_examples["start_positions"].append(cls_index)
+                        tokenized_examples["end_positions"].append(cls_index)
+                    else:
+                        tokenized_examples["start_positions"].append(None)
+                        tokenized_examples["end_positions"].append(None)
+                        drop_count += 1
                 else:
+                    # if the answer lies near the edge of a stride, drop the sample
+                    prev_sample_id = i-1
+                    next_sample_id = (i+1) % len(offset_mapping)
+                    is_stride = sample_mapping[prev_sample_id] == sample_index or sample_mapping[next_sample_id] == sample_index
+                    if is_stride: #or input_ids[-2] != tokenizer.pad_token_id
+                        strides_count2 += 1
+                        if offsets[token_start_index][0] > start_char-250 or offsets[token_end_index][1] < end_char+50:
+                            tokenized_examples["start_positions"].append(None)
+                            tokenized_examples["end_positions"].append(None)
+                            drop_count += 1
+                            continue
                     # Otherwise move the token_start_index and token_end_index to the two ends of the answer.
                     # Note: we could go after the last offset if the answer is the last word (edge case).
                     while token_start_index < len(offsets) and offsets[token_start_index][0] <= start_char:
@@ -423,6 +508,24 @@ def main():
                     tokenized_examples["end_positions"].append(token_end_index + 1)
 
         return tokenized_examples
+
+
+    def prepare_hard_negatives_features(examples):
+        hard_negative_questions = examples['question']
+        hard_negatives = examples['hard_negatives']
+
+        tokenized_hard_negatives = tokenizer(
+            hard_negative_questions if pad_on_right else hard_negatives,
+            hard_negatives if pad_on_right else hard_negative_questions,
+            truncation="only_second" if pad_on_right else "only_first",
+            max_length=max_seq_length,
+            padding="max_length" if data_args.pad_to_max_length else False,
+            return_overflowing_tokens=True,
+        )
+        tokenized_hard_negatives['start_positions'] = tokenized_hard_negatives['end_positions'] = [0] * len(tokenized_hard_negatives.input_ids)
+
+        return tokenized_hard_negatives
+
 
     if training_args.do_train:
         if "train" not in raw_datasets:
@@ -441,7 +544,21 @@ def main():
                 remove_columns=column_names,
                 load_from_cache_file=not data_args.overwrite_cache,
                 desc="Running tokenizer on train dataset",
+            ).filter(
+                lambda x: x['start_positions'] is not None
             )
+            if data_args.hard_negatives_file is not None:
+                train_dataset_hard_negatives = train_dataset_hard_negatives.map(
+                    prepare_hard_negatives_features,
+                    batched=True,
+                    num_proc=data_args.preprocessing_num_workers,
+                    remove_columns=['question','hard_negatives'],
+                    load_from_cache_file=not data_args.overwrite_cache,
+                    desc="Running tokenizer on hard negatives train dataset",
+                )
+            logger.info(f"\nNumber of QA examples vs hard negatives: {len(train_dataset)}, {len(train_dataset_hard_negatives)}")
+            train_dataset = datasets.concatenate_datasets([train_dataset, train_dataset_hard_negatives])
+        # breakpoint()
         if data_args.max_train_samples is not None:
             # Number of samples might increase during Feature Creation, We select only specified max samples
             max_train_samples = min(len(train_dataset), data_args.max_train_samples)
