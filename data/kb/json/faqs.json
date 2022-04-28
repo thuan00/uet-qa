@@ -1,0 +1,954 @@
+[
+  {
+    "content": "Câu hỏi:Thưa thầy/cô cho em hỏi: học kì trước em đã học 1 môn tự chọn (3 tín chỉ). Học kì này em không thấy môn đó trong danh sách các môn học tự chọn, mà theo tư vấn thì cần học đủ 12 tín chỉ tự chọn. Vậy học kì này em cần học 3 môn (9 tín chỉ) hay 4 môn (12 tín chỉ) nữa ạ? Em cảm ơn.\nTrả lời:Chào em, môn tự chọn được triển khai giảng dạy thì có thể khác nhau theo năm. Môn Lập trình hệ thống năm nay không mở lớp không có nghĩa nó không phải là môn lựa chọn nữa hay nó không nằm trong chương trình đào tạo nữa. Em đã học môn đó và đã pass thì tức là em đã tích luỹ được 3 tín chỉ tự chọn. Em chú ý là hàng năm có khoảng 12-15 môn lựa chọn được triển khai giảng dạy trong khi trong chương trình đào tạo có hơn 30 môn lựa chọn khác nhau. Đó là lý do môn lựa chọn offer cho SV có thể khác nhau theo năm.",
+    "meta": {
+      "id": "faq_0",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Thưa thầy cô, sinh viên CLC có bắt buộc phải hoàn thành môn tiếng Anh trong năm 3 không ạ?\nTrả lời:Trước khi xét tốt nghiệp em đạt chuẩn B2 là được. Chú ý đây là một thử thách không dễ nên nhiều bạn phải thi một vài lần mới đạt đấy. Nên em thi sớm được thì tốt hơn.",
+    "meta": {
+      "id": "faq_1",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Thưa thầy cô em thấy trên web trường có chương trình đào tạo java và android của Samsung cho sinh viên năm 2 trở đi và tính là 3 tín chỉ cho khoá đào tạo đó. Thầy cô cho em hỏi là chương trình đó có phải là thầy cô của khoa dạy không ạ. Và kỳ tới trường đã thực hiện chương trình đó chưa? Và nếu chúng em học thì có tính vào điểm trung bình tích luỹ không ạ?\nTrả lời:Hiện nay, chương trình đào tạo của Samsung bao gồm các khoá học về Java, Android và Tizen. Khi tổ chức được khoá học, các sinh viên sẽ nhận được thông báo để đăng ký qua email. Giảng viên của khoá học bao gồm cả thầy cô trong Khoa cũng như chuyên gia bên Samsung. Các khoá học này hiện nay chưa có quy chế quy đổi tương đương sang các môn học khác của chương trình đào tạo của Khoa, vì vậy sẽ không được tính vào ĐTBTL cho đến thời điểm này.",
+    "meta": {
+      "id": "faq_2",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Cho em hỏi là học nhiều hơn 4 môn tự chọn có được không ạ, và nếu học nhiều hơn 4 môn thì khi lấy điểm chỉ lấy 4 môn điểm cao nhất trong số các môn tự chọn mình học phải không ạ? Việc đăng ký các môn tự chọn có bắt buộc phải theo định hướng không, ví dụ em học môn <Các vấn đề hiện đại của CNPM> thì các môn tự chọn của em cũng bắt buộc phải liên quan đến CNPM hay là em học môn khác, kiểu như <Khai phá dữ liệu> cũng được ạ?\nTrả lời:Về đăng ký môn học thì em có thể đăng ký nhiều hơn 4 môn nhưng đừng nhiều quá chiếm chỗ các bạn khác. Theo quy chế hiện tại thì sẽ lấy điểm của 4 môn đăng ký đầu tiên nếu điểm từ D trở lên. Vì vậy nếu học nhiều hơn 4 môn tự chọn thì nên ghi rõ là môn đó dùng để cải thiện cho môn học nào.\nViệc đăng ký môn học của khoá em không nhất thiết theo định hướng như em nói nhưng nên học nhóm môn liên quan với nhau.",
+    "meta": {
+      "id": "faq_3",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Cho em hỏi trượt môn tiên quyết thì có được đăng kí mấy môn sau cần tiên quyết không ạ?\nTrả lời:Với một tiến trình học tập bình thường của đa số sinh viên thì môn tiên quyết bao giờ cũng được học trước. Tuy nhiên, nếu sinh viên bị trượt môn tiên quyết thì có thể rơi vào tình huống như em đặt ra. Thực tế là Phòng đào tạo chưa kiểm tra được việc sinh viên đã qua môn tiên quyết hay chưa vì thường thời gian kết thúc thi học kỳ (cả chính lẫn phụ) cho tới lúc đăng ký môn học của kỳ sau là quá ngắn (cỡ 2 tuần), chưa đủ để hoàn thiện điểm tất cả các môn học. Vậy cho nên thực tế thì sinh viên vẫn có thể đăng ký học môn phụ thuộc. Nhiều trường hợp sinh viên học song song môn phụ thuộc ở kỳ chính và môn tiên quyết ở lớp mở cho học trả nợ.",
+    "meta": {
+      "id": "faq_4",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Các khung chương trình đào tạo hiện nay của Khoa CNTT là gì? Em có thể tìm được các KCT này ở đâu?\nTrả lời:Hiện nay, Khoa CNTT có 4 ngành đào tạo là KHMT, CNTT, TT&MMT và HTTT. Trong đó, ngành KHMT có 02 khung chương trình (hệ Nhiệm vụ chiến lược và hệ chuẩn), ngành CNTT có 02 khung chương trình (hệ Chất lượng cao và hệ Chuẩn), mỗi ngành HTTT và TT&MMT có 01 khung chương trình đào tạo hệ chuẩn.\nNhư vậy, Khoa CNTT đang tổ chức đào tạo với 06 khung chương trình với các lớp khoá học được đặt tên: CA cho KHMT NVCL, CAC cho KHMT Chuẩn, CLC cho CNTT CLC, CB+CC+CD cho CNTT Chuẩn, N cho TT&MMT và T cho HTTT.\nEm có thể liên hệ với thầy CVHT để nhận được các thông tin chi tiết.",
+    "meta": {
+      "id": "faq_5",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Em là sinh viên lớp CLC nhưng không đăng ký được môn A của lớp CLC do lớp đã đủ số sinh viên, vậy em có thể học 1 trong các lớp môn A còn lại được không ạ?\nTrả lời:Trong khung chương trình CLC, nếu A là môn * thì sinh viên lớp CLC không học cùng hệ chuẩn được. SV có thể đăng ký vào lớp dành cho NVCL, nếu không thì làm đơn xin bổ sung vào lớp dành cho CLC và nộp ở Phòng Đào tạo.",
+    "meta": {
+      "id": "faq_6",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Thưa thầy/cô, em là sinh viên CLC, em xin hỏi là trong danh sách đăng ký có thêm Niên luận vào chủ nhật thì cụ thể môn đấy là gì ạ? Giới hạn số tín chỉ được đăng ký là 25 có tính cả Niên luận và Thực tập chuyên ngành không ạ? Tại vì nếu tính cả Niên luận và Thực tập chuyên ngành thì tổng số tín chỉ đăng ký của em là 26 tín chỉ ạ.\nTrả lời:Tính cả chứ em. Nhưng Niên luận thì thực ra gắn với khoá luận tốt nghiệp, là làm nghiên cứu chứ không phải học trên lớp. Thực tập thì em đi từ hè rồi chứ (như vậy thì coi như môn đó gần hoàn thành trước khi vào năm học mới). Vì Thực tập CN là môn em đã gần hoàn thành rồi nên quá 1 tín chỉ chắc ko sao đâu. Niên luận phải hoàn thành trong kỳ I năm cuối em nhé. Nó được coi là kết quả ban đầu của khoá luận tốt nghiệp. Vào tháng 9, Khoa sẽ tiến hành phân công đề tài và GV hướng dẫn khoá luận cho SV. Sau đó các em làm và đến tháng 12 nộp báo cáo niên luận",
+    "meta": {
+      "id": "faq_7",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Thưa thầy/cô nếu trong quá trình học mà sinh viên đăng ký nhiều hơn số tín chỉ tự chọn yêu cầu bởi Khung chương trình (N) thì lúc tính trung bình chung tích luỹ sẽ gộp cả các môn này vào hay là chỉ tính N tín chỉ thôi?\nTrả lời:Chỉ tính đủ tín chỉ thôi em ạ. Nhưng em chú ý đăng ký môn đúng với nguyện vọng về chuyên môn của mình nhé, tránh đăng ký thiếu cân nhắc mà chiếm chỗ của các bạn khác thực sự có nhu cầu học.",
+    "meta": {
+      "id": "faq_8",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Em học lớp CNTT hệ chuẩn, em đăng kí nhầm sang môn của lớp CLC thì em có được học không ạ?\nTrả lời:Nếu môn đó có đánh dấu * trong Khung chương trình của CLC thì em nên đăng ký lại sang lớp dành cho hệ chuẩn, huỷ đăng ký kia đi. Lý do là vì môn đó của hệ CLC được học nâng cao hơn so với hệ chuẩn. Em được học nếu vẫn để nguyên đăng ký như vậy. Về nguyên tắc thì SV hệ chuẩn được học lớp mở cho NVCL và CLC nhưng phải căn cứ vào khả năng học tập của bản thân và chịu trách nhiệm về kết quả học tập của minh. SV có hai tuần đầu học kỳ để học tập và điều chỉnh lớp môn học.",
+    "meta": {
+      "id": "faq_9",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Thưa thầy cô, em thấy trong thời khoá biểu có 1 số môn cho lớp CLC, cho em hỏi sinh viên lớp CLC đăng kí vào những lớp khác (lớp không có ghi chú CLC ) có được không ạ. Em xin cảm ơn!\nTrả lời:Chào em, với các môn mà có lớp mở cho CLC, phân biệt với lớp hệ chuẩn, thì em phải đăng ký học lớp đó. Còn với các môn mà không có lớp nào ghi chú CLC cả (ví dụ môn lựa chọn) tức là mở chung cho các hệ, thì em có thể đăng ký học được. Chú ý răng nếu môn mà em đăng ký không có trong khung chương trình CLC thì sẽ không được tính vào điểm trung bình tích luỹ đâu nhé.",
+    "meta": {
+      "id": "faq_10",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Thưa thầy/cô, cho em hỏi là với sinh viên có cần phải đăng ký môn Thực tập chuyên ngành (TTCN) trên trang đăng ký môn học hay không ạ? Hay việc đăng ký chỉ dành cho những bạn chưa đi thực tập trong đợt hè ạ?\nTrả lời:Chào em. Các em vẫn cần đăng ký môn TTCN trên trang đăng ký môn học. Lý do là để trường quản lý việc đăng ký học và thu phí môn học cho thống nhất.\nCác mốc thời gian quan trọng của môn TTCN được ghi rất chi tiết trong thông báo đầu tiên của môn vào vào khoảng cuối tháng 5 hàng năm. Các em cần đọc kỹ thông báo và không nên nghe qua các bạn khác.",
+    "meta": {
+      "id": "faq_11",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Thưa thầy cô cho em hỏi, trong thời gian đăng kí online mà em không thể vào được trang đăng kí thì thời khoá biểu của em có được đặt mặc định theo lớp không hay là ko có gì ạ?\nTrả lời:Chỉ năm đầu tiên mới được đặt mặc định theo lớp. Còn các năm sau nếu không đăng ký online được vì lý do kỹ thuật thì sẽ đăng ký offline (đơn). Nhưng thường không đến nỗi không đăng ký online được.",
+    "meta": {
+      "id": "faq_12",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Thưa thầy cô, em có 2 câu hỏi về thực tập:\n1.Trong kì hè vừa qua em chưa đi thực tập được vì thế em có phải đăng vào môn thực tập chuyên nghành không ?\n2. trong học kì này khoa sẽ tự phân công thực tập chuyên nghành hay là em phải tự chủ động để đăng kí ?\nTrả lời:1. Môn TTCN chỉ được tổ chức vào dịp hè. Với sinh viên đi thực tập tại công ty thì môn này sẽ kết thúc vào tháng 9, với các sinh viên thực tập tại trường thì kết thúc vào tháng 10. Vì vậy, nếu trong hè em không đi thực tập được thì phải chờ đến hè năm sau.\n2. Chi tiết và cách thức tổ chức và các mốc thời gian quan trọng của môn TTCN được ghi rất chi tiết trong thông báo đầu tiên của môn vào vào khoảng cuối tháng 5 hàng năm. Các em cần đọc kỹ thông báo và không nên nghe qua các bạn khác.",
+    "meta": {
+      "id": "faq_13",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Vào trong năm nhà trường có mở thêm lớp Giải Tích – Đại Số hay các môn khác học buổi tối không ạ?\nTrả lời:Thường sau khoảng 4 tuần khi bắt đầu học chính thức sẽ mở lớp đợt 2, các bạn học lại hoặc cải thiện cũng nhiều. Khi mở lớp nhà trường sẽ có thông báo cụ thể đến sinh viên.",
+    "meta": {
+      "id": "faq_14",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Em bị trượt 1 môn thể dục, vậy em có phải đăng ký học lại môn đấy không hay đăng ký môn khác thay thế cũng được sao cho học đủ 4 tín thể dục?\nTrả lời:Bạn có thể đăng kí học môn khác, không bắt buộc học lại môn bạn đã trượt. Chỉ cần bạn học đủ 4 tín chỉ (4 môn) thể dục, và trong đó bắt buộc có môn Giáo dục thể chất và những nguyên lí cơ bản.",
+    "meta": {
+      "id": "faq_15",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Muốn đề nghị Phòng Đào tạo mở lớp thì phải làm như thế nào?\nTrả lời:– Bạn tập hợp các sinh viên các có nhu cầu học cùng môn học đó, và lập danh sách\n– Làm đơn Xin mở lớp và gửi kèm theo danh sách lên Phòng Đào Tạo.\n– Phòng Đào tạo sẽ xem xét về số lượng sinh viên + tính cấp thiết của môn học đối với các sinh đó, và quyết định có mở lớp hay không.",
+    "meta": {
+      "id": "faq_16",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Mình muốn điều chỉnh/ huỷ môn học đã đăng kí thì làm như thế nào?\nTrả lời:Bạn có 2 tuần đầu năm học để điều chỉnh/ bổ sung/ huỷ lớp môn học đã đăng kí. Bạn làm đơn theo mẫu mà Phòng đào tạo cung cấp",
+    "meta": {
+      "id": "faq_17",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Đăng ký học lại hoặc học cải thiện như thế nào?\nTrả lời:Khi đăng ký môn học vào đầu mỗi kỳ, em đăng ký các môn học lại hoặc cải thiện và ghi rõ môn nào là học lại, môn nào là cải thiện và cải thiện cho môn nào.",
+    "meta": {
+      "id": "faq_18",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Em muốn đăng ký bổ sung các môn lý luận chính trị?\nTrả lời:Khi Phòng đào tạo mở các lớp môn học lý luận chính trị, em làm đơn theo mẫu và gửi Phòng đào tạo.",
+    "meta": {
+      "id": "faq_19",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Điều kiện để được học bổng và có những loại học bổng nào?\nTrả lời:Hiện nay, nhà trường có 2 loại học bổng chính: học bổng của Trường và học bổng tài trợ. Học bổng của trường thường dựa vào điểm trung bình và điểm rèn luyện của các kỳ. Học bổng tài trợ thì sẽ tuỳ vào điều kiện của nhà tài trợ mà lựa chọn ra sinh viên phù hợp.",
+    "meta": {
+      "id": "faq_20",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Điều kiện bị xử lí học vụ?\nTrả lời:Điều kiện bị xử lý học vụ được ghi rất chi tiết trong Sổ tay học vụ cấp cho mỗi sinh viên vào đầu Khoá học.",
+    "meta": {
+      "id": "faq_21",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Em muốn tìm đề thi các năm trước?\nTrả lời:Em có thể tham gia các CLB của trường để có điều kiện giúp đỡ của các anh chị khoá trên.",
+    "meta": {
+      "id": "faq_22",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Tín chỉ, điểm tích luỹ, điểm rèn luyện là gì? Tính như thế nào?\nTrả lời:Tín chỉ là đại lượng xác định khối lượng kiến thức, kỹ năng mà sinh viên tích luỹ được từ học phần trong 15 giờ tín chỉ. Nếu môn học có 3 tín chỉ thì em sẽ được học trong 45 giờ tín chỉ bao gồm lý thuyết, thực hành, tự học với phân bố tuỳ từng môn.\nĐiểm rèn luyện là căn cứ đánh giá phẩm chất đào tạo của sinh viên trong quá trình đào tạo, được dùng trong việc tính học bổng, khen thưởng, giao lưu và trao đổi sinh viên quốc tế. Điểm rèn luyện sẽ được ghi vào bảng điểm học tập trong hồ sơ tốt nghiệp.\nĐiểm tích luỹ và cách tính điểm tích luỹ được hướng dẫn chi tiết trong Sổ tay học vụ cấp cho sinh viên vào đầu khoá học.",
+    "meta": {
+      "id": "faq_23",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Xem điểm các môn Giáo dục thể chất như thế nào?\nTrả lời:Liên hệ Phòng Đào tạo.",
+    "meta": {
+      "id": "faq_24",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Câu hỏi:Làm thế nào để phúc khảo lại bài thi?\nTrả lời:Hiện nay, quy chế đào tạo chỉ cho phép học lại đối với các môn bị điểm F hoặc hoặc cải thiện điểm các môn bị điểm D, D+.",
+    "meta": {
+      "id": "faq_25",
+      "href": "https://www.fit.uet.vnu.edu.vn/cac-cau-hoi-thuong-gap/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Bài test đầu năm đối với sinh viên lớp chất lượng cao theo TT23 ?\n📍 Bài thi sẽ gồm có hai phần:\n👉 Tiếng anh: Hình thức thi và mức độ sẽ gần giống như kì thi THPTQG nhưng sẽ có thêm bài thi nghe.\n👉 Lập trình: 1 bài thi lập trình có thể từ 3-4 câu, sử dụng các ngôn ngữ như Pascal, C, C++.\nTuy nhiên, các bạn không nên quá lo lắng về bài kiểm tra này. Vì đây là bài kiểm tra giúp nhà trường biết được trình độ các bạn tới đâu, để phân chia lớp tiếng anh cho phù hợp, đồng thời là phân chia  sao cho các lớp đều có trình độ ngang nhau, tránh trường hợp lớp này nhiều bạn giỏi trong khi lớp kia lại nhiều bạn còn yếu.",
+    "meta": {
+      "id": "faq_26",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/a.997537960281635/2119574641411289/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Sự khác nhau giữa chương trình CNTT CLC và chương trình CLC TT23 ?\n📍 Những điểm khác biệt so với lớp CNTT CLC:\n👉 Học phí: Lớp CLC TT23 có học phí 35 triệu / năm, trong khi đó lớp CNTT CLC học phí sẽ vẫn như hệ thường.\n👉 Chỉ cần thi đủ điểm chuẩn là bạn có thể vào nhóm ngành CLC, sau đấy sẽ có 1 bài kiểm tra để nhà trường phân lớp các bạn hợp lý.",
+    "meta": {
+      "id": "faq_27",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/a.997537960281635/2119574608077959/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Điều kiện về tiếng anh khi dự thi vào nhóm ngành chất lượng cao ?\n📍 Với các chương trình đào tạo chất lượng cao trình độ đại học theo đề án (đáp ứng Thông tư 23/2014/TT-BGDĐT) phải đảm bảo xét tuyển có điều kiện ngoại ngữ đầu vào: kết quả môn Ngoại ngữ của kì thi THPT quốc gia năm 2019 đạt tối thiểu điểm 4.0 trở lên (theo thang điểm 10) hoặc sử dụng các chứng chỉ ngoại ngữ quốc tế tương đương theo quy định tại Quy chế thi nếu sử dụng tổ hợp xét tuyển không có môn ngoại ngữ.",
+    "meta": {
+      "id": "faq_28",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/a.997537960281635/2119574628077957/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Hiện nay 2019 Trường Đại học Công nghệ có những ngành mới nào ?\nNăm 2019, trường Đại học Công nghệ tuyển sinh hai ngành mới là:\n👉 Công Nghệ Nông Nghiệp;\n👉 Kỹ Thuật Điều Khiển Tự Động Hoá.\nHai ngành này có tổ hợp xét tuyển giống như các ngành khác trong trường là A00 và A01. Riêng ngành “Công Nghệ Nông Nghiệp“ có thêm một tổ hợp xét tuyển là: B00.\nNgoài ra, trường tiếp tục tuyển sinh ở các ngành mới tuyển sinh năm 2017, 2018 như:\n📍Kỹ thuật Máy Tính;\n📍Kỹ thuật Robot;\n📍Công nghệ kỹ thuật xây dựng;\n📍Công nghệ hàng không vũ trụ.",
+    "meta": {
+      "id": "faq_29",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2130255887009831/2130254050343348/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Sinh viên đại học công nghệ có thể ở ký túc xá nào ?\nSinh viên trường có thể ở tại những khu ký túc xá (KTX) của trường như:\n🔸 KTX Ngoại Ngữ nằm ngày trong khuôn viên của ĐHQGHN nên rất thuận tiện cho sinh viên công nghệ trong việc đi bộ đi học. KTX Ngoại Ngữ sẽ ưu tiên con em liệt sỹ, gia đình có công với cách mạng, sinh viên đạt thành tích cao trong các kỳ thi tuyển, con em gia đình có hoàn cảnh khó khăn,... trước sau đó sẽ xem xét tới các đơn thuộc diện không ưu tiên tới khi hết chỉ tiêu.\n🔸 KTX Mỹ Đình: cách trường khoảng 2,5km, nếu di chuyển bằng xe máy, xe đạp sẽ chỉ mất khoảng 10 đến 20’ để tới trường. Nếu di chuyển bằng bus sẽ mất khoảng 20’ (cả thời gian đợi bus - rất tiện bus). Đây là KTX mới và là khu nội trú của không chỉ sv ĐHQGHN mà còn là của các bạn sinh viên học các trường trong địa bàn thành phố có nguyện vọng đăng ký.\n🔸 KTX Mễ Trì: nằm tại 182 đường Lương Thế Vinh, quận Thanh Xuân. Cách khu vực Xuân Thuỷ khoảng 7 km. Tuy khoảng cách khá xa cho sinh viên Công Nghệ nhưng bù lại điều kiện của KTX Mễ Trì lại không hề thua kém hai KTX trên.",
+    "meta": {
+      "id": "faq_30",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2130255887009831/2130254203676666/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Em muốn ở ký túc xá thì đăng ký như thế nào ạ ?\nSinh viên trường có thể ở tại những khu KTX của trường như: KTX Ngoại Ngữ, KTX Mỹ Đình, KTX Mễ Trì\n🔺 Các ký túc xá đều có điều kiện, cơ sở vật chất tương đối ổn định và giống nhau (phòng gym, siêu thị, nhà ăn, khu sinh hoạt,...). Mỗi KTX có nhiều loại phòng ở từ 2- 10 người/1 phòng, giá phòng ở từ 140.000đ -390.000đ/tháng (giá trên chưa bao gồm các phí dịch vụ và điều kiện về từng phòng của sinh viên). Các phòng đều đầy đủ tiện nghi và đồ dùng để sinh viên có thể học tập và sinh hoạt.\nĐối với sinh viên năm nhất: ban quản lý ký túc xá tổ thức tiếp nhận sinh viên nội trú theo lịch của đơn vị đào tạo. Sau khi làm xong thủ tục nhập học tại trường, sinh viên đến ký túc xá chuẩn bị đầy đủ giấy tờ cần thiết để hướng dẫn thủ tục nhập ký túc xá.",
+    "meta": {
+      "id": "faq_31",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2259391654096253/2259386124096806",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Năm nay 2019 trường Đại học Công Nghệ có những phương thức tuyển thẳng nào ?\nNăm 2019 trường Đại học Công nghệ có nhiều đổi mới trong cách thức tuyển sinh, đặc biệt là trong tuyển thẳng, mang đến nhiều cơ hội hơn cho học sinh. Trong đó có:\n📍 Xét tuyển thẳng theo quy định chung của Bộ GD&ĐT vào đại học chính quy năm 2019.\n+ Thí sinh tham gia kỳ thi chọn đội tuyển quốc gia thi các kỳ thì Olympic quốc tế;\n+ Thí sinh nằm trong đội tuyển quốc gia tham dự các kỳ thi khoa học, kỹ thuật quốc tế;\n+ Thí sinh đạt giải nhất, nhì, ba trong kỳ thi HSG quốc gia và kỳ thi khoa học kỹ thuật quốc gia;\n+ Thí sinh dân tộc thiểu số, thuộc các huyện nghèo, 20 huyện nghèo vùng biên giới.\n📍 Xét tuyển thẳng đối với các thí sinh là học sinh của các trường THPT chuyên thuộc ĐHQGHN có đủ điều kiện xét tuyển.\n📍 Xét tuyển thẳng đối với những thí sinh thuộc các trường chuyên ở các tỉnh có trong danh sách 34 trường chuyên và đáp ứng một trong 2 điều kiện:\n- Đạt danh hiệu học sinh giỏi 3 năm học THPT, có tổng điểm 4 bài thi tốt nghiệp THPT đạt tối thiểu 28,0 điểm (không có môn nào dưới 5 điểm);\n- Là thành viên chính thức tham gia đội tuyển thi kỳ thi chọn HSG Quốc gia, kỳ thi khoa học kỹ thuật cấp Quốc gia hoặc cao hơn.\n📍 Xét tuyển thí sinh vào học đại học chính quy năm 2019 theo kết quả SAT/chứng chỉ A-Level (đủ điều kiện theo yêu cầu của ĐHQGHN)",
+    "meta": {
+      "id": "faq_32",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2130255887009831/2130254843676602",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "cho em hỏi khi học tại UET thì nhà trường sẽ dạy tiếng anh hay sinh viên sẽ phải tự học ở ngoài ?\nnếu nhà trường dạy thì có cấp chứng chỉ nào ạ?\nHọc tập tại UET sẽ có các lớp học phần tiếng anh cơ sở do các giảng viên của trường đại học ngoại ngữ giảng dạy, chương trình đào tạo đến chuẩn tiếng anh đầu ra của trường (đến B1 hoặc hơn) và không có cấp chứng chỉ.\nCác bạn có thể học và thị các chứng chỉ tiếng anh quốc tế tại cắc trung tâm ngoài, hoặc VSTEP của đại học ngoại ngữ. Hiện tại sinh viên UET được miễn học và công nhận điểm các học phần Tiếng Anh cho khi đã tham dự các Kỳ thi đánh giá năng lực, VSTEP, TOEFL, TOEIC, IELTS và Cambridge Test đạt kết quả tương ứng theo chuẩn trình độ ngoại ngữ.",
+    "meta": {
+      "id": "faq_33",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2259391654096253/2259386174096801",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Thế nào là tuyển sinh theo nhóm ngành?\n👉 “Nhóm ngành” là những nhóm có từ 2 ngành trở lên và thay vì việc viết tên và mã tuyển sinh của từng ngành thì các em chỉ cần viết tên và mã nhóm ngành có chứa ngành mà các em muốn học.\nVD:\n- CN1 - nhóm ngành Công nghệ thông tin;\n- CN2 - nhóm ngành Máy tính và Robot;\n- CN3 - nhóm ngành Vật Lý Kỹ Thuật;\n- CN8 - nhóm ngành Công nghệ thông tin - TT23;\n👉 Sau khi các em đỗ vào một nhóm ngành nào đó thì các em sẽ được quyền được đăng ký một ngành trong nhóm ngành đó để theo học. Tuy nhiên, còn phụ thuộc vào chỉ tiêu của ngành đó và số lượng nguyện vọng đăng ký nữa thì các em mới biết mình có được vào ngành đó không.\n👉 Điểm chuẩn của các ngành trong cùng “ nhóm ngành “ là bằng nhau và chính là điểm chuẩn của nhóm ngành nhé",
+    "meta": {
+      "id": "faq_34",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2110765252292228/2119061751462578",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "học phí của trường đại học công nghệ năm 2019 là bao nhiêu ?\nHọc phí của trường hiện nay (2019) chia thành hai mức tương ứng với hai chương trình đào tạo của trường là:\nHệ chuẩn: 280 nghìn vnđ/ tín chỉ tương đương với khoảng 10tr vnđ/năm và tăng không quá 10% 1 năm.\nHệ chất lượng cao CLC-TT23: 35 tr vnđ/năm và ổn định trong cả khoá học.",
+    "meta": {
+      "id": "faq_35",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2110765252292228/2119061828129237",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "năm 2019, cho em hỏi là xét tuyển theo điểm IETLS thì trường sẽ xét từ trên xuống theo điểm tổng 3 môn hay chỉ theo điểm IETLS thôi ạ ?\nNăm 2019, trong việc xét tuyển theo điểm IETLS, điểm xét tuyển = điểm quy đổi IELTS + toán + lý. Trường sẽ xét bằng điểm đó theo thứ tự từ cao xuống thấp đến hết chỉ tiêu em nhé.",
+    "meta": {
+      "id": "faq_36",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2982010155167729/2982008875167857/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "em xét tuyển thẳng thì khi làm hồ sơ dự thi THPT có cần ghi trong phiếu thêm 1 nguyện vọng không hay tách riêng với thi THPT ạ ?\nTrong trường hợp em muốn xét tuyển vào 1 ngành bằng cả 2 phương thức: xét tuyển thẳng và xét tuyển bằng điểm thi tốt nghiệp THPT thì em mới cần điền vào hồ sơ dự thi tốt nghiệp THPT. Nếu em chỉ xét tuyển thẳng thì không cần điền nữa nhé.",
+    "meta": {
+      "id": "faq_37",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2982010155167729/2982009125167832",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "có phải xét tuyển thẳng vào trường mình thì sẽ trúng tuyển 100% không ạ ?\nMỗi ngành có số lượng chỉ tiêu tuyển thẳng nhất định, trường sẽ xét từ cao xuống thấp cho đến khi hết chỉ tiêu. Vì vậy, không phải 100% thí sinh đăng kí xét tuyển thẳng đều sẽ trúng tuyển vào trường.",
+    "meta": {
+      "id": "faq_38",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2982010155167729/2982010091834402",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Ưu điểm của hệ chất lượng cao so với hệ thường là gì ?\nMột số ưu điểm của chương trình CLC:\n👉Chương trình được thiết kế và vận hành dưới sự phối hợp chặt chẽ giữa Nhà trường và các doanh nghiệp đối tác;\n👉 Được giảng dạy bởi các giảng viên có trình độ cao;\n👉 50% các môn học chuyên môn được giảng dạy bằng tiếng Anh; hệ thống cơ sở vật chất và phòng thí nghiệm tiên tiến;\n👉 Được giao lưu, trao đổi kinh nghiệm học tập với sinh viên quốc tế tại các nước Úc, Nhật, Pháp...;\n👉 100% sinh viên được tham gia thực tập tại doanh nghiệp, tham gia các khoá học trường hè, thực hiện các tiểu dự án trong chương trình đào tạo kỹ năng bổ trợ...;\n👉 Có lợi thế trong tuyển dụng tại các tập đoàn hàng đầu đã có ký kết hợp tác đào tạo và tuyển dụng với Trường ĐHCN như Samsung, Toshiba, FPT, Viettel-ICT, VNPT Technology,... và nhóm các doanh nghiệp CNTT của Nhật Bản tại Việt Nam;\n👉 Sinh viên giỏi được nhận tài trợ học bổng từ Nhà trường và từ các doanh nghiệp, tập đoàn đối tác. Học bổng trong ngân sách, học phí một ký học: 17,5tr/ kỳ.",
+    "meta": {
+      "id": "faq_39",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2119574721411281/2119574611411292",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "cho em hỏi trường UET mình có nhiều học bổng không ạ ?\ntrường đại học công nghệ tính đến năm 2018 có trên 23 loại học bổng và được phân ra thành 2 loại: trong ngân sách (do nhà nước cấp) và ngoài ngân sách (do các cá nhân, tổ thức cấp). Chi tiết về danh sách học bổng trong đường link sau:\nhttp://bit.ly/hocbongUET\nhttp://bit.ly/thongbaohocbongUET",
+    "meta": {
+      "id": "faq_40",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2201098763258876/2201092003259552",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "hai ngành học vật lý kỹ thuật và kỹ thuật năng lượng có những điểm cơ bản gì khác nhau ?\nThông tin chi tiết tại link: https://bit.ly/2XWPKeJ .\n☝️ Khoa có định hướng chuyên sâu trong nhiều năm và khẳng định vị trí hàng đầu trong công nghệ micro-nano, và mới đây là phát triển đào tạo đặc biệt trong công nghệ về năng lượng cải thiện môi trường và đời sống.\n✌️ Đặc điểm chung của hai ngành này đều là vật lý ứng dụng, sử dụng những kiến thức của vật lý để ứng dụng vào công nghệ trong việc hỗ trợ các vấn đề liên quan đến máy móc trong các lĩnh vực, cùng với đó là trang bị các kiến thức nền tảng liên quan như Vật lý, Vật liệu tiên tiến và linh kiện, điều khiển,.. công nghệ nano và ứng dụng.\nSự khác nhau cơ bản:\n1️Vật lý kỹ thuật: hệ đào tạo cử nhân trong 4 năm, được đào tạo các kiến thức và kỹ năng về vật lý hiện đại, công nghệ nano, và ứng dụng trong các lĩnh vực vật liệu mới, vi điện tử-đo lường, y-sinh và môi trường.\n👉 Định hướng đào tạo:\n- Công nghệ nano;\n- Công nghệ quang tử;\n- Công nghệ nano sinh học;\n- Vật lý tính toán.\n2️Kỹ thuật năng lượng: hệ đào tạo kỹ sư trong 4,5 năm, đào tạo kiến thức và kỹ năng về năng lượng, công nghệ kỹ thuật năng lượng, và thiết kế, chế tạo, vận hành hệ thống biến đổi và tích trữ năng lượng, quản lý và an toàn năng lượng, ứng dụng của năng lượng tái tạo trong dân sinh và công nghiệp.\n👉 Các định hướng đào tạo:\n- Năng lượng mặt trời;\n- Biến đổi và tích trữ các nguồn năng lượng mới;\n- Quản lý và an toàn năng lượng;",
+    "meta": {
+      "id": "faq_41",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2201098763258876/2201092109926208",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "em muốn hỏi trường UET mình có ngành nào bắt buộc phải là nguyện vọng 1 không ạ ?\nTrường đại học công nghệ không bắt buộc đăng ký xét tuyển nguyện vọng 1 ở bắt kỳ ngành nào. Trong xét tuyển đợt 1, đối với từng ngành/nhóm ngành, thí sinh được xét tuyển bình đẳng, Đại học Công nghệ không phân biệt thứ tự ưu tiên của nguyện vọng đăng ký.",
+    "meta": {
+      "id": "faq_42",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2201098763258876/2201092096592876",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "học phí trường năm 2020 là bao nhiêu ?\nHọc phí của trường hiện nay (2020) chia thành hai mức tương ứng với hai chương trình đào tạo của trường là:\n- Hệ chuẩn: 11.700.000 vnđ/năm và tăng không quá 10% 1 năm.\n- Hệ CLC: 35 triệu vnđ/ năm và ổn định trong cả khoá học.",
+    "meta": {
+      "id": "faq_43",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2786898614678885/2786897871345626/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "năm 2020 trường xét tuyển những khỗi nào ?\nNăm 2020, trường xét tuyển khối A00 (Toán-Lý-Hoá) và A01 (Toán-Lý-Anh) với tất cả các ngành.\nRiêng ngành Công nghệ nông nghiệp xét tuyển các khối A00, A01, A02 (Toán-Lý-Sinh) và B00 (Toán-Hoá-Sinh).",
+    "meta": {
+      "id": "faq_44",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2786898614678885/2786898091345604",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "phương thức xét tuyển theo chứng chỉ tiếng anh quốc tế ?\nphương thức xét tuyển theo chứng chỉ tiếng anh quốc tế.\nThí sinh có chứng chỉ tiếng Anh IELTS từ 5.5 trở lên hoặc các chứng chỉ tiếng Anh quốc tế tương đương, quy đổi theo bảng (chứng chỉ còn hạn sử dụng trong khoảng thời gian 02 năm kể từ ngày dự thi) và có tổng điểm 2 môn còn lại trong tổ hợp xét tuyển đạt tối thiểu 12 điểm.\nTham khảo thông tin và bảng quy đổi điểm tiếng Anh tại:\nhttps://tuyensinh.uet.vnu.edu.vn/?p=54",
+    "meta": {
+      "id": "faq_45",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2786898614678885/2786898528012227",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Ngành khoa học máy tính mà UET đào tạo là chỉ đào tạo chương trình chất lượng cao a ? không có chương trình chuẩn ạ ?\nNgành khoa học máy tính CN8 của trường chỉ đào tạo hệ chất lượng cao theo TT23.",
+    "meta": {
+      "id": "faq_46",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2245844005451018/2245803242121761",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "em có nguyện vọng vào CN9 CLC, được biết là học phí là 35 tr / năm thì ngoài ra còn phải đóng thêm khoản phí phát sinh về học tập không ?\nCác chương trình chất lượng cao theo TT23 của bộ GD&ĐT có học phí là 35 triệu/năm, ổn định trong toàn khoá, đã bao gồm cả học phí khoá quân sự, học phí tiếng anh cơ sở..., không phát sinh thêm khoản phí nào.",
+    "meta": {
+      "id": "faq_47",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2245844005451018/2245803738788378",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "trước khi vào học công nghệ thông tin của UET thì em nên chuẩn bị những kỹ năng gì để khỏi bỡ ngỡ ạ ?\nTrước tiên em nên trau hồi khả năng tiếng anh, bên cạnh đó có thể tìm hiểu về các ngôn những lập trình như C,C++,python,java...\n“Điều quan trọng nhất em nên chuẩn bị là tiếng anh thật tốt. Thứ tự ưu tiên nên là đọc/nghe-nói/viết\nNếu rảnh em có thể học trước 1 ngôn ngữ lập trình cho quen tư duy. Bắt đầu với python là 1 sự lựa chọn dễ dàng, hoặc có thể học C/C++ theo chương trình ở trường”",
+    "meta": {
+      "id": "faq_48",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2237389406296478/2237388659629886/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Chương trình chất lượng cao TT23 như em được biết là giảng dạy phần lớn bằng tiếng anh. Nếu em khả năng tiếng anh chưa tốt thì em vào trường có được học thêm một khoá đào tạo tiếng anh không ? nếu có thì học phí bao nhiêu ?\ncác chương trình đào tạo chất lượng cao theo tt23 của bộ giáo dục có tối thiểu 50% môn học chuyên môn được giảng dạy bằng tiếng anh. Sinh viên sẽ phải làm một bài thi 1 sát hạch trình độ tiếng anh để phân lớp theo năng lực và đào tạo đến chuẩn đầu ra ngoại ngữ C1, với học phí nằm sẵn trong chương trình (trong số 35 triệu/năm).",
+    "meta": {
+      "id": "faq_49",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2237389406296478/2237388882963197",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Cho em hỏi trong đại học công nghệ có nữ không ạ :) ?\nTrên giấy tờ, tỷ lệ nam:nữ của UET là khoảng 8:1 em nhé. UET có đầy đủ mọi thể loại giới tính, ngoài ra xung quanh UET còn là những “cô hàng xóm” rất xinh đẹp như Ulis, Luật, UEB,... em nhé! ",
+    "meta": {
+      "id": "faq_50",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2224591934242892/2224589964243089",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "cho em hỏi là các chương trình đào tạo chất lượng cao theo TT23 là mình phải vào trường rồi mới đăng ký theo học hay xét tuyển qua kết quả THPTQG ạ ?\nTại UET có 2 chương trình đào tạo:\n- Chương trình CLC theo TT23 của Bộ GD&ĐT (các ngành/nhóm ngành CN6, CN8, CN9);\n- Chương trình đào tạo chuẩn (các ngành/nhóm ngành còn lại).\nTất cả các ngành/nhóm ngành trên đều sử dụng 3 phương thức xét tuyển vào đại học chính quy của UET đó là:\nTuyển thẳng, Ưu tiên xét tuyển và Xét tuyển, kết quả THPTQG. (Thông tin chi tiết: http://bit.ly/xt_UET).\nĐối với chương trình CLC theo TT23, riêng nhóm ngành CN8 khi vào trường sinh viên sẽ được các thầy cô tư vấn thêm và đưa ra định hướng về hai ngành Khoa học máy tính và Hệ thống thông tin, từ đó nhà trường sẽ phân ngành dựa trên nguyện vọng, chỉ tiêu và điểm đầu vào của sinh viên.",
+    "meta": {
+      "id": "faq_51",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2224591934242892/2224590217576397",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "gia đình em thuộc diện hộ nghèo thì có được miễn, giảm học phí không ạ ?\nĐối với đối tượng sinh việc thuộc hộ nghèo theo quy định của nhà nước sẽ được giảm 50% học phí, ở đại học công nghệ - UET.\nLink thông tin chi tiết: https://vnu.edu.vn/ttsk/?C2095/N9258Che-do-mien-giam-hoc-phi-doi-voi-hoc-sinh,-sinh-vien.htm",
+    "meta": {
+      "id": "faq_52",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2224591934242892/2224590577576361",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "cho em hỏi năm nay có xét tuyển lớp CLC ngành công nghệ thông tin không ạ ? Nếu có thì chỉ tiêu và cách xét tuyển như nào ạ ?\nTrường vẫn xét tuyển lớp CLC ngành CNTT hàng năm. Sau khi trúng tuyển nhóm ngành CN1 và không chọn ngành CNTT định hướng TTNB bạn có quyền đăng ký tham gia xét tuyển lớp học này. Hình thức thi mỗi năm khác nhau, sẽ được nhà trường thông báo sau (Lập trình, Tiếng Anh, hoặc Toán logic...). Năm 2018 có chỉ tiêu là 30 sinh viên, với hình thức thi: 1 bài thi tiếng Anh, 1 bài test IQ và vấn đáp.\n👉 Click để xem thêm thông tin: http://bit.ly/CNTTCLC",
+    "meta": {
+      "id": "faq_53",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2224591934242892/2224590250909727",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "cho em hỏi là sự khác nhau giữa ngành kỹ thuật máy tĩnh và ngành công nghệ thông tin là gì ạ? và AI thì\nnằm trong công nghệ thông tin hay kỹ thuật mấy tĩnh và robot ạ?\nNgành kỹ thuật máy tính (KTMT) học thiết kế hệ thống dựa trên nên tảng máy tính về cả phần cứng và phần mêm, được đào tạo lập trình nhưng thiên về lập trình nhúng cho phần cứng, các kiến thức về kỹ thuật điện, điện tử. Khác với sự thiên về làm ứng dụng và phát triển phần mềm của ngành công nghệ thông tin (CNTT). CNTT hay KTMT/robot đều có các môn học liên quan đến AI nhưng chuyên sâu AI nhất là ngành khoa học máy tính.\nCó thể tìm hiểu thêm về khung chương trình của các ngành tại link: uet.vnu.edu.vn/category/dao-tao/dao-tao-dai-hoc/",
+    "meta": {
+      "id": "faq_54",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.2190780074290745/2190765580958861/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Em nghe nói đối với khối A01 điểm toán lý x2, tiếng anh x1.8. Cách tính điểm thị THPTQG xét tuyển vào trường ra sao ạ?\ntrả lời:\n* đối với chương trình hệ chuẩn:\nđiểm thi = điểm môn 1 + điểm môn 2 + điểm môn 3 + điểm ưu tiên (nếu có).\n* đối với chương trình hệ chất lượng cao CLC TT23:\nđiểm thi = (điểm môn chính 1 x2 + điểm môn chính 2 x2 + điểm môn 3) x0.6 + điểm ưu tiên (nều có).\nđiểm thị được làm tròn đến 2 chữ số thập phân.\nĐối với hệ chuẩn, tổ hợp môn không nhân hệ số. Đối với hệ CLC TT23, tổ hợp môn có môn nhân hệ số 2 (môn chính) và môn tiếng Anh phải đạt từ 4.0 điểm trở lên.",
+    "meta": {
+      "id": "faq_55",
+      "href": "https://facebook.com/TVTS.UET.VNU/photos/pcb.2190780074290745/2190766680958751",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Nếu đã có tài khoản BIDV rồi thì có cần điền tờ khai mở tài khoản không ?\nTài khoản BIDV của trường sẽ được tích hợp với thẻ sinh viên cho những việc như tự động thu học phí, học bổng, nên các bạn sẽ cần lập tài khoản mới. Với những bạn đã có tài khoản BIDV, các bạn vẫn sẽ được giữ tài khoản cũ và sử dụng song song với tài khoản tích hợp.",
+    "meta": {
+      "id": "faq_56",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.4259641814071217/4259641084071290",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Học bạ THPT cần nộp bản gốc hay bản sao ?\nKhi nộp học bạ online các bạn cần scan bản gốc nhé. Còn những bạn phải học bạ gửi về trường sẽ nộp bản sao công chứng hoặc có xác nhận của trường.\nBản sao học bạ hợp lệ là bản sao học bạ có công chứng xác thực. Lưu ý nộp học bạ đầy đủ toàn bộ 3 năm để trường có thể xét hạnh kiểm trong 3 năm học của bạn nhé.",
+    "meta": {
+      "id": "faq_57",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.4259641814071217/4259640757404656/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Các bạn thuộc diện xét tuyển thẳng có cần cập nhật thông tin và hồ sơ trực tuyến không ?\nĐợt xác nhận và nộp hồ sơ này dành cho các bạn xét tuyển bằng kết quả thi THPTQG nên các bạn xét tuyển thẳng đã nộp hồ sơ trực tiếp về trường sẽ không cần thực hiện nữa nhé.\nĐợt xác nhận nhập học lần này dành cho các bạn xét tuyển bằng kết quả thi THPTQG nên các bạn xét tuyển thẳng đã nộp hồ sơ qua đường bưu điện không cần đăng nhập và nộp hồ sơ trong lần này.",
+    "meta": {
+      "id": "faq_58",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.4259641814071217/4259640970737968",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "sau khi scan và nộp hồ sơ trực tuyến có cần gửi hồ sơ bản cứng về trường qua đường bưu điện không ?\nSau khi nộp hồ sơ online, nếu có thể thì bạn nên chuyển phát Giấy chứng nhận kết quả thi tới trường. Bạn cũng chuẩn bị những giấy tờ còn lại để có thể nộp trực tiếp khi được quay lại trường nhé!\nLưu ý, các bạn không nộp giấy tờ bản cứng tới trường cho tới khi nhận được giấy triệu tập của trường nhé.",
+    "meta": {
+      "id": "faq_59",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.4259641814071217/4259641240737941",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Có thể không nộp cả 2 loại bảo hiểm y tế BHTY và bảo hiểm thân thể không ?\nBảo hiểm y tế (BHYT) là bắt buộc với các bạn chưa có BHYT.\nVới những bạn đã có thẻ BHYT, các bạn cần scan thẻ của mình cả 2 mặt và nộp lên hồ sơ trực tuyến nhé.\nBảo hiểm thân thể là tự nguyện nên bạn có thể không đóng nhé.",
+    "meta": {
+      "id": "faq_60",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.4259641814071217/4259641400737925",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "trường có trả lại các giấy tờ bản gốc sau khi em nhập học không ạ ?\nSau học kỳ đầu tiên, trường sẽ trả lại bản gốc giấy chứng nhận giải, chứng chỉ quốc tế các bạn đã nộp trong hồ sơ nhập học nhé.",
+    "meta": {
+      "id": "faq_61",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.4107072372661496/4107042195997847/",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Em xét tuyển bằng giải học sinh giỏi và có ghi thêm một số giải phụ khác thì có cần nộp hết chứng minh các giải khác không ạ ?\nBạn trúng tuyển theo phương thức nào, bằng giải nào thì chỉ cần nộp đúng và đủ giấy tờ của phương thức và giải xét tuyển đó là được nhé! Đương nhiên việc bạn nộp thừa cũng không ảnh hưởng tới kết quả trúng tuyển đâu.",
+    "meta": {
+      "id": "faq_62",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.4107072372661496/4107042395997827",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "SAT không có giấy chứng nhận bản cứng thì em phải nộp như thế nào ạ ?\nVới phương thức xét tuyển bằng chứng chỉ SAT, các bạn nộp bản in Score Report tới trường đồng thời yêu cầu nơi tổ chức thi gửi kết quả thi chính thức của bạn tới Đại học quốc gia qua mã đăng ký: 7853-Vietnam National University-Hanoi.",
+    "meta": {
+      "id": "faq_63",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.4107072372661496/4107042852664448",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Em có phải hộp giấy chứng nhận tốt nghiệp không ạ ?\nHiện tại, trường chưa yêu cầu nộp giấy chứng nhận tốt nghiệp THPT mà chỉ yêu cầu nộp Bản gốc giấy chứng nhận kết quả thi THPTQG thôi nhé! Các bạn có thể xem chi tiết hướng dẫn nhập học tại đây: https://tuyensinh.uet.vnu.edu.vn/?p=2031",
+    "meta": {
+      "id": "faq_64",
+      "href": "https://www.facebook.com/TVTS.UET.VNU/photos/pcb.4107072372661496/4107043402664393",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Đề xuất giữ nguyên học phí trong năm học tiếp theo.\nTrả lời: Lộ trình tăng học phí hàng năm là theo quy định của Chính phủ, học phí năm học 2020-2021 là đang thực hiện theo Nghị định 86/2015/NĐ-CP. Từ năm học 2021-2022 mức học phí sẽ theo nghị định mới mà Chính phủ đang soạn thảo dự kiến ban hành. Tuy nhiên theo công văn số 1505/BGDĐT-KHTC ngày 16/4/2021 của Bộ Giáo dục Đào tạo, để chia sẻ khó khăn, giảm bớt gánh nặng tài chính với phụ huynh, học sinh và người dân do ảnh hưởng của dịch bệnh Covid và các đợt thiên tai bão lũ ở nhiều địa phương trong thời gian qua. Bộ GDĐT đã lấy ý kiến các bộ ngành, các địa phương về dự thảo Nghị định và báo cáo Chính phủ xem xét cho phép giữ nguyên mức học phí của năm học 2021-2022 ổn định không tăng so với năm học 2020-2021. Khi Chính phủ ban hành các nghị định mới Nhà trường sẽ cập nhật thông báo cho người học kịp thời.",
+    "meta": {
+      "id": "faq_65",
+      "href": "https://uet.vnu.edu.vn/wp-content/uploads/2021/06/C%C3%A2u-tr%E1%BA%A3-l%E1%BB%9Di-%C4%91%C3%ADnh-k%C3%A8m.pdf",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Em có câu hỏi về chương trình thực tập cho sinh viên ngành CNTT CLC trong năm 3, khi đó sinh viên có quyền lợi gì, em muốn hiểu thêm về chương trình thực tập ạ?\nTrả lời: Thực tập chính thức vào hè kết thúc năm thứ 3, đó là thời điểm chúng ta có tương đối đủ kiến thức nền tảng để áp dụng ra thực tế. Các chương trình CLC có hỗ trợ sau: hỗ trợ tìm doanh nghiệp đặc biệt là doanh nghiệp đối tác với khoa để tìm được vị trí phù hợp với năng lực và nhu cầu của các bạn; các bạn có mong muốn làm NCKH với các thầy theo định hướng nghiên cứu cũng sẽ được hỗ trợ.\nĐây là câu hỏi quan trọng với tất cả sinh viên của nhà trường. Chúng ta là ngành kỹ thuật, việc sinh viên có kiến thức về thực hành, thực tập là việc rất quan trọng. Và trong quá trình 4 năm học, nếu chúng ta có thể tích luỹ những kiến thức thực tế này từ doanh nghiệp thì đó là một chìa khoá quan trọng cho các em khi ra trường. Tuy nhiên, các em phải hiểu rõ những kỹ năng đấy chỉ học được, nhận được khi chúng ta lao động và sử dụng đúng hướng. \nVậy nên khi các em nắm rõ được nguyện vọng, định vị được mục đích của mình sau khi ra trường thì nên tập trung để thực tập đúng hướng, tránh việc đi thực tập chỉ để lấy điểm. Nhà trường mong muốn tổ chức những chương trình thực tập có chất lượng, do đó chỉ chú trọng các DN có chất lượng, hợp tác và cam kết rõ ràng. Nhà trường khuyến khích sinh viên chủ động tìm DN phù hợp với mình. Trong trường hợp các bạn không tìm được nhà trường sẽ có kênh kết nối hỗ trợ, mong các bạn sẽ tìm được như nguyện vọng.",
+    "meta": {
+      "id": "faq_66",
+      "href": "https://uet.vnu.edu.vn/wp-content/uploads/2021/06/C%C3%A2u-tr%E1%BA%A3-l%E1%BB%9Di-%C4%91%C3%ADnh-k%C3%A8m.pdf",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "nếu em lựa chọn công ty ngoài danh sách 40 công ty Nhà trường đưa ra thì có được công nhận thực tập không ạ ?\nTrả lời: Từ góc nhìn BGH luôn mong đợi sinh viên chủ động tìm DN phù hợp với mình. Nhưng nhà trường chỉ ủng hộ các DN hướng dẫn thực tập sinh viên một cách bài bản, chất lượng và mong muốn sinh viên có thể thực tập để lấy kiến thức thực sự. Do vậy, khi các bạn nộp tên DN lên Khoa, thì các Thầy/Cô sẽ có trách nhiệm kết nối và xác minh, nếu DN đáp ứng được thì Khoa sẽ chấp nhận.\nKhoa đã đưa danh sách các công ty đã được khoa xác nhận về môi trường, chất lượng. Nếu các em lựa chọn các công ty trong danh sách này thì sẽ được công nhận luôn còn nếu ngoài danh sách thì sẽ mất thời gian hơn để khoa kết nối và làm việc để xác nhận. Nếu đạt yêu cầu thì khi đó khoa sẽ chấp nhận kết quả thực tập của các em.",
+    "meta": {
+      "id": "faq_67",
+      "href": "https://uet.vnu.edu.vn/wp-content/uploads/2021/06/C%C3%A2u-tr%E1%BA%A3-l%E1%BB%9Di-%C4%91%C3%ADnh-k%C3%A8m.pdf",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Ngoài việc sinh viên tham gia NCKH cũng như tham gia các cuộc thi đại diện cho Nhà trường sẽ nhận được kiến thức và kinh nghiệm, thì nhà trường có quy định gì về quyền lợi cụ thể khác cho sinh viên không ạ?\nTrả lời: Thứ nhất với những cuộc thi như Olympic thì đã có sẵn quy chế của ĐHQGN và nhà trường các em sẽ được công nhận và quy đổi điểm, ngoài ra theo kinh nghiệm thì các em sẽ là đối tượng ưu tiên tuyển dụng hàng đầu đối với các DN. Ngoài ra, đối với các giải như thế này các bạn rất dễ xin học bổng để du học thạc sĩ ra nước ngoài. Ngoài ra, nếu các em có nguyện vọng gì thì có thể đề xuất qua Khoa để nhà trường xem xét. \n\n",
+    "meta": {
+      "id": "faq_68",
+      "href": "https://uet.vnu.edu.vn/wp-content/uploads/2021/06/C%C3%A2u-tr%E1%BA%A3-l%E1%BB%9Di-%C4%91%C3%ADnh-k%C3%A8m.pdf",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Cơ hội việc làm khi tốt nghiệp tại UET - ĐH Công nghệ có cao không?\nTheo thống kê của Trung tâm đảm bảo chất lượng, tỷ lệ sinh viên tốt nghiệp có việc làm sau 6 tháng ra Trường của Trường ĐHCN đạt 95%, đặc biệt các ngành thuộc lĩnh vực CNTT, Công nghệ điện tử viễn thông và Cơ điện tử thì tỷ lệ này là 100%. Nhiều bạn sinh viên đã được các tập đoàn/doanh nghiệp lớn nhận thực tập và làm việc ngay khi còn đang là sinh viên năm thứ 3, thứ 4 của Nhà trường. Điển hình gần đây có bạn  Phạm Văn Hạnh, sv năm 2 ngành Khoa học máy tính được Intern (thực tập ở Facebook Anh) và bạn Nguyễn Đức Minh, sv năm 2 ngành Khoa học máy tính được Intern (thực tập ở Google Mĩ), ...\nEm có thể tham khảo thông tin bài viết: https://uet.vnu.edu.vn/trien-vong-nghe-nghiep-cua-sinh-vien-truong-dai-hoc-cong-nghe-dai-hoc-quoc-gia-ha-noi/",
+    "meta": {
+      "id": "faq_69",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=496",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Kính thưa thầy nếu là thí sinh tự do em có phải làm thủ tục gì khác hay được giảm kì thi chung của các em thí sinh mới thi năm nay không ạ?\nEm là thí sinh tự do và đã tốt nghiệp THPT rồi thì năm nay em chỉ cần tham gia kỳ thi tốt nghiệp THPT quốc gia năm 2020 và làm những bài thi mà có tổ hợp môn thi xét tuyển vào Trường.",
+    "meta": {
+      "id": "faq_70",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=506",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Việc phân ngành sau khi trúng tuyển vào nhóm ngành được xét như thế nào?\nĐối với các nhóm có 2 ngành trở lên việc phân ngành được thực hiện sau khi thí sinh trúng tuyển vào học trong năm thứ nhất tại Trường trên cơ sở nguyện vọng của thí sinh, điểm xét tuyển và chỉ tiêu từng ngành do Trường quy định.",
+    "meta": {
+      "id": "faq_71",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=1903",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Thầy/ cô cho em hỏi trường Đại Học Công Nghệ, ĐHQGHN có đào tạo cơ điện tử không ạ\nChào em, trường đại học công nghệ có đào tạo ngành Công nghệ kỹ thuật cơ điện tử. Em có thể tham khảo các ngành của trường tại đây: https://uet.vnu.edu.vn/gioi-thieu-cac-nganh-dao-tao-dai-hoc-cua-truong-dai-hoc-cong-nghe/",
+    "meta": {
+      "id": "faq_72",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=878",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Ngành Công nghệ nông nghiệp đào tạo tại Trường Đại học Công nghệ Đại học Quốc gia Hà Nội có gì khác với các ngành nông nghiệp đang được đào tạo tại các đơn vị khác?\nNgành Công nghệ nông nghiệp (CNNN) đào tạo các kỹ sư công nghệ (hiểu biết vê các công nghệ thông tin, điện tử truyền thông, kỹ thuật số, tự động hoá, công nghệ sinh học và công nghệ nano) và được trang bị các kiến thức cần thiết nhất vê nông nghiệp (trồng trọt, chăn nuôi, thuỷ sản) để ứng dụng các công nghệ trên vào nông nghiệp. Còn ngành nông nghiệp ở các trường viện khác đào tạo các kỹ sư nông nghiệp thiên về các phương pháp canh tác truyền thống.\nXem tóm tắt chương trình đào tạo kỹ sư ngành Công nghệ nông nghiệp tại: http://fat.uet.vnu.edu.vn/?p=1000\nNgành Công nghệ nông nghiệp được đào tạo tại Trường ĐHCN tận dụng được nền tảng công nghệ là các thế mạnh của Trường. Trường có các phòng thí nghiệm công nghệ cao, phòng học hiện đại, phòng máy tính trang bị đầy đủ, các giảng viên giỏi về công nghệ, năng động, giàu nhiệt huyết.",
+    "meta": {
+      "id": "faq_73",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=1541",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Em đang phân vân giữa ngành CNTT và CNTT định hướng Nhật bản không biết hai ngành này khác nhau như thế nào ạ?\nCNTT định hướng thị trường Nhật Bản cơ bản sẽ đào tạo các kiến thức nền tảng như của ngành CNTT, nhưng các em sẽ được học một số các môn học theo đặc thù các doanh nghiệp Nhật Bản, các kỹ năng mềm quan trọng để làm việc trong môi trường doanh nghiệp CNTT nói chung và Nhật Bản nói riêng. Ngoài ra, sinh viên được học tiếng Nhật với giảng viên người Việt và người Nhật có kinh nghiệm, được thực tập tại các công ty công nghệ Nhật Bản trong quá trình học tập và nhiều cơ hội làm việc cho các công ty công nghệ tại Nhật Bản sau khi tốt nghiệp.",
+    "meta": {
+      "id": "faq_74",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=940",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Cho em hỏi nếu em trượt nguyện vọng 1 thì sang nguyện vọng 2 em có được xét ngang với các bạn là nguyện vọng 1 không ạ?\nTheo Quy chế và Hướng dẫn tuyển sinh đại học hiện hành, thí sinh có thể đăng ký nhiều nguyện vọng (NV) trong mỗi đợi xét tuyển. Các trường ĐH sẽ xét tuyển dựa trên tổng điểm các môn thi trong tổ hợp xét tuyển chứ không quan tâm đến nguyện vọng. Nói cách khác, các nguyện vọng của thí sinh được xét bình đẳng như nhau. Nếu em trượt nguyện vọng 1 hay 2 mà đỗ nguyện vọng 3 thì vẫn xét tuyển bình đẳng như các bạn có nguyện vọng 1 vào ngành đào tạo em đăng ký ở NV3. Ngược lại, nếu em đỗ trượt NV1 và đỗ NV2 thì các nguyện vọng còn lại của em (NV3 trở đi) sẽ bị xoá. Thí sinh chỉ trúng tuyển DUY NHẤT 1 nguyện vọng trong mỗi đợt xét tuyển.",
+    "meta": {
+      "id": "faq_75",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=484",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Giới thiệu Ký túc xá Mỹ Đình – Đại học Quốc gia Hà Nội\nKhu nhà ở sinh viên Mỹ Đình II được đánh giá là có địa thế đẹp với nhiều tiện ích cộng hưởng. Nơi đây cách trục đường 32 chưa tới 1km, tập trung nhiều tuyến xe Bus, tiện di chuyển, gần khu vực tập trung nhiều trường ĐH lớn như Trường ĐH Sư phạm Hà Nội, Trường ĐH Thương mại, Trường ĐH Công nghiệp, Học viện Báo chí và Tuyên truyền... đặc biệt chỉ cách ĐHQGHN hơn 2km.\nVới 02 toà nhà có chiều cao 21 tầng, bao gồm: 1 tầng hầm, 1 tầng dịch vụ và gần 400 phòng ở, đáp ứng 2.328 chỗ ở cho sinh viên. Diện tích mỗi phòng tại KTX Mỹ Đình là 45m2 cho 6 sinh viên ở, trung bình diện tích sử dụng tối đa là hơn 7m2/sinh viên rộng hơn so với diện tích trung bình 4m2/ sinh viên của các KTX khác trên địa bàn Hà Nội. Tại tầng dịch vụ có đầy đủ các dịch vụ phục vụ nhu cầu sinh hoạt và học tập của sinh viên gồm: phòng y tế, bưu điện và tín dụng, bách hoá văn phòng phẩm, thư viện, kho sách, phòng thể thao trong nhà, phòng dịch vụ internet, quầy giải khát, kho bếp, phòng ăn, phòng cắt tóc... phục vụ sinh viên.\nKTX Mỹ Đình được đầu tư xây dựng với mục tiêu trở thành mô hình “ký túc xá kiểu mẫu” của Thành phố Hà Nội, đáp ứng tối đa nhu cầu sinh hoạt và học tập của học sinh- sinh viên. Ngoài việc phân chia thành khu vực nam nữ riêng biệt, KTX Mỹ Đình còn có chỗ ở cho học sinh khối THPT chuyên, sinh viên, học viên cao học, nghiên cứu sinh và một phần dành cho sinh viên quốc tế.\nVới tiêu chí “Sinh viên thanh lịch – Ký túc xá văn hoá”, Ban Quản lý KTX Mỹ Đình thường xuyên tổ chức các hoạt động hỗ trợ sinh viên nhằm hướng tới mục tiêu học tập, phát triển văn hoá, tri thức của sinh viên; đồng thời, đây còn là một cộng đồng giao lưu văn hoá giữa sinh viên Việt Nam và sinh viên quốc tế.\nThông tin về KTX Mỹ Đình- ĐHQGHN\nĐịa chỉ: Đơn nguyên 1, 2 Khu nhà ở sinh viên Mỹ Đình II, Đường Hàm Nghi, Nam Từ Liêm, Hà Nội\n1. Đối tượng đăng ký: Học sinh, sinh viên, học viên cao học, nghiên cứu sinh đang theo học tại ĐHQGHN.\n2. Liên hệ và tư vấn giải đáp:\nWebsite: www.ktxmydinh.net;\nEmail: kytucxamydinh@gmail.com;\nHotline: 0432043999 (máy lẻ 101);\nFacebook: https://www.facebook.com/ktxmydinh/;\nMột số hình ảnh về KTX Mỹ Đình:",
+    "meta": {
+      "id": "faq_76",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=612",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Thầy/ cô cho em hỏi các ngành CLC thường lấy điểm thấp hơn bình thường ạ?\nMột lý do đó là học phí các ngành chất lượng cao CLC TT23 có học phí cao hơn nên có ít bạn đăng ký hơn.\nHơn nữa, so sánh điểm của 2 chương trình mà cách tính điểm khác nhau thì cũng không thể chính xác được em ạ.\nNên em cũng cân nhắc xem mình muốn học theo chương trình nào em nhé.\nThân mến.",
+    "meta": {
+      "id": "faq_77",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=959",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Học Ngành  Công nghệ nông nghiệp ra làm việc ở đâu?\nKỹ sư công nghệ nông nghiệp (CNNN) với hai chuyên ngành đào tạo:\n– Nông nghiệp kỹ thuật số;\n– Công nghệ sinh học nông nghiệp;\nCó thể làm ở các vị trí sau:\nKỹ sư công nghệ nông nghiệp kỹ thuật số tại các doanh nghiệp sản xuất, kinh doanh và sử dụng các thiết bị nông nghiệp công nghệ cao: chuyên thiết kế, chế tạo, lập trình, lắp đặt, vận hành hệ thống và thiết bị nông nghiệp công nghệ cao dựa trên nền tảng kỹ thuật điều khiển, công nghệ thông tin và truyền thông.\nKỹ sư công nghệ sinh học nông nghiệp: sử dụng các công nghệ cao để nhân giống, trồng cây trong vườn ươm, chuyển giao công nghệ, tạo các chế phẩm sinh học nông nghiệp công nghệ mới, bảo quản chế biến nông sản, kiểm định chất lượng nông sản.\nCán bộ quản lý dự án nông nghiệp công nghệ cao, cán bộ quản lý và tư vấn chính sách về nông nghiệp công nghệ cao ở các sở/ bộ Khoa học Công nghệ và sở/bộ Nông nghiệp và phát triển nông thôn.\nNghiên cứu viên và giảng viên về lĩnh vực công nghệ và công nghệ nông nghiệp trong các cơ sở giáo dục và cơ sở nghiên cứu về nông nghiệp và công nghệ.\nKhởi nghiệp đổi mới sáng tạo trong lĩnh vực công nghệ và công nghệ nông nghiệp.\nCác vị trí khác liên quan đến lĩnh vực Công nghệ thông tin, điện tử viễn thông, điều khiển tự động và Công nghệ sinh học.\n\nVí dụ công việc cụ thể như:\nTrong trồng trọt:\n– Thiết kế điều khiển tự động hệ thống nhà lưới, lập trình điều khiển tự động các hệ thống tưới nước và cung cấp phân bón cho cây trong nhà lưới bằng smartphone tuỳ theo nhiệt độ, độ ẩm môi trường và nhu cầu của cây trồng;\n– Phát triển các phần mềm quản lý và ra quyết định dựa vào dữ liệu lớn;\n– Phát triển các phần mềm kết nối nông dân với thị trường, người bán giống với người mua giống, người bán nông sản với người mua nông sản, dự báo dịch bệnh, mùa màng, khuyến nghị về thời vụ cây trồng, chế độ phân bón, cảnh báo sâu bệnh, diệt cỏ kỹ thuật số...\n– Thiết kế chế tạo cảm biến nhiệt độ, độ ẩm, dinh dưỡng;\n– Chế tạo phân bón thông minh, bảo vệ thực vật;\n– Nhân giống các cây trồng cho các loại đối tượng có giá trị kinh tế cao như: rau, hoa, cây giống, nấm ăn và nấm dược liệu.\nTrong chăn nuôi và thuỷ sản: gắn thiết bị cảm biến lên từng vật nuôi để theo dõi, thu thập và xử lý dữ liệu để đưa ra khuyến cáo; xử lý chuồng trại, môi trường bằng công nghệ cao\nTrong khuyến nông: số hoá các thông tin về giá, đặc điểm các loại nông sản, kỹ thuật trong trồng trọt, chăn nuôi, các thông tin về dịch hại, quản lý thông tin qua IoTs và cung cấp cho nông dân thông tin qua di động để giảm thiểu vấn đề được mùa mất giá;\nTrong khâu marketing và tiêu thụ: marketing trực tuyến, truy xuất nguồn gốc trực tuyến",
+    "meta": {
+      "id": "faq_78",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=1545",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Nếu e đăng ký ngành công nghệ thông tin của trường Đại học Công nghệ thì em sẽ được đào tạo về mảng gì vậy ạ?\nTrong 2 năm đầu, các em sẽ được đào tạo bài bản về lập trình và kiến thức cơ sở về lĩnh vực CNTT, 2 năm cuối sẽ tập trung vào các kiến thức và kỹ năng hiện đại theo các định hướng chính của CNTT như KHMT, công nghệ mạng, khoa học dữ liệu, công nghệ phần mềm.",
+    "meta": {
+      "id": "faq_79",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=486",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Phương thức tuyển sinh năm 2021 của Trường Đại học Công nghệ- ĐHQGHN dự kiến là như thế nào?\nNăm 2021, Trường Đại học Công nghệ- ĐHQGHN xét tuyển theo các phương thức sau:\nXét tuyển kết quả thi THPT năm 2021;\nXét tuyển kết quả bài thi đánh giá năng lực do ĐHQGHN tổ chức;\nXét tuyển chứng chỉ tiếng Anh quốc tế kết hợp 2 môn thi tốt nghiệp THPT;\nXét tuyển kết quả kỳ thi chuẩn hoá SAT hoặc ACT\nXét tuyển chứng chỉ A-Level\nXét tuyển thẳng và ưu tiên xét tuyển theo quy định của Bộ GD-ĐT và ĐHQGHN.",
+    "meta": {
+      "id": "faq_80",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=1897",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Nếu em chưa biết gì về lập trình thì có học được ngành công nghệ thông tin không ạ?\nĐiều này được chứ em. Tất cả các kiến thức về Tin học mà em chưa biết sẽ được Nhà trường trang bị cho em trong thời gian học tập tại Nhà trường để em có thể ra trường với tấm bằng CNTT trong tay. Tuy nhiên, cũng như bao sinh viên khác tại Trường ĐHCN, để đạt được tấm bằng tốt nghiệp thì bên cạnh việc được các Thầy/Cô truyền thụ kiến thức và phương pháp kỹ năng học tập, nghiên cứu, các em cần phải nỗ lực phấn đấu trong thời gian học tập nghiên cứu tại Trường.\nKhi em trúng tuyển thì nhà trường sẽ đào tạo căn bản từ đầu cho các em chưa biết gì. Cũng tương tự, tiếng Anh là kỹ năng quan trọng, là công cụ để em đọc tài liệu, nghiên cứu, cũng như đáp ứng được yêu cầu của xã hội hội nhập ngày nay. Nên trong quá trình học em sẽ được trau dồi và tích luỹ dần. Chúc em học và thi tốt.",
+    "meta": {
+      "id": "faq_81",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=885",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Năm 2021, xét tuyển theo chứng chỉ Tiếng Anh quốc tế kết hợp 2 môn thi được tính như thế nào ạ?\nNăm 2021, phương thức xét tuyển theo chứng chỉ Tiếng Anh quốc tế kết hợp 2 môn thi được tính như sau:\na) Các chương trình đào tạo chuẩn:\nĐX = Điểm Tiếng Anh đã quy đổi + Điểm Toán + Điểm Lý.\nb) Các chương trình đào tạo chất lượng cao:\nĐX = [(Điểm Tiếng Anh đã quy đổi + Điểm Toán) x 2 + Điểm Lý] x 3/5.\n(ĐX: điểm xét tuyển, điểm tiếng anh quy đổi chi tiết tại: https://tuyensinh.uet.vnu.edu.vn/?p=1907)",
+    "meta": {
+      "id": "faq_82",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=1907",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Em có chứng chỉ A-Level thì em có cơ hội được học ở ĐH Công nghệ không?\nCó. Nếu em có chứng chỉ A-level (mức điểm mỗi môn thi thuộc tổ hợp môn thi xét tuyển của Nhà trường đạt từ 60 điểm trở lên) thì em có quyền đăng ký xét tuyển vào chương trình đào tạo chất lượng cao CLC đáp ứng thông tư 23 của BGD&ĐT (Khoa học máy tính, Công nghệ kỹ thuật điện tử, truyền thông).",
+    "meta": {
+      "id": "faq_83",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=512",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Năm 2021, Trường Đại học Công nghệ- ĐHQGHN tuyển sinh những ngành nào ạ?\nNăm 2021, Trường Đại học Công nghệ- ĐHQGHN tuyển sinh các ngành/chương trình đào tạo:\nCông nghệ thông tin;\nCông nghệ thông tin định hướng thị trường Nhật Bản;\nKỹ thuật máy tính;\nKỹ thuật Robot;\nKỹ thuật năng lượng;\nVật lý kỹ thuật;\nCơ kỹ thuật;\nCông nghệ kỹ thuật xây dựng;\nCông nghệ hàng không vũ trụ;\nKỹ thuật điều khiển và tự động hoá;\nCông nghệ nông nghiệp;\nCông nghệ kỹ thuật cơ điện tử (CLC);\nKhoa học Máy tính (CLC);\nHệ thống thông tin (CLC);\nMạng máy tính và truyền thông dữ liệu (CLC);\nCông nghệ kỹ thuật điện tử – viễn thông (CLC);",
+    "meta": {
+      "id": "faq_84",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=1889",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Thưa thầy cô em được giải 3 QG Cuộc thi Khoa học, kỹ thuật cấp quốc gia do Bộ GD&ĐT tổ chức thì được tuyển thẳng những khoa nào ạ?\nChào em,\nTheo Quy chế tuyển sinh đại học của Bộ Giáo dục và Đào tạo, thí sinh đoạt giải nhất, nhì, ba trong Cuộc thi khoa học, kỹ thuật cấp quốc gia, đã tốt nghiệp THPT được xét tuyển thẳng vào ĐH theo ngành phù hợp với môn thi hoặc nội dung đề tài dự thi mà thí sinh đã đoạt giải.\nNhư vậy, việc em được xét tuyển thẳng vào khoa/ngành nào trong Trường phụ thuộc vào sự phù hợp của môn thi hoặc nội dung đề tài dự thi mà em đã đoạt giải.\nThân mến.",
+    "meta": {
+      "id": "faq_85",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=504",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Học xong ngành Công nghệ kỹ thuật xây dựng – giao thông ra trường làm việc ở đâu?\nSinh viên tốt nghiệp ngành Công nghệ kỹ thuật xây dựng – giao thông khi ra trường có khả năng, năng lực, kiến thức thì có thể đảm nhiệm các vị trí cán bộ kỹ thuật, thi công, giám sát, quản lý các công trình và quản lý dự án trong các tổ chức, doanh nghiệp, cơ quan trong và ngoài nước trong lĩnh vực kỹ thuật giao thông và xây dựng cũng như cán bộ giảng dạy, nghiên cứu trong lĩnh vực xây dựng, giao thông và kỹ thuật hạ tầng.",
+    "meta": {
+      "id": "faq_86",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=494",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Mai sau em muốn làm công việc là lập trình để viết phần mềm cho các công ty doanh nghiệp làm bên phần kinh tế để họ giảm bớt công đoạn trong công việc. Thầy/ cô tư vấn cho em nên vào ngành nào khoa nào trong trường ạ?\nChào em, nếu em muốn làm công việc là lập trình thì ngành Công nghệ thông tin rất phù hợp với em.\nNgành Công nghệ Thông tin đào tạo kiến thức và kỹ năng quan trọng và hiện đại về CNTT với mục tiêu đạt trình độ chung của khu vực và quốc tế, cho phép sinh viên tốt nghiệp ra trường có thể nhanh chóng đáp ứng các nhu cầu về hoạt động công nghệ thông tin của xã hội cũng như tiếp tục học tập, nghiên cứu và phát triển ngành Công nghệ Thông tin.\nSinh viên tốt nghiệp ngành CNTT có thể làm tại các công ty công nghệ với nhiều vị trí khác nhau từ lập trình viên, lập trình các hệ thống thông minh, phân tích thiết kế hệ thống, kiểm thử phần mềm, quản trị mạng...\nEm thảo khảo thông tin: https://uet.vnu.edu.vn/category/tuyen-sinh/dai-hoc/\nChúc em thi tốt và trở thành sinh viên Đại học Công nghệ nhé.",
+    "meta": {
+      "id": "faq_87",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=980",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Thầy/ cô cho em hỏi nếu đỗ vào trường với kết qủa thi THPTQG thì có phải thi thêm kì thi nào nữa ko ạ\nNếu em đã đỗ vào ngành CNTT mà muốn học chương trình CNTT Chất lượng cao thì em sẽ phải trải qua 1 kỳ thi nữa để được tham gia học chương trình này.\nCòn đối với các ngành khác, riêng yêu cầu về ngoại ngữ các em sẽ được thi 1 kỳ thi để sát hạch trình độ Tiếng Anh để phân lớp và có giải pháp bồi dưỡng phù hợp.\nThân mến.",
+    "meta": {
+      "id": "faq_88",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=961",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Em thấy mọi năm trường có tổ chức bài thi đánh giá năng lực, cho em hỏi là năm nay 2020 nhà trường có tổ chức không ạ?\nChào em, tính đến năm nay 2020, ĐHQGHN - UET không tổ chức thi ĐGNL. Từ năm 2017 nhà trường đã xét tuyển theo kết quả kỳ thi THPT quốc gia. Tuy nhiên không loại trừ khả năng sẽ có tổ chức trong tương lai.",
+    "meta": {
+      "id": "faq_89",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=889",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Em muốn đăng ký ngành công nghệ thông tin và em muốn hỏi và biết thêm thông tin về ngành này ạ\nChào em, như trong giới thiệu về ngành chị đã gửi ở dưới, chị cũng trao đổi thêm rằng ngành CNTT hiện nay vẫn đang là 1 ngành thiếu nhân lực. Nhu cầu tuyển dụng đang rất lớn, quan trọng là sinh viên ra có làm được việc không. Học ở trường ĐHCN chị muốn em xác định rằng em học sẽ vất vả, không thể vừa học vừa chơi. Trường ĐHCN mong muốn sinh viên của mình khi ra trường phải làm được việc và khẳng định thương hiệu của ĐHCN nên yêu cầu sinh viên phải có kiến thức thật, học thật và thi thật em nhé. Em tham khảo khung chương trình ngành CNTT: https://uet.vnu.edu.vn/nganh-cong-nghe-thong-tin/",
+    "meta": {
+      "id": "faq_90",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=881",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Em là học sinh cấp 3 trường chuyên Khoa học tự nhiên thì có điều kiện gì để xét tuyển thẳng vào đại học Công nghệ không ạ ? (em được 3 năm học sinh giỏi và lớp chuyên Tin)\nHọc sinh THPT chuyên thuộc ĐHQGHN được xét tuyển thẳng và xét tuyển vào bậc đại học tại ĐHQGHN phải đỗ tốt nghiệp THPT, có hạnh kiểm 3 năm học THPT đạt loại Tốt và đáp ứng một trong các tiêu chí sau:\n+ Là thành viên chính thức đội tuyển dự kỳ thi Olympic hoặc các cuộc thi sáng tạo,triển lãm khoa học kỹ thuật khu vực, quốc tế;\n+ Đạt giải chính thức trong kỳ thi chọn học sinh giỏi bậc THPT cấp ĐHQGHN;\n+ Đạt giải chính thức trong kỳ thi Olympic chuyên Khoa học tự nhiên bậc THPT được tổ chức hàng năm;\n+ Là thành viên chính thức của đội tuyển tham dự kỳ thi chọn học sinh giỏi quốc gia hoặc các cuộc thi sáng tạo khoa học kỹ thuật quốc gia;\n+ Đạt danh hiệu học sinh giỏi từng năm học trong cả 3 năm THPT và có tổng điểm 4 bài thi/môn thi tốt nghiệp THPT đạt tối thiểu 28,0 điểm trong đó không có điểm bài thi/môn thi nào dưới 5,0 điểm;\nNếu em là hs giỏi 3 năm thì phải có tổng điểm 4 bài thi từ 28 điểm trở lên và ko môn nào dưới 5 em nhé.\nChúc em thi tốt và hẹn gặp em tại trường ĐH Công nghệ.",
+    "meta": {
+      "id": "faq_91",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=863",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Lớp 11 em đạt giải Ba môn Tin học kỳ thi học sinh giỏi cấp Quốc gia, lớp 12 em chỉ được giải Khuyến khích có được tuyển thẳng vào ngành Công nghệ thông tin không?\nThí sinh đoạt giải trong kỳ thi chọn học sinh giỏi quốc gia, đoạt giải trong Cuộc thi khoa học, kỹ thuật cấp quốc gia, nếu chưa tốt nghiệp THPT được bảo lưu đến hết năm tốt nghiệp THPT. Do đó kết quả thi năm lớp 11 của em được sử dụng để tuyển thẳng vào ngành CNTT.",
+    "meta": {
+      "id": "faq_92",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=498",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Thầy/ cô cho em hỏi  ngành kĩ thuật xây dựng giao thông của trường đào tạo về bên gì ạ?\nNgành Công nghệ kỹ thuật xây dựng đào tạo kiến thức và kỹ năng chuyên sâu về thiết kế và xây dựng công trình giao thông, công trình xây dựng dân dụng, quy hoạch đô thị. Sinh viên đồng thời được trang bị kiến thức về kết cấu công trình và vật liệu xây dựng tiên tiến. Sinh viên được thực hành tại các phòng thí nghiệm hiện đại về cơ học và vật liệu tiên tiến đồng thời thực tập tại các tập đoàn xây dựng liên kết với Nhà trường. Kỹ sư tốt nghiệp có khả năng làm việc tại các công ty thiết kế xây dựng, các tập đoàn xây dựng và các viện nghiên cứu chuyên ngành.\nĐào tạo kiến thức nhằm tính toán thiết kế, thi công, bảo hành bảo dưỡng các công trình như nhà cửa, nhà máy, cầu cống, đường giao thông. Lắp đặt các thiết bị trong công trình.\nKỹ sư tốt nghiệp có khả năng làm việc tại các công ty thiết kế xây dựng, các tập đoàn xây dựng và các viện nghiên cứu chuyên ngành.\nEm có thể tìm hiểu các thông tin chi tiết về ngành Công nghệ hàng không vũ trụ của Trường Đại học Công nghệ tại địa chỉ sau: https://uet.vnu.edu.vn/nganh-cong-nghe-ky-thuat-xay-dung/\nThân mến.",
+    "meta": {
+      "id": "faq_93",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=971",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Thầy/cô cho em hỏi mã ngành công nghệ thông tin là gì vậy ạ\nNgành CNTT tuyển sinh theo nhóm ngành. Mã nhóm ngành là CN1, tên nhóm ngành là Công nghệ thông tin.",
+    "meta": {
+      "id": "faq_94",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=868",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Khoa công nghệ hàng không vũ trụ đào tạo những công việc như thế nào ạ ?\nNgành Công nghệ Hàng không Vũ trụ đào tạo các kỹ sư đam mê chinh phục không gian. Chương trình đào tạo cung cấp các định hướng nghề nghiệp liên quan đến thiết kế, sản xuất các thiết bị bay, các hệ thống điều khiển, công nghệ vệ tinh, tên lửa.\nĐây là chương trình có nhiều ưu đãi cho sinh viên trong quá trình học tập và tốt nghiệp. Khoảng 30% sinh viên của chương trình sẽ được Viettel cấp học bổng toàn phần (được miễn học phí và nhận học bổng phục vụ việc học tập) trong quá trình đào tạo; được thực tập, thực hành tại các phòng thí nghiệm hiện đại của Trường, Viện Hàng không Vũ trụ Viettel và Trung tâm Vũ trụ Việt Nam.\nKỹ sư tốt nghiệp chương trình có nhiều cơ hội việc làm tại các Hãng hàng không, các Viện nghiên cứu trong và ngoài nước, ngoài ra, Viettel sẽ tuyển dụng trực tiếp các sinh viên tốt nghiệp loại giỏi, xuất sắc.",
+    "meta": {
+      "id": "faq_95",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=974",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Thưa thầy/ cô, mã trường và mã ngành CNTT của trường là gì ạ?\nMã trường: QHI.\nMã nhóm ngành CNTT: CN1.\nBạn lưu ý là trường tuyển sinh theo nhóm ngành, sau khi trúng tuyển vào nhóm ngành sẽ xét ngành sau theo nguyện vọng, điểm và chỉ tiêu.",
+    "meta": {
+      "id": "faq_96",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=938",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Trường có khoa điện tử viễn thông không ạ?\nChào em, Trường ĐHCN có Khoa ĐTVT. Đây là 1 trong 2 khoa tiền thân của Nhà trường. Em có thể tham khảo tại đây: http://fet.uet.vnu.edu.vn/",
+    "meta": {
+      "id": "faq_97",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=934",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Thưa Cô, khi đăng ký xét tuyển em được quyền đăng ký mấy nguyện vọng?\nChào em,\nTheo Hướng dẫn tuyển sinh đại học của Bộ Giáo dục và Đào tạo, em được đăng ký xét tuyển không giới hạn số nguyện vọng, số trường và phải sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất).\nTheo kinh nghiệm xét tuyển, em nên đặt nguyện vọng mà em yêu thích nhất, mong muốn được trúng tuyển nhất lên trên thì khả năng em được thoả mãn ước mơ sẽ cao nhất.\nChúc em thành công!",
+    "meta": {
+      "id": "faq_98",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=502",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Thầy cho em hỏi, đối tượng được tuyển thẳng vào Trường Đại học Công nghệ có phải làm bài thi tốt nghiệp THPT năm 2020 không ạ?\nCác đối tượng được xét tuyển và xét tuyển thẳng vào Trường Đại học Công nghệ đều phải tốt nghiệp THPT.\nNếu thí sinh đã tốt nghiệp THPT rồi thì không phải làm bài thi tốt nghiệp THPT năm 2020.\nNếu thí sinh chưa tốt nghiệp THPT thì phải hoàn thành bài thi tốt nghiệp THPT năm 2020.",
+    "meta": {
+      "id": "faq_99",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=510",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Em dự định thi vao trường nhưng em không biết trường có đào tạo ngành an toàn thông tin không ạ?\nTrường Đại học Công nghệ có trang bị các kiến thức về an toàn thông tin cho sinh viên của một số ngành đào tạo.\nNếu em muốn tìm hiểu về an toàn thông tin có thể đăng ký vào học ngành Công nghệ thông tin hoặc ngành Mạng máy tính và truyền thông dữ liệu nhé.\nEm có thể tham khảo thêm thông tin về Trường Đại học Công nghệ qua website: http://tuyensinh.uet.vnu.edu.vn/ hoặc liên hệ trực tiếp với Trường theo số: 02437547865.\nThân mến.",
+    "meta": {
+      "id": "faq_100",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=985",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Cho em hỏi là trường mình có xét hệ liên thông lên không ạ?\nChào em, Trường ĐHCN chỉ tuyển sinh hệ chính quy. Thân mến.",
+    "meta": {
+      "id": "faq_101",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=983",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Nhà trường cho em hỏi là năm nay 2020 là trường Đại Học Công Nghệ , ĐHQGHN tuyển thẳng không giới hạn đúng không ạ , tức là em bây giờ chỉ cần nạp đầy đủ hồ sơ tuyển thẳng thì sẽ được tuyển thẳng luôn đúng không ạ?\nNăm 2020 tuyển thẳng là các trường hợp nhà trường ưu tiên xét tuyển nên sẽ tạo điều kiện tối đa theo nguyện vọng của thí sinh. Em yên tâm nộp hồ sơ nhé!",
+    "meta": {
+      "id": "faq_102",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=870",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Ngành nào của trường học về an ninh mạng ạ?\nHiện nay, Trường Đại học Công nghệ có 02 ngành đào tạo các kiến thức liên quan an ninh mạng là Mạng máy tính và truyền thông dữ liệu và ngành Công nghệ thông tin.",
+    "meta": {
+      "id": "faq_103",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=488",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Nhà trường cho em hỏi là khi mà em được tuyển thẳng rồi ấy ạ, thì em muốn thi vào các lớp chất lượng cao thì phải thi bằng môn gì ạ ? ( ví dụ như toán với lý chẳng hạn )\nChào em,\nHiện nay, Nhà trường có chương trình đào tạo chất lượng cao ngành CNTT. Để được vào học chương trình này, sau khi trúng tuyển, nhập học xong, em phải trải qua 1 kỳ thi nữa gồm có 2 môn: Lập trình và tiếng Anh.\nThân mến.",
+    "meta": {
+      "id": "faq_104",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=865",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Nhà trường xét tuyển thì ưu tiên điểm hay ưu tiên nguyện vọng trước ạ?\nTheo Quy chế tuyển sinh hiện hành và Hướng dẫn của ĐHQGHN, các trường/khoa sẽ xét tuyển theo tổng điểm tổ hợp các môn thi/bài thi và điểm ưu tiên (nếu có) mà không quan tâm đến nguyện vọng của thí sinh. Các nguyện vọng đăng ký đều được xét tuyển một cách bình đẳng như nhau. Nguyện vọng của thí sinh chỉ được xem xét trong trường hợp thí sinh ở cuối danh sách xét tuyển vượt quá chỉ tiêu tuyển sinh có tổng điểm như nhau, tiêu chí phụ giống nhau thì thí sinh nào có nguyện vọng cao hơn sẽ được ưu tiên xét trước.",
+    "meta": {
+      "id": "faq_105",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=482",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Nhà trường có ký túc xá cho sinh viên ngoại tỉnh ở không?\nTrường ĐHCN trực thuộc ĐHQGHN nên được sử dụng hệ thống ký túc xá (KTX) của ĐHQG Hà Nội bao gồm 3 địa điểm là KTX Ngoại ngữ; KTX Mễ Trì; KTX Mỹ Đình. Hiện nay, hệ thống phòng ở ký túc xá hoàn toàn đáp ứng được nhu cầu của sinh viên, không hạn chế chỗ ở trong ký túc xá.",
+    "meta": {
+      "id": "faq_106",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=522",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Học ngành Kỹ thuật năng lượng khi ra trường làm gì?\nSinh viên tốt nghiệp ngành Kỹ thuật năng lượng khi ra trường có khả năng, năng lực, kiến thức đảm nhiệm các vị trí cán bộ kỹ thuật trong lĩnh vực liên quan đến năng lượng mặt trời và các dạng năng lượng sạch, năng lượng tái tạo, năng lượng truyền thống tại các công ty, tập đoàn trong và ngoài nước cũng như giảng viên, nghiên cứu viên tại các trường đại học, viện nghiên cứu.",
+    "meta": {
+      "id": "faq_107",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=492",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Năm 2021 nhà trường có tổ chức kỳ thi đánh giá năng lực (ĐGNL) không ạ?\nĐại học Quốc gia Hà Nội  dự kiến sẽ tổ chức kỳ thi ĐGLN năm 2021. Nhà trường dành 50 % chỉ tiêu cho các phương thức khác bao gồm cả kết quả thi ĐGNL.\nDự kiến bài thi gồm 03 phần: Tư duy định tính (50 câu hỏi, 60 phút), Tư duy định lượng (50 câu hỏi, 75 phút), Khoa học (50 câu hỏi, 60 phút).\nTổng điểm bài thi là 150 điểm. Điểm bài thi gồm điểm tổng và 3 đầu điểm thành phần: Tư duy định tính, Tư duy định lượng, Khoa học. Mỗi phần 50 điểm.\nNăm 2021, dự kiến sẽ tổ chức thi cho 1.000 – 2.000 thí sinh/đợt với khoảng 4-5 đợt/năm tuỳ thuộc vào số lượng thí sinh đăng ký.\nThông tin chi tiết về kỳ thi em xem tại đường link dưới đây: http://cet.vnu.edu.vn/home/tin-tuc-su-kien/dhqghn-se-chuc-ky-thi-danh-gia-nang-luc-cho-hoc-sinh-trung-hoc-pho-thong",
+    "meta": {
+      "id": "faq_108",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=1912",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Em đạt giải học sinh giỏi cấp ĐHQG có được tuyển thẳng không?\nĐối với học sinh các trường chuyên thuộc ĐHQGHN, nếu đạt giải chính thức trong kỳ thi chọn học sinh giỏi cấp ĐHQGHN và hạnh kiểm 3 năm học THPT đạt loại tốt thì được xét tuyển thẳng vào ngành phù hợp với môn đạt giải.",
+    "meta": {
+      "id": "faq_109",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=518",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Nhà trường cho em hỏi là ngành công nghệ thông tin của trường mình có lấy nguyện vọng 2 không ạ\nChào em, nguyên tắc xét điểm là xét từ cao xuống thấp đến khi đủ điểm vào một trong các nguyện vọng của em. Nếu điểm của em đủ đỗ vào 2 hoặc 3 nguyện vọng em đã đăng ký thì nguyện vọng đầu tiên được xét trước và em sẽ trúng tuyển vào ngành đó, các nguyện vọng 2 hoặc 3 kia không còn được xét đến nữa mặc dù em đủ điểm đỗ. Nếu em đỗ nguyện vọng 1 thì không thể xét các nguyện vọng sau. Do đó ưu tiên của em sẽ là ngành nào yêu thích được xếp lên đầu.",
+    "meta": {
+      "id": "faq_110",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=876",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Em quan tâm đến ngành (thí điểm) Công nghệ vũ trụ, tương lai ngành này thế nào ? Cơ hội làm việc tại những đơn vị nào ?\nSinh viên tốt nghiệp ngành Công nghệ Hàng không Vũ trụ có thể làm việc như các kỹ sư sản xuất và bảo dưỡng máy bay cho các công ty dân sự và quân sự (Viettel, Vietnam Airlines, VietJet Air, Bamboo Airways,...), hoặc phát triển nghề nghiệp nghiên cứu tại các cơ quan trong và ngoài nước hoạt động về hàng không vũ trụ.\nĐối với công nghệ vũ trụ, sinh viên tốt nghiệp có thể nghiên cứu sản xuất vệ tinh cỡ nhỏ, cung cấp các công cụ hỗ trợ (phần mềm xử lý ảnh, lập bản đồ viễn thám) phục vụ cho mục đích an ninh và phát triển kinh tế của quốc gia.\nSinh viên tốt nghiệp có thể làm việc trong các ngành công nghiệp khác như: kỹ thuật cơ khí, xây dựng, năng lượng...\nEm có thể tìm hiểu các thông tin chi tiết về ngành Công nghệ hàng không vũ trụ của Trường Đại học Công nghệ tại địa chỉ sau: https://sae.uet.vnu.edu.vn/\nThân mến.",
+    "meta": {
+      "id": "faq_111",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=976",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Em đăng ký vào ngành CNTT nhưng không đủ điểm thì có cách nào để học ngành CNTT không?\nEm có thể theo học các ngành học khác trong Trường như Vật lý Kỹ thuật, Cơ học Kỹ thuật,... sau một học kỳ nếu đủ điểm trung bình tích luỹ thì em có thể theo học bằng kép ngành CNTT.",
+    "meta": {
+      "id": "faq_112",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=514",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Nhà trường cho em hỏi chuyên ngành vật lí kĩ thuật đào tạo về những gì ạ?\nNgành Vật lý Kỹ thuật đào tạo về Cơ sở vật lý hiện đại, vật lý ứng dụng, Khoa học và Công nghệ nano, Vật liệu và Linh kiện tiên tiến trong các lĩnh vực Vi điện tử, Năng lượng xanh, Y-sinh và Môi trường.\nSinh viên được thực tập và NCKH tại phòng thí nghiệm trọng điểm và hệ thống các phòng thí nghiệm & thực hành với trang thiết bị hiện đại về công nghệ nano, nano quang tử, nano sinh học. Sinh viên tốt nghiệp có nhiều cơ hội làm việc tại các tập đoàn công nghệ tiến tiến như Samsung, Sumitomo Bakelite,... hoặc tiếp tục theo học sau đại học ở trong nước và nước ngoài.",
+    "meta": {
+      "id": "faq_113",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=957",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Điểm SAT, ACT hoặc A-Level đủ điều kiện đầu vào của Trường là bao nhiêu ạ?\nNgưỡng đảm bảo chất lượng đầu vào đối với:\nPhương thức xét tuyển chứng chỉ A-Level: Thí sinh sử dụng chứng chỉ A-Level để tổ hợp 3 môn thi (trong đó có môn Toán). Mức điểm mỗi môn thi đạt từ 60/100 điểm trở lên (tương ứng điểm C, PUM range ≥ 60) mới đủ điều kiện đăng ký để xét tuyển.\nPhương thức xét tuyển kết quả trong kỳ thi chuẩn hoá SAT: Thí sinh có kết quả trong kỳ thi chuẩn hoá SAT đạt điểm từ 1100/1600 hoặc 1450/2400 trở lên.\nPhương thức xét tuyển kết quả kỳ thi chuẩn hoá ACT: Đạt điểm từ >= 22/36, trong đó các điểm thành phần môn Toán >= 35/60 và môn Khoa học 22/40.",
+    "meta": {
+      "id": "faq_114",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=1910",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Năm 2021, Trường Đại học Công nghệ- ĐHQGHN sử dụng các tổ hợp xét tuyển nào?\nTổ hợp các môn thi THPT năm 2021 của ĐHQGHN - UET:\na) Các chương trình đào tạo chuẩn:\nToán, Lý, Hoá (A00);\nToán, Anh, Lý (A01);\nRiêng đối với ngành Công nghệ nông nghiệp xét tuyển thêm tổ hợp Toán, Hoá, Sinh (B00) và Toán, Lý, Sinh (A02);\nb) Các chương trình đào tạo chất lượng cao:\nToán, Lý, Hoá (Toán, Lý hệ số 2) (A00);\nToán, Anh, Lý (Toán, Anh hệ số 2) (A01);",
+    "meta": {
+      "id": "faq_115",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=1895",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Em muốn hỏi là tuyển sinh ngành kỹ thuật robot thì điểm chuẩn bằng với kỹ thuật máy tính hay sao vậy?\nChào em, Nhà trường xét tuyển theo nhóm ngành, nên điểm trúng tuyển của nhóm ngành là điểm chuẩn của các ngành trong đó. Em lưu ý 2 ngành này thuộc nhóm ngành Máy tính và Robot nên khi đăng ký em ghi mã nhóm ngành là CN2 và tên nhóm ngành là Máy tính và Robot.",
+    "meta": {
+      "id": "faq_116",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=932",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Sinh viên học ngành Công nghệ nông nghiệp được thực hành, thực tập ở đâu?\nSinh viên ngành CNNN được thực hành, thực tập công nghệ thông tin, truyền thông, tự động hoá, công nghệ sinh học, công nghệ nano tại các phòng thí nghiệm công nghệ cao, xưởng thực nghiệm, phòng máy của Trường ĐHCN; thực tập về nông nghiệp và ứng dụng công nghệ trong nông nghiệp tại các khu thực nghiệm của Viện Di truyền nông nghiệp, Viện Bảo vệ thực vật, Viện Thổ nhưỡng nông hoá ở gần Trường ĐHCN, Trung tâm chuyển giao công nghệ và khuyến nông, Viện Nông lâm nghiệp miền núi phía Bắc, Viện Môi trường nông nghiệp, Viện nghiên cứu rau quả và các viện khác của Bộ nông nghiệp và phát triển nông thôn, thực tập lên men và phát triển sinh phẩm tại Xưởng sản xuất thử nghiệm của Viện Vi sinh vật và Công nghệ sinh học tại Hoà Lạc. http://fat.uet.vnu.edu.vn/?p=1099\nSinh viên có cơ hội được thực tập làm dự án cùng các chuyên gia tại Trung tâm nông nghiệp nhiêt đới quốc tế (CIAT) về NÔNG NGHIỆP KỸ THUẬT SỐ và VI SINH NÔNG NGHIỆP. Đây là trung tâm đa quốc gia, có trụ sở chính ở Colombia, trụ sở của khu vực châu Phi tại Kenia và trụ sở của khu vực châu Á tại Hà Nội Việt Nam (gần Trường ĐHCN). Môi trường thực tập đa văn hoá, đa quốc tịch, chuyên nghiệp, ngôn ngữ giao tiếp tiếng Anh. https://ciat.cgiar.org/where-we-work/asia/ .\nSinh viên có cơ hội đc thực tập tại các doanh nghiệp đang hợp tác với Khoa Công nghệ Nông nghiệp và Trường Đại học Công nghệ như:\nCông ty CP Giải pháp Thời tiết và Nông nghiệp (AgriMedia) và Viện Công nghệ xanh (GREENTECH);\nCông ty cổ phần đầu tư phát triển và ứng dụng khoa học và công nghệ Môi trường (AGBiotech);\nCông ty TNHH Đầu tư phát triển sản xuất Nông nghiệp VinEco;\nCông ty TNHH Nấm Long Hải;\nCông ty TNHH Hoa Á Châu. Tập đoàn Yamabunn Nhật Bản;\nSố lượng các doanh nghiệp hợp tác với Khoa và trường đang được tiếp tục được phát triển.",
+    "meta": {
+      "id": "faq_117",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=1543",
+      "title": "FAQs"
+    }
+  },
+  {
+    "content": "Em muốn đăng kí đăng kí hai ngành thì như nào ạ ?\nChào em,\nNếu em muốn đăng ký 2 ngành thuộc 2 nhóm ngành thì em viết theo thứ tự ưu tiên ngành nào em thích hơn lên trước.\nNếu em đăng ký 2 ngành trong cùng 1 nhóm ngành thì em chỉ cần đăng ký theo nhóm ngành (mã nhóm ngành và tên nhóm ngành là đủ). Việc xét ngành sẽ tiến hành sau khi em trúng tuyển vào học tại Trường theo chỉ tiêu, điểm và nguyện vọng của thí sinh.\nThân mến.",
+    "meta": {
+      "id": "faq_118",
+      "href": "https://tuyensinh.uet.vnu.edu.vn/?p=942",
+      "title": "FAQs"
+    }
+  }
+]
