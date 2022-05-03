@@ -20,8 +20,6 @@ parser.add_argument('--similarity', type=str, default='cosine',
                     help='')
 parser.add_argument('--dense_model_path', type=str, default=None,
                     help='')
-parser.add_argument('--pooling_strategy', type=str, default='reduce_mean',
-                    help='')
 parser.add_argument('--max_seq_len', type=int, default=256,
                     help='')
 parser.add_argument('--embedding_dim', type=int, default=768,
@@ -53,7 +51,6 @@ dense_retriever = ESSentenceTransformersRetriever(
     document_store=document_store,
     top_k=args.k,
     embedding_model=args.dense_model_path,
-    pooling_strategy=args.pooling_strategy,
     max_seq_len=args.max_seq_len,
     batch_size=args.batch_size,
     progress_bar=False,
@@ -62,7 +59,7 @@ retriever = HybridRetriever(
     sparse_retriever,
     dense_retriever,
     weight_on_dense=True,
-    normalization=True,
+    normalization=False,
 )
 
 

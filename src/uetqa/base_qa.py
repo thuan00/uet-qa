@@ -15,10 +15,8 @@ class QABase():
         self.tokenizer = AutoTokenizer.from_pretrained(model_path)
         assert self.tokenizer.is_fast, "fast tokenizer only"
 
-        self.need_token_type = self.qa_model.encoder_attr_name not in {
-            "xlm", "roberta", "distilbert", "camembert", "bart", "longformer"
-        }
-        self.device = self.qa_model.device
+        self.need_token_type = self.qa_model.config.type_vocab_size > 1
+        #.config.model_type not in {"xlm", "roberta", "distilbert", "camembert", "bart", "longformer", "deberta",}
 
     def process_query(self, query, documents, top_k_per_doc=3):
         """ """
@@ -37,21 +35,15 @@ class QABase():
             return_overflowing_tokens=True,
             return_offsets_mapping=True,
             return_tensors='pt',
-        ).to(self.device)
+        ).to(self.qa_model.device)
         n_examples = inputs.input_ids.shape[0]
 
         with torch.no_grad():
-            if self.need_token_type:
-                output = self.qa_model(
-                    inputs.input_ids,
-                    inputs.attention_mask,
-                    token_type_ids=inputs.token_type_ids,
-                )
-            else:
-                output = self.qa_model(
-                    inputs.input_ids,
-                    inputs.attention_mask,
-                )
+            output = self.qa_model(
+                inputs.input_ids,
+                inputs.attention_mask,
+                token_type_ids=inputs.token_type_ids if self.need_token_type else None,
+            )
             cls_scores = (output.start_logits[:,0] + output.end_logits[:,0]).tolist()
 
         # for each example, decode start-end logits to answer span & score
