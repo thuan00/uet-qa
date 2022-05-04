@@ -7,7 +7,7 @@ logger = logging.getLogger(__name__)
 
 
 
-class QABase():
+class BaseReader():
     """ """
     def __init__(self, model_path):
 
@@ -121,3 +121,36 @@ class QABase():
         scores = candidates[idx_sort, starts, ends]
 
         return starts, ends, scores, idx_sort
+
+
+
+def query(
+    retriever,
+    reader,
+    q,
+    top_k_docs=10,
+    top_k_answers=1,
+    retriever_weight=4,
+    cls_weight=4,
+):
+    """ """
+    retriever.weight = retriever_weight
+
+    docs = retriever.retrieve(q, top_k=top_k_docs)
+    docs = [doc.to_dict() for doc in docs]
+    answers = reader.process_query(q, docs, top_k_per_doc=5)
+
+    answers.sort(
+        key=lambda a: a['answer_score'] - a['cls_score']*cls_weight - (a['answer']=='')*100,
+        reverse=True,
+    )
+    answers = answers[:top_k_answers]
+
+    for answer in answers:
+        doc_id = answer['doc']['meta']['id']
+        for doc in docs:
+            if doc['meta']['id'] == doc_id and 'answer' not in doc:
+                del answer['doc']
+                doc['answer'] = answer
+
+    return docs
