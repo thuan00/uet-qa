@@ -3,10 +3,12 @@
 ## About
 UETQA is my undergraduate thesis project, a question answering or search system that can support UET students and staffs. It is capable of comprehending the text to extract the answers.
 
-It relies on the knowledge base of school's regulation documents and FAQs to draw answers.
-<!-- As the knowledge base expands, it should be able to answer a wider variety of questions. -->
+It relies on the knowledge base of school's regulation documents and FAQs collection to draw answers.
+As the knowledge base expands, it should be able to answer a wider variety of questions.
 
-To learn more about it, my thesis is accessible via this overleaf project: [overleaf.com/read/czdvtqwcpfpt](overleaf.com/read/czdvtqwcpfpt)
+To learn more about my work:
+- read the thesis: [overleaf.com/read/czdvtqwcpfpt](overleaf.com/read/czdvtqwcpfpt)
+- slides: [https://docs.google.com/presentation/d/191uAZabK4o3XstAAaHB95yHZfT6sn_Pgq7Ue12Ngi84/edit?usp=sharing](https://docs.google.com/presentation/d/191uAZabK4o3XstAAaHB95yHZfT6sn_Pgq7Ue12Ngi84/edit?usp=sharing)
 
 
 
