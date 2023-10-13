@@ -28,6 +28,7 @@ OS: Linux preferably. The project is not built to run on Windows.
 - dense retriever model: [ncthuan/vi-distilled-msmarco-MiniLM-L12-cos-v5](https://huggingface.co/ncthuan/vi-distilled-msmarco-MiniLM-L12-cos-v5)
 - reader model: [ncthuan/xlm-l-uetqa](https://huggingface.co/ncthuan/xlm-l-uetqa)
 
+i recommend trying the new embedding model [https://huggingface.co/intfloat/multilingual-e5-large](https://huggingface.co/intfloat/multilingual-e5-large), its significantly better
 
 
 ## To run the demo
@@ -54,6 +55,5 @@ READER_MODEL=ncthuan/xlm-l-uetqa \
 streamlit run scripts/demo.py --theme.base light
 ```
 The app will be available at port 8501
-
 
 ![](img/demo1.png)
