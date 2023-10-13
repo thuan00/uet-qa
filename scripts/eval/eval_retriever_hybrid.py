@@ -1,8 +1,8 @@
 import json
 import argparse
-import time
+from tqdm import tqdm
 from haystack.document_stores import ElasticsearchDocumentStore
-from haystack.nodes import ElasticsearchRetriever
+from haystack.nodes import BM25Retriever
 
 from uetqa.retriever import ESSentenceTransformersRetriever, HybridRetriever
 from uetqa.util import compute_recall_mrr_at_k
@@ -43,7 +43,7 @@ document_store = ElasticsearchDocumentStore(
     embedding_dim=args.embedding_dim,
     similarity=args.similarity,
 )
-sparse_retriever = ElasticsearchRetriever(
+sparse_retriever = BM25Retriever(
     document_store,
     top_k=args.k,
 )
@@ -56,8 +56,8 @@ dense_retriever = ESSentenceTransformersRetriever(
     progress_bar=False,
 )
 retriever = HybridRetriever(
-    sparse_retriever,
     dense_retriever,
+    sparse_retriever,
     weight_on_dense=True,
     normalization=False,
 )
@@ -69,17 +69,18 @@ retriever = HybridRetriever(
 queries = [ qa['question'] for qa in qas ]
 queries_ground_truth_context_ids = [ qa['ground_truth_context_ids'] for qa in qas ]
 
-retriever.find_best_weight(queries, queries_ground_truth_context_ids)
+retriever.find_best_weight(
+    queries,
+    queries_ground_truth_context_ids,
+    k=args.k,
+    weights=[0, 0.05, 0.1, 0.2, 0.4, 0.6, 0.8, 1, 1.5, 2, 3, 4, 8, 16, 9999],
+)
 breakpoint() # stop to consider possible weights
 
 queries_results = []
-start_time = time.time()
-
-for q in queries:
+for q in tqdm(queries):
     result = retriever.retrieve(q, top_k=args.k)
     queries_results.append(result)
-
-print("time (s): ", time.time() - start_time)
 
 queries_retrieved_context_ids = [ [doc.meta['id'] for doc in query_results] for query_results in queries_results ]
 

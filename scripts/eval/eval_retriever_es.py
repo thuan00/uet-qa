@@ -2,7 +2,7 @@ import json
 import argparse
 import time
 from haystack.document_stores import ElasticsearchDocumentStore
-from haystack.nodes import ElasticsearchRetriever
+from haystack.nodes import BM25Retriever
 
 from uetqa.util import compute_recall_mrr_at_k
 
@@ -30,7 +30,7 @@ document_store = ElasticsearchDocumentStore(
     index=args.index_name,
     analyzer=args.analyzer,
 )
-retriever = ElasticsearchRetriever(document_store)
+retriever = BM25Retriever(document_store)
 
 
 

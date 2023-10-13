@@ -2,6 +2,7 @@ from typing import List
 from copy import deepcopy
 
 import numpy as np
+from tqdm import tqdm
 from haystack.schema import Document
 from haystack.nodes import EmbeddingRetriever
 from haystack.document_stores import ElasticsearchDocumentStore
@@ -19,7 +20,7 @@ class ESSentenceTransformersRetriever(EmbeddingRetriever):
         **kwargs,
     ):
         kwargs['model_format'] = 'sentence_transformers'
-        super().__init__(document_store, embedding_model, **kwargs)
+        super().__init__(embedding_model, document_store, **kwargs)
 
     def retrieve(self, query: str, top_k: int = 10) -> List[Document]:
         """ Override haystack logic, and offset score to ensure positive score as required by Elasticsearch
@@ -101,7 +102,7 @@ class HybridRetriever:
         """"""
         dense_hits = {hit.id: hit.score for hit in dense_results}
         sparse_hits = {hit.id: hit.score for hit in sparse_results}
-        doc_map = {doc.id: doc for doc in [*sparse_results, *dense_results]}
+        doc_map = {doc.id: doc for doc in sparse_results + dense_results}
         hybrid_result = []
 
         min_dense_score = min(dense_hits.values())
@@ -151,11 +152,10 @@ class HybridRetriever:
         assert k <= max(self.dense_searcher.top_k, self.sparse_searcher.top_k), "Make sure top_k is specified correctly"
         recalls = []
         mrrs = []
-        
+
         dense_results = []
         sparse_results = []
-
-        for q in queries:
+        for q in tqdm(queries):
             dense_result = self.dense_searcher.retrieve(q)
             sparse_result = self.sparse_searcher.retrieve(q)
             dense_results.append(dense_result)
@@ -168,9 +168,9 @@ class HybridRetriever:
             for i in range(len(queries)):
                 result = self._hybrid_results(dense_results[i], sparse_results[i], k)
                 queries_results.append(result)
-            
+
             queries_retrieved_context_ids = [ [doc.meta['id'] for doc in query_results] for query_results in queries_results ]
-            
+
             recall, mrr, failures = compute_recall_mrr_at_k(
                 queries,
                 queries_retrieved_context_ids,
@@ -179,8 +179,8 @@ class HybridRetriever:
             )
             recalls.append(recall)
             mrrs.append(mrr)
-            print('\n', w, recall, mrr)
-        
+            print('\n', w, '\t', recall.__round__(3), '\t', mrr.__round__(3))
+
         best_recall_id = recalls.index(max(recalls))
         best_mrr_id = mrrs.index(max(mrrs))
 
