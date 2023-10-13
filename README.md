@@ -7,7 +7,7 @@ It relies on the knowledge base of school's regulation documents and FAQs collec
 As the knowledge base expands, it should be able to answer a wider variety of questions.
 
 To learn more about my work:
-- read the thesis: [overleaf.com/read/czdvtqwcpfpt](overleaf.com/read/czdvtqwcpfpt)
+- read the thesis at: [https://www.overleaf.com/read/czdvtqwcpfpt](https://www.overleaf.com/read/czdvtqwcpfpt)
 - slides: [https://docs.google.com/presentation/d/191uAZabK4o3XstAAaHB95yHZfT6sn_Pgq7Ue12Ngi84/edit?usp=sharing](https://docs.google.com/presentation/d/191uAZabK4o3XstAAaHB95yHZfT6sn_Pgq7Ue12Ngi84/edit?usp=sharing)
 
 
